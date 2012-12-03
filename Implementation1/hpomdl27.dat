@@ -1,0 +1,15 @@
+[HP Deskjet F2200 series]
+devicemodel=HP Deskjet F2200 series
+drivername=HP Deskjet F2200 series
+usbid=VID_03f0&PID_2404
+parbid=HPDeskjet_F2200_seri87C7
+networkname=
+type=1
+numdevnodes=7
+Wirelesssupport=0
+PostCL0="%DD_PRELOAD_DIR%\HPZstub.exe" -psl -model "$ProdFullName$" -inst "$ContextID$" -rerun 4
+[Run4.HP Deskjet F2200 series]
+launchbase=%Preloadx86%setup\
+1=hpzwrp01.exe -m Twain_Scan
+[Models]
+1=HP Deskjet F2200 series

@@ -1,0 +1,22 @@
+AudMig: No audio endpoint migration settings found 0x2
+AudMig: No audio endpoint migration settings found 0x2
+[12/02/2012 13:58.38.455] WudfCoInstaller: ReadWdfSection: Checking WdfSection [Basic_Install.Wdf]
+
+[12/02/2012 13:58.38.458] WudfCoInstaller: UMDF Service WpdFs is already installed - removing existing settings in preparation for setting new ones.
+
+[12/02/2012 13:58.38.461] WudfCoInstaller: Configuring UMDF Service WpdFs.
+
+[12/02/2012 13:58.38.465] WudfCoInstaller: ImpersonationLevel set to 2
+
+[12/02/2012 13:58.38.468] WudfCoInstaller: Using "Win7" service configuration
+
+[12/02/2012 13:58.38.642] WudfCoInstaller: Service WudfSvc started successfully.
+
+[12/02/2012 13:58.38.645] WudfCoInstaller: Final status: error(0) The operation completed successfully.
+
+
+[12/02/2012 13:58.39.143] WudfCoInstaller: Created marker file C:\Windows\system32\drivers\Msft_User_WpdFs_01_09_00.Wdf.
+
+AudMig: No audio endpoint migration settings found 0x2
+AudMig: No audio endpoint migration settings found 0x2
+AudMig: No audio endpoint migration settings found 0x2
