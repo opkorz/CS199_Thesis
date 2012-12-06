@@ -18,11 +18,8 @@ class ExtractingThread(threading.Thread):
                 with open(filename, 'r') as f:
                     content = f.read()
                     file_content = hexlify(content)
-                #print self.count
                 if Sig in file_content:
                     self.count = self.count + 1
-                    #print '-----------------------'
-                    #print self.count
             false_positive_rate = float(self.count) / number_of_files
             if self.top[1] > false_positive_rate:
                 self.top = []
