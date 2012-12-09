@@ -5,6 +5,7 @@ from operator import itemgetter
 class ExtractingThread(threading.Thread):
     top = ['', 999999999]
     count = 0
+
     def __init__(self, Sigs):
         threading.Thread.__init__(self)
         self.Sigs = Sigs
@@ -23,7 +24,7 @@ class ExtractingThread(threading.Thread):
                     #print '-----------------------'
                     #print self.count
             false_positive_rate = float(self.count) / number_of_files
-            if top[1] > false_positive_rate:
+            if self.top[1] > false_positive_rate:
                 self.top = []
                 self.top.append(Sig)
                 self.top.append(false_positive_rate)

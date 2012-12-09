@@ -1,10 +1,6 @@
 from ExtractThread import ExtractingThread
+from Movement import MovementThread, ExtendThread
 import binascii
-
-def extend(cur_top, location):
-    
-def move(cur_top, location):
-
 if __name__ == "__main__":
     filename = "ALABAMAA.EXE"
     with open(filename, 'r') as f:
@@ -27,20 +23,32 @@ if __name__ == "__main__":
     ExThread2.start()
 
     while(True):
-        if not ExThread1.isAlive():
-            print ExThread1.top
-            print ExThread2.top
-            if ExThread2.top < ExThread1.top:
+        print "Still running..."
+        if not ExThread1.isAlive() and not ExThread2.isAlive():
+            if ExThread2.top[1] < ExThread1.top[1]:
                 cur_top = ExThread2.top
             else:
                 cur_top = ExThread1.top
-            print cur_top
             break
+    print cur_top
+    print "First process ended..."
+    iterations = 0
+    while(cur_top[1]>0.2 or iterations != 50):
+        print "Still running..."
+        location = newcontent.find(cur_top[0])
+        mthread = MovementThread(cur_top, location, newcontent)
+        ethread = ExtendThread(cur_top, location, newcontent)
 
-    location = newcontent.find(cur_top[0])
-    region_top1 = move(cur_top, location)
-    region_top2 = extend(cur_top, location)
-    if region_top1 < region_top2:
-        cur_top = region_top1
-    else:
-        cur_top = region_top2
+        mthread.start()
+        ethread.start()
+        
+        while(True):
+            if not mthread.isAlive() and not ethread.isAlive():
+                if cur_top[1] > mthread.cur_top[1] and ethread.cur_top[1] > mthread.cur_top[1]:
+                    cur_top = mthread.cur_top
+                elif cur_top[1] > ethread.cur_top[1] and mthread.cur_top[1] > ethread.cur_top[1]:
+                    cur_top = ethread.cur_top
+                break
+        iterations = iterations + 1
+    print "Process ended, final result:",
+    print cur_top
