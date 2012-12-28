@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageConfiguration xmlns="http://www.microsoft.com/schemas/dcm/configuration/2008">
+  <Execution>
+    <Package Path="%windir%\diagnostics\system\Device">
+        <Answers Version="1.0">
+            <Interaction ID="IT_SelectDevice">
+                <Value>None</Value>
+            </Interaction>
+        </Answers>
+    </Package>
+    <Name>@%windir%\diagnostics\system\Device\DiagPackage.dll,-1</Name>
+    <Description>@%windir%\diagnostics\system\Device\DiagPackage.dll,-2</Description>
+    <Icon>@%windir%\diagnostics\system\Device\DiagPackage.dll,-100</Icon>
+  </Execution>
+  <Index>
+    <Id>DeviceDiagnostic</Id>
+    <RequiresAdminPrivileges>true</RequiresAdminPrivileges>
+    <PrivacyUrl>http://go.microsoft.com/fwlink/?LinkId=104288</PrivacyUrl>
+    <Version>1.0</Version>
+    <PublisherName>Microsoft Corporation</PublisherName>
+    <Category>@%windir%\system32\DiagCpl.dll,-402</Category>
+    <Keyword>@%windir%\system32\DiagCpl.dll,-24</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Device\DiagPackage.dll,-1001</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Device\DiagPackage.dll,-1002</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Device\DiagPackage.dll,-1003</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Device\DiagPackage.dll,-1004</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Device\DiagPackage.dll,-1005</Keyword>
+  </Index>
+</PackageConfiguration>

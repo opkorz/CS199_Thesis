@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageConfiguration xmlns="http://www.microsoft.com/schemas/dcm/configuration/2008">
+  <Execution>
+    <Package Path="%windir%\diagnostics\scheduled\Maintenance" />
+    <Name>@%windir%\diagnostics\scheduled\Maintenance\DiagPackage.dll,-1</Name>
+    <Description>@%windir%\diagnostics\scheduled\Maintenance\DiagPackage.dll,-2</Description>
+    <Icon>@%windir%\diagnostics\scheduled\Maintenance\DiagPackage.dll,-2000</Icon>
+  </Execution>
+
+  <Index>
+    <Id>MaintenanceDiagnostic</Id>
+    <RequiresAdminPrivileges>false</RequiresAdminPrivileges>
+    <PrivacyUrl>http://go.microsoft.com/fwlink/?LinkId=104288</PrivacyUrl>
+    <Version>1.0</Version>
+    <PublisherName>Microsoft Corporation</PublisherName>
+    <Category>@%windir%\system32\DiagCpl.dll,-405</Category>
+    <Keyword>@%windir%\system32\DiagCpl.dll,-27</Keyword>
+    <Keyword>@%windir%\diagnostics\scheduled\Maintenance\DiagPackage.dll,-1003</Keyword>
+    <Keyword>@%windir%\diagnostics\scheduled\Maintenance\DiagPackage.dll,-1004</Keyword>
+    <Keyword>@%windir%\diagnostics\scheduled\Maintenance\DiagPackage.dll,-1005</Keyword>
+    <Keyword>@%windir%\diagnostics\scheduled\Maintenance\DiagPackage.dll,-1006</Keyword>
+    <Keyword>@%windir%\diagnostics\scheduled\Maintenance\DiagPackage.dll,-1007</Keyword>
+    <Keyword>@%windir%\diagnostics\scheduled\Maintenance\DiagPackage.dll,-1008</Keyword>
+    <Keyword>@%windir%\diagnostics\scheduled\Maintenance\DiagPackage.dll,-1009</Keyword>
+    <Keyword>@%windir%\diagnostics\scheduled\Maintenance\DiagPackage.dll,-1010</Keyword>
+  </Index>
+</PackageConfiguration>

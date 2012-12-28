@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageConfiguration xmlns="http://www.microsoft.com/schemas/dcm/configuration/2008">
+  <Execution>
+    <Package Path="%windir%\diagnostics\system\Performance" />
+    <Name>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-1</Name>
+    <Description>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-2</Description>
+    <Icon>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-1001</Icon>
+  </Execution>
+
+  <Index>
+    <Id>PerformanceDiagnostic</Id>
+    <RequiresAdminPrivileges>false</RequiresAdminPrivileges>
+    <PrivacyUrl>http://go.microsoft.com/fwlink/?LinkId=104288</PrivacyUrl>
+    <Version>1.0</Version>
+    <PublisherName>Microsoft Corporation</PublisherName>
+    <Category>@%windir%\system32\DiagCpl.dll,-408</Category>
+    <Keyword>@%windir%\system32\DiagCpl.dll,-27</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-10</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-11</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-12</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-13</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-14</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-15</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-16</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-17</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-19</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-20</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-21</Keyword>
+    <Keyword>@%windir%\diagnostics\system\Performance\DiagPackage.dll,-22</Keyword>
+  </Index>
+</PackageConfiguration>
