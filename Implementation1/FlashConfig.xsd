@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.microsoft.com/provisioning/WirelessProfile/2004"
+	xmlns:fc="http://www.microsoft.com/provisioning/WirelessProfile/2004" elementFormDefault="qualified"
+	version="1">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+	<xs:element name="wirelessProfile">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="config">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="configId" type="fc:str36" minOccurs="1" maxOccurs="1" />
+							<xs:element name="configHash" type="fc:str20" minOccurs="0" maxOccurs="1" />
+							<xs:element name="configAuthorId" type="fc:str36" minOccurs="1" maxOccurs="1" />
+							<xs:element name="configAuthor" type="fc:strMax128" minOccurs="1" maxOccurs="1"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ssid" minOccurs="1" maxOccurs="1">
+					<xs:complexType mixed="true">
+						<xs:attribute name="hi1" type="fc:strMax32"/>
+						<xs:attribute ref="xml:space" />
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="connectionType" minOccurs="1" maxOccurs="1">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="IBSS" />
+							<xs:enumeration value="ESS" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="channel2Dot4" type="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1" />
+				<xs:element name="channel5Dot0" type="xs:nonNegativeInteger" minOccurs="0" maxOccurs="1" />
+				<xs:element name="deviceMode" minOccurs="0" maxOccurs="1">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:enumeration value="infrastructure" />
+							<xs:enumeration value="bridge" />
+							<xs:enumeration value="repeater" />
+							<xs:enumeration value="station" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="primaryProfile" type="fc:profileInstance" minOccurs="1" maxOccurs="1" />
+				<xs:element name="optionalProfile" type="fc:profileInstance" minOccurs="0" maxOccurs="32" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="profileInstance">
+		<xs:sequence>
+			<xs:element name="authentication" minOccurs="1" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="open" />
+						<xs:enumeration value="shared" />
+						<xs:enumeration value="WPA-NONE" />
+						<xs:enumeration value="WPA" />
+						<xs:enumeration value="WPAPSK" />
+						<xs:enumeration value="WPA2" />
+						<xs:enumeration value="WPA2PSK" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="encryption" minOccurs="1" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="none" />
+						<xs:enumeration value="WEP" />
+						<xs:enumeration value="TKIP" />
+						<xs:enumeration value="AES" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="networkKey" minOccurs="1" maxOccurs="1">
+				<xs:complexType mixed="true">
+					<xs:attribute name="hi2" type="fc:strMin5Max64" />
+					<xs:attribute ref="xml:space" />
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="keyIndex" type="xs:positiveInteger" minOccurs="0" maxOccurs="1" />
+			<xs:element name="keyProvidedAutomatically" type="xs:boolean" minOccurs="1" maxOccurs="1" />
+			<xs:element name="ieee802Dot1xEnabled" type="xs:boolean" minOccurs="1" maxOccurs="1" />
+			<xs:element name="eapMethod" minOccurs="0" maxOccurs="1">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="EAP-TLS" />
+						<xs:enumeration value="PEAP-EAP-MSCHAPv2" />
+						<xs:enumeration value="PEAP-EAP-TLS" />
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="timeToLive" type="xs:positiveInteger" minOccurs="0" maxOccurs="1" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<!-- Globals simpleTypes-->
+	<xs:simpleType name="str36">
+		<xs:restriction base="xs:string">
+			<xs:length value="36" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="strMax32">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1" />
+			<xs:maxLength value="32" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="str20">
+		<xs:restriction base="xs:string">
+			<xs:length value="20" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="strMin5Max64">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="64" />
+			<xs:minLength value="5" />
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="strMax128">
+		<xs:restriction base="xs:string">
+			<xs:maxLength value="128" />
+			<xs:minLength value="1" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+</xs:schema>

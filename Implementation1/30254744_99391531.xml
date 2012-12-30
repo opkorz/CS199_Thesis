@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30254744_99391531" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Complete" pendingFollower="true" retry="true" Queued="2012/10/10/11:33:32" Started="2012/10/10/11:33:33" Complete="2012/10/10/18:45:32" status="0x0">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2743555~31bf3856ad364e35~x86~~6.1.1.1" name="KB2743555" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="true" Staged="2012/10/10/11:33:34" Installed="2012/10/10/11:33:35" Startup="2012/10/10/18:45:17" StartupFinish="2012/10/10/18:45:32">
+            <Stage package="Package_5_for_KB2743555~31bf3856ad364e35~x86~~6.1.1.1" update="2743555-9_neutral_LDR"/>
+            <Stage package="Package_5_for_KB2743555~31bf3856ad364e35~x86~~6.1.1.1" update="2743555-10_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2743555~31bf3856ad364e35~x86~~6.1.1.1" update="2743555-3_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2743555~31bf3856ad364e35~x86~~6.1.1.1" update="2743555-4_neutral_GDR"/>
+            <Install package="Package_2_for_KB2743555~31bf3856ad364e35~x86~~6.1.1.1" update="2743555-4_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

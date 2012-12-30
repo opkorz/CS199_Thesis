@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.microsoft.com/provisioning/DeviceProfile/2004"
+    xmlns:fc="http://www.microsoft.com/provisioning/DeviceProfile/2004" elementFormDefault="qualified"
+    version="1">
+    <xs:element name="device">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="configId"        type="fc:str36"         minOccurs="1" maxOccurs="1" />
+                <xs:element name="configHash"      type="fc:str20"         minOccurs="0" maxOccurs="1" />
+                <xs:element name="configError"     type="fc:strMax256"     minOccurs="0" maxOccurs="1" />
+                <xs:element name="manufacturer"    type="fc:strMax256"     minOccurs="1" maxOccurs="1" />
+                <xs:element name="manufacturerURL" type="fc:anyURIMax2084" minOccurs="0" maxOccurs="1" />
+                <xs:element name="deviceStatus"    type="fc:strMax256"     minOccurs="0" maxOccurs="1" />
+                <xs:element name="modelName"       type="fc:strMax256"     minOccurs="1" maxOccurs="1" />
+                <xs:element name="modelURL"        type="fc:anyURIMax2084" minOccurs="0" maxOccurs="1" />
+                <xs:element name="serialNumber"    type="fc:strMax256"     minOccurs="1" maxOccurs="1" />
+                <xs:element name="presentationURL" type="fc:anyURIMax2084" minOccurs="0" maxOccurs="1" />
+                <xs:element name="deviceType"      type="fc:deviceTypes"   minOccurs="0" maxOccurs="1" />
+                <xs:element name="firmwareVersion" type="fc:strMax256"     minOccurs="0" maxOccurs="1" />
+                <!-- Configuration information if the device is a member of a workgroup -->
+                <xs:element name="workgroup" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="deviceName"        type="fc:strName"        minOccurs="0" maxOccurs="1" />
+                            <xs:element name="workgroupName"     type="fc:strName"        minOccurs="0" maxOccurs="1" />
+                            <xs:element name="deviceDescription" type="fc:strDescription" minOccurs="0" maxOccurs="1" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- What network connections does this device support -->
+                <xs:element name="networkInterface" minOccurs="0" maxOccurs="32">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="IPv4Address"     type="fc:dotQuadIPv4Type"     minOccurs="0" maxOccurs="1" />
+                            <xs:element name="IPv6Address"     type="fc:textIPv6AddressType" minOccurs="0" maxOccurs="32" />
+                            <xs:element name="macAddress"      type="fc:macAddress"          minOccurs="1" maxOccurs="1" />
+                            <xs:element name="interfaceStatus" type="fc:interfaceStatuses"   minOccurs="1" maxOccurs="1" />
+                            <xs:element name="mediaType"       type="fc:mediaTypes"          minOccurs="1" maxOccurs="1" />
+                            <xs:element name="speed"           type="xs:positiveInteger"     minOccurs="1" maxOccurs="1" />
+                            <xs:element name="DHCP"            type="xs:boolean"             minOccurs="1" maxOccurs="1" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>            
+                <!-- General WiFi Configuration information -->
+                <xs:element name="wifiAuthentication" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="open"     type="xs:boolean" minOccurs="0" maxOccurs="1" />
+                            <xs:element name="shared"   type="xs:boolean" minOccurs="0" maxOccurs="1" />
+                            <xs:element name="WPA-NONE" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+                            <xs:element name="WPA"      type="xs:boolean" minOccurs="0" maxOccurs="1" />
+                            <xs:element name="WPAPSK"   type="xs:boolean" minOccurs="0" maxOccurs="1" />
+                            <xs:element name="WPA2"     type="xs:boolean" minOccurs="0" maxOccurs="1" />
+                            <xs:element name="WPA2PSK"  type="xs:boolean" minOccurs="0" maxOccurs="1" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="wifiEncryption" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="none" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+                            <xs:element name="WEP"  type="xs:boolean" minOccurs="0" maxOccurs="1" />
+                            <xs:element name="TKIP" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+                            <xs:element name="AES"  type="xs:boolean" minOccurs="0" maxOccurs="1" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- Configuration information if the device is a WiFi client -->
+                <xs:element name="wifiClient" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="regulatoryDomain" type="fc:str3"             minOccurs="0" maxOccurs="1" />
+                            <xs:element name="transmitPower"    type="fc:intPowerStrength" minOccurs="0" maxOccurs="1" />
+                            <xs:element name="clientNetworkType">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ieee802Dot11a" type="xs:boolean" />
+                                        <xs:element name="ieee802Dot11b" type="xs:boolean" />
+                                        <xs:element name="ieee802Dot11g" type="xs:boolean" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- Configuration information of wireless networks visible to device -->
+                <xs:element name="wifiInfrastructure" minOccurs="0" maxOccurs="100">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ssid"               type="fc:strMax32"            minOccurs="1" maxOccurs="1" />
+                            <xs:element name="macAddress"         type="fc:macAddress"          minOccurs="1" maxOccurs="1" />
+                            <xs:element name="visibleNetworkType" type="fc:visibleNetworkTypes" minOccurs="1" maxOccurs="1" />
+                            <xs:element name="channel"            type="xs:positiveInteger"     minOccurs="1" maxOccurs="1" />
+                            <xs:element name="signalStrength"     type="fc:intPowerStrength"    minOccurs="0" maxOccurs="1" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- Configuration information if the device is a WiFi access point -->
+                <xs:element name="wifiAccessPoint" minOccurs="0" maxOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ieee802Dot11a"    type="xs:boolean"    minOccurs="0" maxOccurs="1" />
+                            <xs:element name="ieee802Dot11b"    type="xs:boolean"    minOccurs="0" maxOccurs="1" />
+                            <xs:element name="ieee802Dot11g"    type="xs:boolean"    minOccurs="0" maxOccurs="1" />
+                            <xs:element name="regulatoryDomain" type="fc:str3"       minOccurs="0" maxOccurs="1" />
+                            <xs:element name="macFilter"        type="fc:macAddress" minOccurs="0" maxOccurs="252" />
+                            <xs:element name="securityType"                          minOccurs="0" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="basic" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+                                        <xs:element name="WPA"   type="xs:boolean" minOccurs="0" maxOccurs="1" />
+                                        <xs:element name="WPA2"  type="xs:boolean" minOccurs="0" maxOccurs="1" />
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="beaconInterval" type="fc:intBeaconInterval" minOccurs="0" maxOccurs="1" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <!-- Globals simpleTypes-->
+    <xs:simpleType name="dotQuadIPv4Type">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="([\d]{1,3}.){3}[\d]{1,3}" />
+            <xs:minLength value="7" />
+            <xs:maxLength value="15" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="textIPv6AddressType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="(([\dA-Fa-f]{1,4}:){7}[\dA-Fa-f]{1,4})(:([\d]{1,3}.){3}[\d]{1,3})?" />
+            <xs:minLength value="16" />
+            <xs:maxLength value="39" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="macAddress">
+        <xs:restriction base="xs:hexBinary">
+            <xs:length value="6" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="anyURIMax2084">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1" />
+            <xs:maxLength value="2084" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="strMax256">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="256" />
+            <xs:minLength value="1" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="str36">
+        <xs:restriction base="xs:string">
+            <xs:length value="36" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="strMax32">
+        <xs:restriction base="xs:string">
+            <xs:maxLength value="32" />
+            <xs:minLength value="1" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="str20">
+        <xs:restriction base="xs:string">
+            <xs:length value="20" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="str3">
+        <xs:restriction base="xs:string">
+            <xs:length value="3" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="strName">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1" />
+            <xs:maxLength value="15" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="strDescription">
+        <xs:restriction base="xs:string">
+            <xs:minLength value="1" />
+            <xs:maxLength value="50" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="intBeaconInterval">
+        <xs:restriction base="xs:positiveInteger">
+            <xs:maxInclusive value="3600" />
+            <xs:minInclusive value="1" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="intPowerStrength">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="-200" />
+            <xs:maxInclusive value="-20" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="deviceTypes">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Computer" />
+            <xs:enumeration value="Access_Point" />
+            <xs:enumeration value="Printer" />
+            <xs:enumeration value="Electronic_Picture_Frame" />
+            <xs:enumeration value="Digital_Audio_Receiver" />
+            <xs:enumeration value="Windows_Media_Center_Extender" />
+            <xs:enumeration value="Personal_Video_Recorder" />
+            <xs:enumeration value="Printer_Bridge" />
+            <xs:enumeration value="Projector" />
+            <xs:enumeration value="Pocket_PC" />
+            <xs:enumeration value="Other" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="interfaceStatuses">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="active" />
+            <xs:enumeration value="disabled" />
+            <xs:enumeration value="noMedia" />
+            <xs:enumeration value="authenticating" />
+            <xs:enumeration value="media" />
+            <xs:enumeration value="noSignal" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:simpleType name="mediaTypes">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="802.3" />
+            <xs:enumeration value="1394" />
+            <xs:enumeration value="802.11" />
+            <xs:enumeration value="usb" />
+            <xs:enumeration value="bluetooth" />
+            <xs:enumeration value="other" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="visibleNetworkTypes">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="ieee802Dot11a" />
+            <xs:enumeration value="ieee802Dot11b" />
+            <xs:enumeration value="ieee802Dot11g" />
+        </xs:restriction>
+    </xs:simpleType>
+</xs:schema>

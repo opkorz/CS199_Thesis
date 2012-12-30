@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30254720_2776405648" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Resolved" pendingFollower="false" retry="true">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2756822~31bf3856ad364e35~x86~~6.1.1.0" name="KB2756822" targetState="Staged" options="12"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="false">
+            <Resolve package="Package_145_for_KB2756822~31bf3856ad364e35~x86~~6.1.1.0" update="2756822-289_neutral_LDR"/>
+            <Resolve package="Package_145_for_KB2756822~31bf3856ad364e35~x86~~6.1.1.0" update="2756822-290_neutral_GDR"/>
+            <Resolve package="Package_147_for_KB2756822~31bf3856ad364e35~x86~~6.1.1.0" update="2756822-293_neutral_LDR"/>
+            <Resolve package="Package_147_for_KB2756822~31bf3856ad364e35~x86~~6.1.1.0" update="2756822-294_neutral_GDR"/>
+            <Resolve package="Package_37_for_KB2756822~31bf3856ad364e35~x86~~6.1.1.0" update="2756822-73_neutral_LDR"/>
+            <Resolve package="Package_37_for_KB2756822~31bf3856ad364e35~x86~~6.1.1.0" update="2756822-74_neutral_GDR"/>
+            <Resolve package="Package_38_for_KB2756822~31bf3856ad364e35~x86~~6.1.1.0" update="2756822-75_neutral_LDR"/>
+            <Resolve package="Package_38_for_KB2756822~31bf3856ad364e35~x86~~6.1.1.0" update="2756822-76_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

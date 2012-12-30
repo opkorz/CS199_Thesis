@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30254720_143173588" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Resolved" pendingFollower="false" retry="true">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2731847~31bf3856ad364e35~x86~~6.1.2.0" name="KB2731847" targetState="Staged" options="12"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="false">
+            <Resolve package="Package_5_for_KB2731847~31bf3856ad364e35~x86~~6.1.2.0" update="2731847-9_neutral_LDR"/>
+            <Resolve package="Package_5_for_KB2731847~31bf3856ad364e35~x86~~6.1.2.0" update="2731847-10_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2731847~31bf3856ad364e35~x86~~6.1.2.0" update="2731847-3_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2731847~31bf3856ad364e35~x86~~6.1.2.0" update="2731847-4_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

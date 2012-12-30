@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30254744_1550506080" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Installed" pendingFollower="true" retry="true">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2749655~31bf3856ad364e35~x86~~6.1.1.0" name="KB2749655" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="true">
+            <Stage package="Package_5_for_KB2749655~31bf3856ad364e35~x86~~6.1.1.0" update="2749655-9_neutral_LDR"/>
+            <Stage package="Package_5_for_KB2749655~31bf3856ad364e35~x86~~6.1.1.0" update="2749655-10_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2749655~31bf3856ad364e35~x86~~6.1.1.0" update="2749655-3_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2749655~31bf3856ad364e35~x86~~6.1.1.0" update="2749655-4_neutral_GDR"/>
+            <Install package="Package_2_for_KB2749655~31bf3856ad364e35~x86~~6.1.1.0" update="2749655-4_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

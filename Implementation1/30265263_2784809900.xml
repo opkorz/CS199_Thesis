@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30265263_2784809900" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Complete" pendingFollower="false" retry="true" Queued="2012/12/01/18:35:58" Started="2012/12/01/18:36:01" Complete="2012/12/01/18:36:36" status="0x0">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" name="KB2762895" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="false" Staged="2012/12/01/18:36:27" Installed="2012/12/01/18:36:36">
+            <Stage package="Package_1_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-1_neutral_LDR"/>
+            <Stage package="Package_1_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-2_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-3_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-4_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-5_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-6_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-7_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-8_neutral_GDR"/>
+            <Stage package="Package_54_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-117_neutral_LDR"/>
+            <Stage package="Package_54_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-118_neutral_GDR"/>
+            <Stage package="Package_55_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-119_neutral_LDR"/>
+            <Stage package="Package_55_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-120_neutral_GDR"/>
+            <Stage package="Package_55_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-121_neutral_LDR"/>
+            <Stage package="Package_55_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-122_neutral_GDR"/>
+            <Stage package="Package_55_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-123_neutral_LDR"/>
+            <Stage package="Package_55_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-124_neutral_GDR"/>
+            <Stage package="Package_57_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-127_neutral_LDR"/>
+            <Install package="Package_1_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-2_neutral_GDR"/>
+            <Install package="Package_2_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-4_neutral_GDR"/>
+            <Install package="Package_2_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-6_neutral_GDR"/>
+            <Install package="Package_2_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-8_neutral_GDR"/>
+            <Install package="Package_4_for_KB2762895~31bf3856ad364e35~x86~~6.1.1.0" update="2762895-12_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

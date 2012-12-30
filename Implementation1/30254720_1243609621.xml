@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30254720_1243609621" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Resolved" pendingFollower="false" retry="true" Queued="2012/10/10/08:43:39" Started="2012/10/10/08:43:39" Complete="2012/10/10/08:43:40" status="0x800f0816">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2732500~31bf3856ad364e35~x86~~6.1.2.0" name="KB2732500" targetState="Staged" options="12"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="false" Resolved="2012/10/10/08:43:40">
+            <Resolve package="Package_5_for_KB2732500~31bf3856ad364e35~x86~~6.1.2.0" update="2732500-9_neutral_LDR"/>
+            <Resolve package="Package_5_for_KB2732500~31bf3856ad364e35~x86~~6.1.2.0" update="2732500-10_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2732500~31bf3856ad364e35~x86~~6.1.2.0" update="2732500-3_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2732500~31bf3856ad364e35~x86~~6.1.2.0" update="2732500-4_neutral_GDR"/>
+            <Stage package="Package_5_for_KB2732500~31bf3856ad364e35~x86~~6.1.2.0" update="2732500-9_neutral_LDR"/>
+            <Stage package="Package_5_for_KB2732500~31bf3856ad364e35~x86~~6.1.2.0" update="2732500-10_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2732500~31bf3856ad364e35~x86~~6.1.2.0" update="2732500-3_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2732500~31bf3856ad364e35~x86~~6.1.2.0" update="2732500-4_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

@@ -1,0 +1,176 @@
+﻿<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<TmiMatrix>
+  <Edition
+      ID="Starter"
+      name="Microsoft-Windows-StarterEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      >
+    <Target ID="HomeBasic"/>
+    <Target ID="HomePremium"/>
+    <Target ID="Professional"/>
+    <Target ID="Enterprise"/>
+    <Target ID="Ultimate"/>
+  </Edition>
+  <Edition
+      ID="HomeBasic"
+      name="Microsoft-Windows-HomeBasicEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      >
+    <Target ID="HomePremium"/>
+    <Target ID="Professional"/>
+    <Target ID="Ultimate"/>
+  </Edition>
+  <Edition
+      ID="HomePremium"
+      name="Microsoft-Windows-HomePremiumEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      >
+    <Target ID="Professional"/>
+    <Target ID="Ultimate"/>
+  </Edition>
+  <Edition
+      ID="Professional"
+      name="Microsoft-Windows-ProfessionalEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      >
+    <Target ID="Ultimate"/>
+  </Edition>
+  <Edition
+      ID="Enterprise"
+      name="Microsoft-Windows-EnterpriseEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      />
+  <Edition
+      ID="Ultimate"
+      name="Microsoft-Windows-UltimateEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      />
+  <Edition
+      ID="StarterN"
+      name="Microsoft-Windows-StarterNEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      >
+    <Target ID="HomeBasicN"/>
+    <Target ID="HomePremiumN"/>
+    <Target ID="ProfessionalN"/>
+    <Target ID="EnterpriseN"/>
+    <Target ID="UltimateN"/>
+  </Edition>
+  <Edition
+      ID="HomeBasicN"
+      name="Microsoft-Windows-HomeBasicNEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      >
+    <Target ID="HomePremiumN"/>
+    <Target ID="ProfessionalN"/>
+    <Target ID="EnterpriseN"/>
+    <Target ID="UltimateN"/>
+  </Edition>
+  <Edition
+      ID="HomePremiumN"
+      name="Microsoft-Windows-HomePremiumNEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      >
+    <Target ID="ProfessionalN"/>
+    <Target ID="UltimateN"/>
+  </Edition>
+  <Edition
+      ID="ProfessionalN"
+      name="Microsoft-Windows-ProfessionalNEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      >
+    <Target ID="UltimateN"/>
+  </Edition>
+  <Edition
+      ID="EnterpriseN"
+      name="Microsoft-Windows-EnterpriseNEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      />
+  <Edition
+      ID="UltimateN"
+      name="Microsoft-Windows-UltimateNEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      />
+  <Edition
+      ID="StarterE"
+      name="Microsoft-Windows-StarterEEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      >
+    <Target ID="HomeBasicE"/>
+    <Target ID="HomePremiumE"/>
+    <Target ID="ProfessionalE"/>
+    <Target ID="EnterpriseE"/>
+    <Target ID="UltimateE"/>
+  </Edition>
+  <Edition
+      ID="HomeBasicE"
+      name="Microsoft-Windows-HomeBasicEEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      >
+    <Target ID="HomePremiumE"/>
+    <Target ID="ProfessionalE"/>
+    <Target ID="EnterpriseE"/>
+    <Target ID="UltimateE"/>
+  </Edition>
+  <Edition
+      ID="HomePremiumE"
+      name="Microsoft-Windows-HomePremiumEEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      >
+    <Target ID="ProfessionalE"/>
+    <Target ID="UltimateE"/>
+  </Edition>
+  <Edition
+      ID="ProfessionalE"
+      name="Microsoft-Windows-ProfessionalEEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      >
+    <Target ID="UltimateE"/>
+  </Edition>
+  <Edition
+      ID="EnterpriseE"
+      name="Microsoft-Windows-EnterpriseEEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      />
+  <Edition
+      ID="UltimateE"
+      name="Microsoft-Windows-UltimateEEdition"
+      processorArchitecture="x86"
+      publicKeyToken="31bf3856ad364e35"
+      version="6.1.7601.17514"
+      />
+</TmiMatrix>

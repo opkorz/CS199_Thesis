@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30254744_1178133426" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Complete" pendingFollower="true" retry="true" Queued="2012/10/10/11:35:20" Started="2012/10/10/11:35:20" Complete="2012/10/10/18:45:32" status="0x0">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2732487~31bf3856ad364e35~x86~~6.1.2.0" name="KB2732487" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="true" Installed="2012/10/10/11:35:21" Startup="2012/10/10/18:45:17" StartupFinish="2012/10/10/18:45:32">
+            <Unproject package="Package_1_for_KB2732487~31bf3856ad364e35~x86~~6.1.1.0" update="2732487-2_neutral_GDR"/>
+            <Install package="Package_1_for_KB2732487~31bf3856ad364e35~x86~~6.1.2.0" update="2732487-2_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

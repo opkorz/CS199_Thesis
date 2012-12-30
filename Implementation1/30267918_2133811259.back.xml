@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30267918_2133811259" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Resolved" pendingFollower="false" retry="true">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2770660~31bf3856ad364e35~x86~~6.1.1.0" name="KB2770660" targetState="Staged" options="12"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="false">
+            <Resolve package="Package_1_for_KB2770660~31bf3856ad364e35~x86~~6.1.1.0" update="2770660-1_neutral_LDR"/>
+            <Resolve package="Package_1_for_KB2770660~31bf3856ad364e35~x86~~6.1.1.0" update="2770660-2_neutral_GDR"/>
+            <Resolve package="Package_3_for_KB2770660~31bf3856ad364e35~x86~~6.1.1.0" update="2770660-5_neutral_LDR"/>
+            <Resolve package="Package_3_for_KB2770660~31bf3856ad364e35~x86~~6.1.1.0" update="2770660-6_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

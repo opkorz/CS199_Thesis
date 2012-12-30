@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30254720_1261237652" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Resolved" pendingFollower="false" retry="true" Queued="2012/10/10/08:43:41" Started="2012/10/10/08:43:41" Complete="2012/10/10/08:43:43" status="0x800f0816">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" name="KB2729094" targetState="Staged" options="12"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="false" Resolved="2012/10/10/08:43:43">
+            <Resolve package="Package_8_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-15_neutral_LDR"/>
+            <Resolve package="Package_8_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-16_neutral_GDR"/>
+            <Resolve package="Package_11_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-21_neutral_LDR"/>
+            <Resolve package="Package_11_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-22_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-3_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-4_neutral_GDR"/>
+            <Resolve package="Package_5_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-9_neutral_LDR"/>
+            <Resolve package="Package_5_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-10_neutral_GDR"/>
+            <Stage package="Package_8_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-15_neutral_LDR"/>
+            <Stage package="Package_8_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-16_neutral_GDR"/>
+            <Stage package="Package_11_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-21_neutral_LDR"/>
+            <Stage package="Package_11_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-22_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-3_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-4_neutral_GDR"/>
+            <Stage package="Package_5_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-9_neutral_LDR"/>
+            <Stage package="Package_5_for_KB2729094~31bf3856ad364e35~x86~~6.1.2.0" update="2729094-10_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

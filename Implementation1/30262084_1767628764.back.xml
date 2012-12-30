@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30262084_1767628764" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Installed" pendingFollower="true" retry="true">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" name="KB2729452" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="true">
+            <Stage package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-1_neutral_LDR"/>
+            <Stage package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-2_neutral_GDR"/>
+            <Stage package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-3_neutral_LDR"/>
+            <Stage package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-4_neutral_GDR"/>
+            <Stage package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-5_neutral_LDR"/>
+            <Stage package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-6_neutral_GDR"/>
+            <Stage package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-7_neutral_LDR"/>
+            <Stage package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-8_neutral_GDR"/>
+            <Stage package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-9_neutral_LDR"/>
+            <Stage package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-10_neutral_GDR"/>
+            <Stage package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-11_neutral_LDR"/>
+            <Stage package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-12_neutral_GDR"/>
+            <Install package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-2_neutral_GDR"/>
+            <Install package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-4_neutral_GDR"/>
+            <Install package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-6_neutral_GDR"/>
+            <Install package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-8_neutral_GDR"/>
+            <Install package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-10_neutral_GDR"/>
+            <Install package="Package_1_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-12_neutral_GDR"/>
+            <Install package="Package_2_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-14_neutral_GDR"/>
+            <Install package="Package_5_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-22_neutral_GDR"/>
+            <Install package="Package_5_for_KB2729452~31bf3856ad364e35~x86~~6.1.1.0" update="2729452-24_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30249206_3460966866" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Complete" pendingFollower="false" retry="true" Queued="2012/09/12/22:56:36" Started="2012/09/12/22:56:36" Complete="2012/09/13/19:30:49" status="0x0">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2735855~31bf3856ad364e35~x86~~6.1.1.1" name="KB2735855" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="true" Staged="2012/09/12/22:56:36" Installed="2012/09/12/22:56:37" Startup="2012/09/13/19:30:36" StartupFinish="2012/09/13/19:30:49">
+            <Stage package="Package_2_for_KB2735855~31bf3856ad364e35~x86~~6.1.1.1" update="2735855-3_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2735855~31bf3856ad364e35~x86~~6.1.1.1" update="2735855-4_neutral_GDR"/>
+            <Install package="Package_2_for_KB2735855~31bf3856ad364e35~x86~~6.1.1.1" update="2735855-4_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

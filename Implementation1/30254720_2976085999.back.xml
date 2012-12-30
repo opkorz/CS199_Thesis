@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30254720_2976085999" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Resolved" pendingFollower="false" retry="true">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2647753~31bf3856ad364e35~x86~~6.1.4.0" name="KB2647753" targetState="Staged" options="12"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="false">
+            <Resolve package="Package_1_for_KB2647753~31bf3856ad364e35~x86~~6.1.4.0" update="2647753-1_neutral_LDR"/>
+            <Resolve package="Package_1_for_KB2647753~31bf3856ad364e35~x86~~6.1.4.0" update="2647753-2_neutral_GDR"/>
+            <Resolve package="Package_1_for_KB2647753~31bf3856ad364e35~x86~~6.1.4.0" update="2647753-3_neutral_LDR"/>
+            <Resolve package="Package_1_for_KB2647753~31bf3856ad364e35~x86~~6.1.4.0" update="2647753-4_neutral_GDR"/>
+            <Resolve package="Package_1_for_KB2647753~31bf3856ad364e35~x86~~6.1.4.0" update="2647753-5_neutral_LDR"/>
+            <Resolve package="Package_1_for_KB2647753~31bf3856ad364e35~x86~~6.1.4.0" update="2647753-6_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2647753~31bf3856ad364e35~x86~~6.1.4.0" update="2647753-7_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2647753~31bf3856ad364e35~x86~~6.1.4.0" update="2647753-8_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2647753~31bf3856ad364e35~x86~~6.1.4.0" update="2647753-9_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2647753~31bf3856ad364e35~x86~~6.1.4.0" update="2647753-10_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2647753~31bf3856ad364e35~x86~~6.1.4.0" update="2647753-11_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2647753~31bf3856ad364e35~x86~~6.1.4.0" update="2647753-12_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

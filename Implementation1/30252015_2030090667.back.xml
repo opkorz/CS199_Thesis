@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30252015_2030090667" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Resolved" pendingFollower="false" retry="true">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2732059~31bf3856ad364e35~x86~~6.1.5.1" name="KB2732059" targetState="Staged" options="12"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="false">
+            <Resolve package="Package_7_for_KB2732059~31bf3856ad364e35~x86~~6.1.5.1" update="2732059-13_neutral_LDR"/>
+            <Resolve package="Package_7_for_KB2732059~31bf3856ad364e35~x86~~6.1.5.1" update="2732059-14_neutral_GDR"/>
+            <Resolve package="Package_36_for_KB2732059~31bf3856ad364e35~x86~~6.1.5.1" update="2732059-71_neutral_LDR"/>
+            <Resolve package="Package_36_for_KB2732059~31bf3856ad364e35~x86~~6.1.5.1" update="2732059-72_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

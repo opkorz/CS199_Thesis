@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30262083_1702700402" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Complete" pendingFollower="true" retry="true" Queued="2012/11/15/23:10:49" Started="2012/11/15/23:10:50" Complete="2012/11/17/18:31:33" status="0x0">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2761226~31bf3856ad364e35~x86~~6.1.1.2" name="KB2761226" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="true" Staged="2012/11/15/23:10:52" Installed="2012/11/15/23:10:53" Startup="2012/11/17/18:31:15" StartupFinish="2012/11/17/18:31:33">
+            <Stage package="Package_5_for_KB2761226~31bf3856ad364e35~x86~~6.1.1.2" update="2761226-9_neutral_LDR"/>
+            <Stage package="Package_5_for_KB2761226~31bf3856ad364e35~x86~~6.1.1.2" update="2761226-10_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761226~31bf3856ad364e35~x86~~6.1.1.2" update="2761226-3_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761226~31bf3856ad364e35~x86~~6.1.1.2" update="2761226-4_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761226~31bf3856ad364e35~x86~~6.1.1.2" update="2761226-4_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

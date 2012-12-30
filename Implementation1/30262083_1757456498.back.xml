@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30262083_1757456498" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Installed" pendingFollower="true" retry="true">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" name="KB2761451" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="true">
+            <Resolve package="Package_1_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-1_neutral_LDR"/>
+            <Resolve package="Package_1_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-2_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-3_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-4_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-5_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-6_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-7_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-8_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-9_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-10_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-11_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-12_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-13_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-14_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-15_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-16_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-17_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-18_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-19_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-20_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-21_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-22_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-23_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-24_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-25_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-26_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-27_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-28_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-29_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-30_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-31_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-32_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-33_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-34_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-35_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-36_neutral_GDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-37_neutral_LDR"/>
+            <Resolve package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-38_neutral_GDR"/>
+            <Stage package="Package_1_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-1_neutral_LDR"/>
+            <Stage package="Package_1_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-2_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-3_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-4_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-5_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-6_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-7_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-8_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-9_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-10_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-11_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-12_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-13_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-14_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-15_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-16_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-17_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-18_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-19_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-20_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-21_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-22_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-23_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-24_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-25_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-26_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-27_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-28_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-29_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-30_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-31_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-32_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-33_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-34_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-35_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-36_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-37_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-38_neutral_GDR"/>
+            <Install package="Package_1_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-2_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-4_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-6_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-8_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-10_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-12_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-14_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-16_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-18_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-20_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-22_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-24_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-26_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-28_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-30_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-32_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-34_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-36_neutral_GDR"/>
+            <Install package="Package_2_for_KB2761451~31bf3856ad364e35~x86~~9.4.1.0" update="2761451-38_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

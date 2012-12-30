@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30262083_2365389566" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Installed" pendingFollower="true" retry="true">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" name="KB2685811" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="true">
+            <Resolve package="Package_1_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-1_neutral_LDR"/>
+            <Resolve package="Package_1_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-2_neutral_GDR"/>
+            <Resolve package="Package_3_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-5_neutral_LDR"/>
+            <Resolve package="Package_3_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-6_neutral_GDR"/>
+            <Resolve package="Package_76_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-151_neutral_LDR"/>
+            <Resolve package="Package_76_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-152_neutral_GDR"/>
+            <Resolve package="Package_78_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-155_neutral_LDR"/>
+            <Resolve package="Package_78_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-156_neutral_GDR"/>
+            <Stage package="Package_1_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-1_neutral_LDR"/>
+            <Stage package="Package_1_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-2_neutral_GDR"/>
+            <Stage package="Package_3_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-5_neutral_LDR"/>
+            <Stage package="Package_3_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-6_neutral_GDR"/>
+            <Stage package="Package_76_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-151_neutral_LDR"/>
+            <Stage package="Package_76_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-152_neutral_GDR"/>
+            <Stage package="Package_78_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-155_neutral_LDR"/>
+            <Stage package="Package_78_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-156_neutral_GDR"/>
+            <Install package="Package_1_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-2_neutral_GDR"/>
+            <Install package="Package_3_for_KB2685811~31bf3856ad364e35~x86~~6.1.1.11" update="2685811-6_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

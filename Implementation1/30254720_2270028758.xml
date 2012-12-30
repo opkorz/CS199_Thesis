@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30254720_2270028758" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Resolved" pendingFollower="false" retry="true" Queued="2012/10/10/08:45:22" Started="2012/10/10/08:45:22" Complete="2012/10/10/08:45:40" status="0x800f0816">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" name="KB2661254" targetState="Staged" options="12"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="false" Resolved="2012/10/10/08:45:40">
+            <Resolve package="Package_153_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-449_neutral_LDR"/>
+            <Resolve package="Package_153_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-450_neutral_LDR"/>
+            <Resolve package="Package_153_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-451_neutral_GDR"/>
+            <Resolve package="Package_160_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-470_neutral_LDR"/>
+            <Resolve package="Package_160_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-471_neutral_LDR"/>
+            <Resolve package="Package_160_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-472_neutral_GDR"/>
+            <Resolve package="Package_189_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-557_neutral_LDR"/>
+            <Resolve package="Package_189_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-558_neutral_LDR"/>
+            <Resolve package="Package_189_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-559_neutral_GDR"/>
+            <Resolve package="Package_39_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-113_neutral_LDR"/>
+            <Resolve package="Package_39_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-114_neutral_LDR"/>
+            <Resolve package="Package_39_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-115_neutral_GDR"/>
+            <Resolve package="Package_46_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-134_neutral_LDR"/>
+            <Resolve package="Package_46_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-135_neutral_LDR"/>
+            <Resolve package="Package_46_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-136_neutral_GDR"/>
+            <Resolve package="Package_75_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-221_neutral_LDR"/>
+            <Resolve package="Package_75_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-222_neutral_LDR"/>
+            <Resolve package="Package_75_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-223_neutral_GDR"/>
+            <Stage package="Package_153_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-449_neutral_LDR"/>
+            <Stage package="Package_153_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-450_neutral_LDR"/>
+            <Stage package="Package_153_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-451_neutral_GDR"/>
+            <Stage package="Package_160_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-470_neutral_LDR"/>
+            <Stage package="Package_160_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-471_neutral_LDR"/>
+            <Stage package="Package_160_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-472_neutral_GDR"/>
+            <Stage package="Package_189_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-557_neutral_LDR"/>
+            <Stage package="Package_189_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-558_neutral_LDR"/>
+            <Stage package="Package_189_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-559_neutral_GDR"/>
+            <Stage package="Package_39_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-113_neutral_LDR"/>
+            <Stage package="Package_39_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-114_neutral_LDR"/>
+            <Stage package="Package_39_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-115_neutral_GDR"/>
+            <Stage package="Package_46_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-134_neutral_LDR"/>
+            <Stage package="Package_46_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-135_neutral_LDR"/>
+            <Stage package="Package_46_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-136_neutral_GDR"/>
+            <Stage package="Package_75_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-221_neutral_LDR"/>
+            <Stage package="Package_75_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-222_neutral_LDR"/>
+            <Stage package="Package_75_for_KB2661254~31bf3856ad364e35~x86~~6.1.1.3" update="2661254-223_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

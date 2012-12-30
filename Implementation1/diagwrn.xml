@@ -1,0 +1,1069 @@
+﻿<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="1289" Fil="" Fun="CallbackAppCompatProgress" Uid="50987008" Msg="[APPCOMPAT UI] Got CallbackAppCompatProgress without compat progress page active" PID="812" TID="816" Con="" Exe="X:\Sources\setup.exe" Mod="win32ui.dll" Err="0" MD="" DT="2010-09-26T16:51:05"/>
+<z:row Cls="D" Sev="50331648" Maj="diagnostic" Min="Def" LN="93" Fil="" Fun="CAccessWMI::LogErrorMessage" Uid="50790438" Msg="Win32_Processor : Unable to retrieve Stepping, vtType = 8. Error code = 0x0" PID="812" TID="816" Con="" Exe="X:\Sources\setup.exe" Mod="diagnostic.dll" Err="0" MD="" DT="2010-09-26T16:51:06"/>
+<z:row Cls="D" Sev="50331648" Maj="diagnostic" Min="Def" LN="93" Fil="" Fun="CAccessWMI::LogErrorMessage" Uid="50790438" Msg="Win32_Processor : Unable to retrieve Stepping, vtType = 8. Error code = 0x0" PID="812" TID="816" Con="" Exe="X:\Sources\setup.exe" Mod="diagnostic.dll" Err="0" MD="" DT="2010-09-26T16:51:07"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="1289" Fil="" Fun="CallbackAppCompatProgress" Uid="50987008" Msg="[APPCOMPAT UI] Got CallbackAppCompatProgress without compat progress page active" PID="812" TID="816" Con="" Exe="X:\Sources\setup.exe" Mod="win32ui.dll" Err="0" MD="" DT="2010-09-26T16:51:07"/>
+</rs:data>
+</xml>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+</rs:data>
+</xml>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="123" Fil="" Fun="RewriteBlackboardPaths" Uid="50741248" Msg="RewriteBlackboardPaths:Corresponding path not found. Key name [\LangPacks\LanguageList\en-US] Value name [SrcLocation]. Path name X:\Langpacks\en-US." PID="728" TID="732" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="WinSetup.dll" Err="87" MD="" DT="2010-09-26T17:02:00"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="123" Fil="" Fun="RewriteBlackboardPaths" Uid="50741248" Msg="RewriteBlackboardPaths:Corresponding path not found. Key name [\InstallSource] Value name [InstallSourcesPath]. Path name F:\Sources." PID="728" TID="732" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="WinSetup.dll" Err="87" MD="" DT="2010-09-26T17:02:00"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="123" Fil="" Fun="RewriteBlackboardPaths" Uid="50741248" Msg="RewriteBlackboardPaths:Corresponding path not found. Key name [\ImageInfo\OSImage] Value name [FilePath]. Path name F:\Sources\install.wim." PID="728" TID="732" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="WinSetup.dll" Err="87" MD="" DT="2010-09-26T17:02:00"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:05"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="1089" Fil="" Fun="RemoveDevnodesUsingService" Uid="51314688" Msg="SPPNP: Error 0xE000020B occurred while adding device Root\LEGACY_MPIO\0000 to the device info set." PID="728" TID="732" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="-536870389" MD="" DT="2010-09-26T17:02:05"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:06"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:07"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:08"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:09"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:10"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:11"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:12"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:13"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:14"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:15"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:16"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:17"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:18"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="352" Fil="" Fun="DeviceInstallStatusWorker" Uid="51314688" Msg="Installation was supposedly active, but status key doesn&apos;t exist?
+" PID="728" TID="792" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="sppnp.dll" Err="0" MD="" DT="2010-09-26T17:02:19"/>
+<z:row Cls="D" Sev="50331648" Maj="Def" Min="Def" LN="431" Fil="" Fun="RunRegistryDlls" Uid="51314831" Msg="RunRegistryDlls:Registry key is either empty or malformed: SOFTWARE\Microsoft\Windows\CurrentVersion\Setup\SysPrepExternal\Specialize" PID="728" TID="732" Con="" Exe="C:\Windows\system32\oobe\setup.exe" Mod="WinSetup.dll" Err="0" MD="" DT="2010-09-26T17:04:13"/>
+</rs:data>
+</xml>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+</rs:data>
+</xml>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+</rs:data>
+</xml>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>

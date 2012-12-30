@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30261959_3885313474" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Resolved" pendingFollower="false" retry="true" Queued="2012/11/15/08:26:50" Started="2012/11/15/08:26:50" Complete="2012/11/15/08:26:53" status="0x800f0816">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" name="KB2761217" targetState="Staged" options="12"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="false" Resolved="2012/11/15/08:26:53">
+            <Resolve package="Package_1_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-1_neutral_LDR"/>
+            <Resolve package="Package_1_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-2_neutral_GDR"/>
+            <Resolve package="Package_4_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-7_neutral_LDR"/>
+            <Resolve package="Package_4_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-8_neutral_GDR"/>
+            <Resolve package="Package_6_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-11_neutral_LDR"/>
+            <Resolve package="Package_6_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-12_neutral_GDR"/>
+            <Resolve package="Package_9_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-17_neutral_LDR"/>
+            <Resolve package="Package_9_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-18_neutral_GDR"/>
+            <Stage package="Package_1_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-1_neutral_LDR"/>
+            <Stage package="Package_1_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-2_neutral_GDR"/>
+            <Stage package="Package_4_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-7_neutral_LDR"/>
+            <Stage package="Package_4_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-8_neutral_GDR"/>
+            <Stage package="Package_6_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-11_neutral_LDR"/>
+            <Stage package="Package_6_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-12_neutral_GDR"/>
+            <Stage package="Package_9_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-17_neutral_LDR"/>
+            <Stage package="Package_9_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-18_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30262083_2139501169" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Complete" pendingFollower="true" retry="true" Queued="2012/11/15/23:11:33" Started="2012/11/15/23:11:33" Complete="2012/11/17/18:31:33" status="0x0">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" name="KB2685813" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="true" Resolved="2012/11/15/23:11:49" Staged="2012/11/15/23:11:50" Installed="2012/11/15/23:11:54" Startup="2012/11/17/18:31:15" StartupFinish="2012/11/17/18:31:33">
+            <Resolve package="Package_1_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-1_neutral_LDR"/>
+            <Resolve package="Package_1_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-2_neutral_GDR"/>
+            <Resolve package="Package_8_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-15_neutral_LDR"/>
+            <Resolve package="Package_8_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-16_neutral_GDR"/>
+            <Resolve package="Package_75_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-149_neutral_LDR"/>
+            <Resolve package="Package_75_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-150_neutral_GDR"/>
+            <Resolve package="Package_82_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-163_neutral_LDR"/>
+            <Resolve package="Package_82_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-164_neutral_GDR"/>
+            <Stage package="Package_1_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-1_neutral_LDR"/>
+            <Stage package="Package_1_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-2_neutral_GDR"/>
+            <Stage package="Package_8_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-15_neutral_LDR"/>
+            <Stage package="Package_8_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-16_neutral_GDR"/>
+            <Stage package="Package_75_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-149_neutral_LDR"/>
+            <Stage package="Package_75_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-150_neutral_GDR"/>
+            <Stage package="Package_82_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-163_neutral_LDR"/>
+            <Stage package="Package_82_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-164_neutral_GDR"/>
+            <Install package="Package_1_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-2_neutral_GDR"/>
+            <Install package="Package_8_for_KB2685813~31bf3856ad364e35~x86~~6.1.1.11" update="2685813-16_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

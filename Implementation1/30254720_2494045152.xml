@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30254720_2494045152" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Resolved" pendingFollower="false" retry="true" Queued="2012/10/10/08:45:44" Started="2012/10/10/08:45:44" Complete="2012/10/10/08:46:00" status="0x800f0816">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" name="KB2731771" targetState="Staged" options="12"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="false" Resolved="2012/10/10/08:46:00">
+            <Resolve package="Package_146_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-293_neutral_LDR"/>
+            <Resolve package="Package_146_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-294_neutral_LDR"/>
+            <Resolve package="Package_146_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-295_neutral_GDR"/>
+            <Resolve package="Package_147_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-296_neutral_LDR"/>
+            <Resolve package="Package_147_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-297_neutral_LDR"/>
+            <Resolve package="Package_147_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-298_neutral_GDR"/>
+            <Resolve package="Package_149_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-301_neutral_LDR"/>
+            <Resolve package="Package_149_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-302_neutral_GDR"/>
+            <Resolve package="Package_37_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-73_neutral_LDR"/>
+            <Resolve package="Package_37_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-74_neutral_LDR"/>
+            <Resolve package="Package_37_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-75_neutral_GDR"/>
+            <Resolve package="Package_38_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-76_neutral_LDR"/>
+            <Resolve package="Package_38_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-77_neutral_LDR"/>
+            <Resolve package="Package_38_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-78_neutral_GDR"/>
+            <Resolve package="Package_39_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-79_neutral_LDR"/>
+            <Resolve package="Package_39_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-80_neutral_GDR"/>
+            <Stage package="Package_146_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-293_neutral_LDR"/>
+            <Stage package="Package_146_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-294_neutral_LDR"/>
+            <Stage package="Package_146_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-295_neutral_GDR"/>
+            <Stage package="Package_147_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-296_neutral_LDR"/>
+            <Stage package="Package_147_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-297_neutral_LDR"/>
+            <Stage package="Package_147_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-298_neutral_GDR"/>
+            <Stage package="Package_149_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-301_neutral_LDR"/>
+            <Stage package="Package_149_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-302_neutral_GDR"/>
+            <Stage package="Package_37_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-73_neutral_LDR"/>
+            <Stage package="Package_37_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-74_neutral_LDR"/>
+            <Stage package="Package_37_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-75_neutral_GDR"/>
+            <Stage package="Package_38_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-76_neutral_LDR"/>
+            <Stage package="Package_38_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-77_neutral_LDR"/>
+            <Stage package="Package_38_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-78_neutral_GDR"/>
+            <Stage package="Package_39_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-79_neutral_LDR"/>
+            <Stage package="Package_39_for_KB2731771~31bf3856ad364e35~x86~~6.1.1.1" update="2731771-80_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

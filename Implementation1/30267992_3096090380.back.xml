@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30267992_3096090380" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Installed" pendingFollower="false" retry="true">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2753842~31bf3856ad364e35~x86~~6.1.1.2" name="KB2753842" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="true">
+            <Stage package="Package_5_for_KB2753842~31bf3856ad364e35~x86~~6.1.1.2" update="2753842-9_neutral_LDR"/>
+            <Stage package="Package_5_for_KB2753842~31bf3856ad364e35~x86~~6.1.1.2" update="2753842-10_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2753842~31bf3856ad364e35~x86~~6.1.1.2" update="2753842-3_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2753842~31bf3856ad364e35~x86~~6.1.1.2" update="2753842-4_neutral_GDR"/>
+            <Install package="Package_2_for_KB2753842~31bf3856ad364e35~x86~~6.1.1.2" update="2753842-4_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

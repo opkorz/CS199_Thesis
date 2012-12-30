@@ -1,0 +1,30 @@
+09/26 17:04:13	Info	
+
+09/26 17:04:13	Info	Volume name is \\?\Volume{a4dc4248-c94c-11df-b012-806e6f6e6963}\
+09/26 17:04:13	Info	Mount Point are :
+09/26 17:04:13	Info	
+09/26 17:04:13	Info	Volume is Fixed Drive
+09/26 17:04:13	Info	Volume is ntfs
+09/26 17:04:13	Info	Volume is system
+09/26 17:04:13	Info	
+
+09/26 17:04:13	Info	Volume name is \\?\Volume{a4dc4249-c94c-11df-b012-806e6f6e6963}\
+09/26 17:04:13	Info	Mount Point are :
+09/26 17:04:13	Info	C:\	
+09/26 17:04:13	Info	Volume is Fixed Drive
+09/26 17:04:13	Info	Volume is ntfs
+09/26 17:04:13	Info	Volume is not system
+09/26 17:04:13	Info	Volume \\?\Volume{a4dc4249-c94c-11df-b012-806e6f6e6963}\ has other OS 1 
+09/26 17:04:13	Info	
+
+09/26 17:04:13	Info	Volume name is \\?\Volume{a4dc424a-c94c-11df-b012-806e6f6e6963}\
+09/26 17:04:13	Info	Mount Point are :
+09/26 17:04:13	Info	D:\	
+09/26 17:04:13	Info	Volume is Fixed Drive
+09/26 17:04:13	Info	Ignoring 0x3ed error code
+09/26 17:04:13	Info	
+
+09/26 17:04:13	Info	Volume name is \\?\Volume{a4dc424d-c94c-11df-b012-806e6f6e6963}\
+09/26 17:04:13	Info	Mount Point are :
+09/26 17:04:13	Info	E:\	
+09/26 17:04:13	Info	Volume is not Fixed or removable. DriveType is 5

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30249206_3478282896" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Complete" pendingFollower="true" retry="true" Queued="2012/09/12/22:56:37" Started="2012/09/12/22:56:37" Complete="2012/09/13/19:30:49" status="0x0">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2719857~31bf3856ad364e35~x86~~6.1.1.2" name="KB2719857" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="true" Staged="2012/09/12/22:56:38" Installed="2012/09/12/22:56:39" Startup="2012/09/13/19:30:36" StartupFinish="2012/09/13/19:30:49">
+            <Stage package="Package_3_for_KB2719857~31bf3856ad364e35~x86~~6.1.1.2" update="2719857-5_neutral_LDR"/>
+            <Stage package="Package_3_for_KB2719857~31bf3856ad364e35~x86~~6.1.1.2" update="2719857-6_neutral_GDR"/>
+            <Stage package="Package_4_for_KB2719857~31bf3856ad364e35~x86~~6.1.1.2" update="2719857-7_neutral_LDR"/>
+            <Stage package="Package_4_for_KB2719857~31bf3856ad364e35~x86~~6.1.1.2" update="2719857-8_neutral_GDR"/>
+            <Stage package="Package_4_for_KB2719857~31bf3856ad364e35~x86~~6.1.1.2" update="2719857-9_neutral_LDR"/>
+            <Stage package="Package_4_for_KB2719857~31bf3856ad364e35~x86~~6.1.1.2" update="2719857-10_neutral_GDR"/>
+            <Install package="Package_3_for_KB2719857~31bf3856ad364e35~x86~~6.1.1.2" update="2719857-6_neutral_GDR"/>
+            <Install package="Package_4_for_KB2719857~31bf3856ad364e35~x86~~6.1.1.2" update="2719857-8_neutral_GDR"/>
+            <Install package="Package_4_for_KB2719857~31bf3856ad364e35~x86~~6.1.1.2" update="2719857-10_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

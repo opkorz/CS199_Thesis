@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30267992_2845086023" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Complete" pendingFollower="false" retry="true" Queued="2012/12/15/08:11:00" Started="2012/12/15/08:11:00" Complete="2012/12/15/08:11:24" status="0x0">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2779562~31bf3856ad364e35~x86~~6.1.1.1" name="KB2779562" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="false" Staged="2012/12/15/08:11:17" Installed="2012/12/15/08:11:24">
+            <Stage package="Package_145_for_KB2779562~31bf3856ad364e35~x86~~6.1.1.1" update="2779562-289_neutral_LDR"/>
+            <Stage package="Package_145_for_KB2779562~31bf3856ad364e35~x86~~6.1.1.1" update="2779562-290_neutral_GDR"/>
+            <Stage package="Package_147_for_KB2779562~31bf3856ad364e35~x86~~6.1.1.1" update="2779562-293_neutral_LDR"/>
+            <Stage package="Package_147_for_KB2779562~31bf3856ad364e35~x86~~6.1.1.1" update="2779562-294_neutral_GDR"/>
+            <Stage package="Package_37_for_KB2779562~31bf3856ad364e35~x86~~6.1.1.1" update="2779562-73_neutral_LDR"/>
+            <Stage package="Package_37_for_KB2779562~31bf3856ad364e35~x86~~6.1.1.1" update="2779562-74_neutral_GDR"/>
+            <Stage package="Package_38_for_KB2779562~31bf3856ad364e35~x86~~6.1.1.1" update="2779562-75_neutral_LDR"/>
+            <Stage package="Package_38_for_KB2779562~31bf3856ad364e35~x86~~6.1.1.1" update="2779562-76_neutral_GDR"/>
+            <Install package="Package_37_for_KB2779562~31bf3856ad364e35~x86~~6.1.1.1" update="2779562-74_neutral_GDR"/>
+            <Install package="Package_38_for_KB2779562~31bf3856ad364e35~x86~~6.1.1.1" update="2779562-76_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

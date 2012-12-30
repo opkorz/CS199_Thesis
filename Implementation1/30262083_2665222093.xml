@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30262083_2665222093" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Complete" pendingFollower="true" retry="true" Queued="2012/11/15/23:12:25" Started="2012/11/15/23:12:26" Complete="2012/11/17/18:31:33" status="0x0">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" name="KB2761217" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="true" Staged="2012/11/15/23:12:29" Installed="2012/11/15/23:12:33" Startup="2012/11/17/18:31:15" StartupFinish="2012/11/17/18:31:33">
+            <Stage package="Package_1_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-1_neutral_LDR"/>
+            <Stage package="Package_1_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-2_neutral_GDR"/>
+            <Stage package="Package_4_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-7_neutral_LDR"/>
+            <Stage package="Package_4_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-8_neutral_GDR"/>
+            <Stage package="Package_6_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-11_neutral_LDR"/>
+            <Stage package="Package_6_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-12_neutral_GDR"/>
+            <Stage package="Package_9_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-17_neutral_LDR"/>
+            <Stage package="Package_9_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-18_neutral_GDR"/>
+            <Install package="Package_1_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-2_neutral_GDR"/>
+            <Install package="Package_4_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-8_neutral_GDR"/>
+            <Install package="Package_9_for_KB2761217~31bf3856ad364e35~x86~~6.1.1.0" update="2761217-18_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>

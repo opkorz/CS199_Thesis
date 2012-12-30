@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Session version="1.0" id="30262083_2539017871" client="WindowsUpdateAgent" options="816" currentPhase="1" lastSuccessfulState="Installed" pendingFollower="true" retry="true">
+    <Tasks>
+        <Phase seq="1">
+            <package id="Package_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" name="KB2750841" targetState="Installed" options="4"/>
+        </Phase>
+    </Tasks>
+    <Actions>
+        <Phase seq="1" rebootRequired="true">
+            <Stage package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-5_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-6_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-7_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-8_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-9_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-10_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-11_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-12_neutral_GDR"/>
+            <Stage package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-13_neutral_LDR"/>
+            <Stage package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-14_neutral_GDR"/>
+            <Stage package="Package_4_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-17_neutral_LDR"/>
+            <Stage package="Package_4_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-18_neutral_GDR"/>
+            <Stage package="Package_18_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-45_neutral_LDR"/>
+            <Stage package="Package_18_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-46_neutral_GDR"/>
+            <Stage package="Package_28_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-65_neutral_LDR"/>
+            <Stage package="Package_28_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-66_neutral_GDR"/>
+            <Install package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-6_neutral_GDR"/>
+            <Install package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-8_neutral_GDR"/>
+            <Install package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-10_neutral_GDR"/>
+            <Install package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-12_neutral_GDR"/>
+            <Install package="Package_2_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-14_neutral_GDR"/>
+            <Install package="Package_28_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-66_neutral_GDR"/>
+            <Install package="Package_101_for_KB2750841~31bf3856ad364e35~x86~~6.1.1.3" update="2750841-220_neutral_GDR"/>
+        </Phase>
+    </Actions>
+</Session>
