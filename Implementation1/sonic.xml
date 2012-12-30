@@ -1,0 +1,11 @@
+<application title="Burn CD/DVD" id="{37baf479-af2f-4ac8-8416-25a4aae4da8a}">
+
+    <entrypoint id="{1beb699f-dc1e-41a7-a31a-d4b339d21f42}"
+		addin="SonicMCEPlugIn.SonicDiscWriter, SonicMCEBurnEngine,Culture=Neutral,Version=1.0.0.0,PublicKeyToken=17c52700e9a64fd0"
+		title="Sonic Burn CD/DVD"
+		description="Sonic Burn CD/DVD Burn Plug in"
+		imageURL = "CreateDisc\SonicMCEBurnEngineIcon.png">
+		<category category="ListMaker\Disc Burning"/>
+    </entrypoint>
+  
+</application>
