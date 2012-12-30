@@ -1,0 +1,71 @@
+CatalogDB: 11:13:34 PM 12/14/2012: DONE Adding Catalog File:  Package_for_KB2753842_SP1~31bf3856ad364e35~x86~~6.1.1.2.cat
+CatalogDB: 11:13:34 PM 12/14/2012: Adding Catalog File:  Package_2_for_KB2753842~31bf3856ad364e35~x86~~6.1.1.2.cat
+CatalogDB: 11:13:35 PM 12/14/2012: DONE Adding Catalog File:  Package_2_for_KB2753842~31bf3856ad364e35~x86~~6.1.1.2.cat
+CatalogDB: 11:20:07 PM 12/14/2012: Adding Catalog File:  Package_for_KB2770660~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:07 PM 12/14/2012: DONE Adding Catalog File:  Package_for_KB2770660~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:07 PM 12/14/2012: Adding Catalog File:  Package_for_KB2770660_SP1~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:07 PM 12/14/2012: DONE Adding Catalog File:  Package_for_KB2770660_SP1~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:07 PM 12/14/2012: Adding Catalog File:  Package_1_for_KB2770660~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:08 PM 12/14/2012: DONE Adding Catalog File:  Package_1_for_KB2770660~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:08 PM 12/14/2012: Adding Catalog File:  Package_for_KB2770660_RTM~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:08 PM 12/14/2012: DONE Adding Catalog File:  Package_for_KB2770660_RTM~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:08 PM 12/14/2012: Adding Catalog File:  Package_3_for_KB2770660~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:08 PM 12/14/2012: DONE Adding Catalog File:  Package_3_for_KB2770660~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:50 PM 12/14/2012: Adding Catalog File:  Package_for_KB2758857~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:50 PM 12/14/2012: DONE Adding Catalog File:  Package_for_KB2758857~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:50 PM 12/14/2012: Adding Catalog File:  Package_for_KB2758857_RTM~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:50 PM 12/14/2012: DONE Adding Catalog File:  Package_for_KB2758857_RTM~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:50 PM 12/14/2012: Adding Catalog File:  Package_146_for_KB2758857~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:53 PM 12/14/2012: DONE Adding Catalog File:  Package_146_for_KB2758857~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:53 PM 12/14/2012: Adding Catalog File:  Package_147_for_KB2758857~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:53 PM 12/14/2012: DONE Adding Catalog File:  Package_147_for_KB2758857~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:53 PM 12/14/2012: Adding Catalog File:  Package_149_for_KB2758857~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:54 PM 12/14/2012: DONE Adding Catalog File:  Package_149_for_KB2758857~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:54 PM 12/14/2012: Adding Catalog File:  Package_for_KB2758857_SP1~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:54 PM 12/14/2012: DONE Adding Catalog File:  Package_for_KB2758857_SP1~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:54 PM 12/14/2012: Adding Catalog File:  Package_37_for_KB2758857~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:56 PM 12/14/2012: DONE Adding Catalog File:  Package_37_for_KB2758857~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:56 PM 12/14/2012: Adding Catalog File:  Package_38_for_KB2758857~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:57 PM 12/14/2012: DONE Adding Catalog File:  Package_38_for_KB2758857~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:57 PM 12/14/2012: Adding Catalog File:  Package_39_for_KB2758857~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:20:57 PM 12/14/2012: DONE Adding Catalog File:  Package_39_for_KB2758857~31bf3856ad364e35~x86~~6.1.1.0.cat
+CatalogDB: 11:21:12 PM 12/14/2012: Adding Catalog File:  Package_for_KB2779030~31bf3856ad364e35~x86~~6.1.1.2.cat
+CatalogDB: 11:21:12 PM 12/14/2012: DONE Adding Catalog File:  Package_for_KB2779030~31bf3856ad364e35~x86~~6.1.1.2.cat
+CatalogDB: 11:21:12 PM 12/14/2012: Adding Catalog File:  Package_for_KB2779030_RTM~31bf3856ad364e35~x86~~6.1.1.2.cat
+CatalogDB: 11:21:12 PM 12/14/2012: DONE Adding Catalog File:  Package_for_KB2779030_RTM~31bf3856ad364e35~x86~~6.1.1.2.cat
+CatalogDB: 11:21:12 PM 12/14/2012: Adding Catalog File:  Package_5_for_KB2779030~31bf3856ad364e35~x86~~6.1.1.2.cat
+CatalogDB: 11:21:13 PM 12/14/2012: DONE Adding Catalog File:  Package_5_for_KB2779030~31bf3856ad364e35~x86~~6.1.1.2.cat
+CatalogDB: 11:21:13 PM 12/14/2012: Adding Catalog File:  Package_for_KB2779030_SP1~31bf3856ad364e35~x86~~6.1.1.2.cat
+CatalogDB: 11:21:13 PM 12/14/2012: DONE Adding Catalog File:  Package_for_KB2779030_SP1~31bf3856ad364e35~x86~~6.1.1.2.cat
+CatalogDB: 11:21:13 PM 12/14/2012: Adding Catalog File:  Package_2_for_KB2779030~31bf3856ad364e35~x86~~6.1.1.2.cat
+CatalogDB: 11:21:13 PM 12/14/2012: DONE Adding Catalog File:  Package_2_for_KB2779030~31bf3856ad364e35~x86~~6.1.1.2.cat
+CatalogDB: 8:11:58 AM 12/15/2012: Adding Catalog File:  Package_for_KB2761465~31bf3856ad364e35~x86~~9.4.1.0.cat
+CatalogDB: 8:11:58 AM 12/15/2012: DONE Adding Catalog File:  Package_for_KB2761465~31bf3856ad364e35~x86~~9.4.1.0.cat
+CatalogDB: 8:11:59 AM 12/15/2012: Adding Catalog File:  Package_for_KB2761465_RTM~31bf3856ad364e35~x86~~9.4.1.0.cat
+CatalogDB: 8:12:00 AM 12/15/2012: DONE Adding Catalog File:  Package_for_KB2761465_RTM~31bf3856ad364e35~x86~~9.4.1.0.cat
+CatalogDB: 8:12:00 AM 12/15/2012: Adding Catalog File:  Package_1_for_KB2761465~31bf3856ad364e35~x86~~9.4.1.0.cat
+CatalogDB: 8:12:00 AM 12/15/2012: DONE Adding Catalog File:  Package_1_for_KB2761465~31bf3856ad364e35~x86~~9.4.1.0.cat
+CatalogDB: 8:12:00 AM 12/15/2012: Adding Catalog File:  Package_2_for_KB2761465~31bf3856ad364e35~x86~~9.4.1.0.cat
+CatalogDB: 8:12:08 AM 12/15/2012: DONE Adding Catalog File:  Package_2_for_KB2761465~31bf3856ad364e35~x86~~9.4.1.0.cat
+CatalogDB: 1:11:45 PM 12/21/2012: Adding Catalog File:  Package_for_KB2753842~31bf3856ad364e35~x86~~6.1.2.0.cat
+CatalogDB: 1:11:56 PM 12/21/2012: DONE Adding Catalog File:  Package_for_KB2753842~31bf3856ad364e35~x86~~6.1.2.0.cat
+CatalogDB: 1:11:56 PM 12/21/2012: Adding Catalog File:  Package_for_KB2753842_RTM~31bf3856ad364e35~x86~~6.1.2.0.cat
+CatalogDB: 1:11:56 PM 12/21/2012: DONE Adding Catalog File:  Package_for_KB2753842_RTM~31bf3856ad364e35~x86~~6.1.2.0.cat
+CatalogDB: 1:11:56 PM 12/21/2012: Adding Catalog File:  Package_5_for_KB2753842~31bf3856ad364e35~x86~~6.1.2.0.cat
+CatalogDB: 1:11:58 PM 12/21/2012: DONE Adding Catalog File:  Package_5_for_KB2753842~31bf3856ad364e35~x86~~6.1.2.0.cat
+CatalogDB: 1:11:58 PM 12/21/2012: Adding Catalog File:  Package_for_KB2753842_SP1~31bf3856ad364e35~x86~~6.1.2.0.cat
+CatalogDB: 1:11:58 PM 12/21/2012: DONE Adding Catalog File:  Package_for_KB2753842_SP1~31bf3856ad364e35~x86~~6.1.2.0.cat
+CatalogDB: 1:11:59 PM 12/21/2012: Adding Catalog File:  Package_2_for_KB2753842~31bf3856ad364e35~x86~~6.1.2.0.cat
+CatalogDB: 1:12:00 PM 12/21/2012: DONE Adding Catalog File:  Package_2_for_KB2753842~31bf3856ad364e35~x86~~6.1.2.0.cat
+CatalogDB: 5:08:35 PM 12/28/2012: catdbcli.cpp at line #610 encountered error 0x000006b5
+CatalogDB: 5:08:35 PM 12/28/2012: catadnew.cpp at line #1915 encountered error 0x000006b5
+CatalogDB: 5:08:35 PM 12/28/2012: catadnew.cpp at line #818 encountered error 0x000006b5
+CatalogDB: 5:08:38 PM 12/28/2012: catdbcli.cpp at line #610 encountered error 0x000006b5
+CatalogDB: 5:08:38 PM 12/28/2012: catadnew.cpp at line #1915 encountered error 0x000006b5
+CatalogDB: 5:08:38 PM 12/28/2012: catadnew.cpp at line #818 encountered error 0x000006b5
+CatalogDB: 5:08:38 PM 12/28/2012: catdbcli.cpp at line #610 encountered error 0x000006b5
+CatalogDB: 5:08:38 PM 12/28/2012: catadnew.cpp at line #1915 encountered error 0x000006b5
+CatalogDB: 5:08:38 PM 12/28/2012: catadnew.cpp at line #818 encountered error 0x000006b5
+CatalogDB: 8:25:46 PM 12/28/2012: catdbcli.cpp at line #610 encountered error 0x000006b5
+CatalogDB: 8:25:46 PM 12/28/2012: catadnew.cpp at line #1915 encountered error 0x000006b5
+CatalogDB: 8:25:46 PM 12/28/2012: catadnew.cpp at line #818 encountered error 0x000006b5
