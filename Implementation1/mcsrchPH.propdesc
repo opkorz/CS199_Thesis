@@ -1,0 +1,59 @@
+<?xml  version="1.0" encoding="utf-8"?> 
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+        xmlns="http://schemas.microsoft.com/windows/2006/propertydescription"  
+        schemaVersion="1.0"> 
+    <propertyDescriptionList publisher="Microsoft" product="Microsoft Windows Media Center"> 
+ 
+      <propertyDescription name="Microsoft.MediaCenter.ProgramTitle" formatID="{10F2BB5D-6972-4b68-B4BE-EAF39B62D852}" propID="2">
+        <searchInfo inInvertedIndex="true" isColumn="false"/>
+        <typeInfo type="String"/>
+      </propertyDescription>
+
+      <propertyDescription name="Microsoft.MediaCenter.ProgramEpisodeTitle" formatID="{10F2BB5D-6972-4b68-B4BE-EAF39B62D852}" propID="3">
+        <searchInfo inInvertedIndex="true" isColumn="false"/>
+        <typeInfo type="String"/>
+      </propertyDescription>
+
+      <propertyDescription name="Microsoft.MediaCenter.ProgramDescription" formatID="{10F2BB5D-6972-4b68-B4BE-EAF39B62D852}" propID="4">
+        <searchInfo inInvertedIndex="true" isColumn="false"/>
+        <typeInfo type="String"/>
+      </propertyDescription>
+
+      <propertyDescription name="Microsoft.MediaCenter.ProgramProducers" formatID="{10F2BB5D-6972-4b68-B4BE-EAF39B62D852}" propID="5">
+        <searchInfo inInvertedIndex="true" isColumn="false"/>
+        <typeInfo type="String"/>
+      </propertyDescription>
+
+      <propertyDescription name="Microsoft.MediaCenter.ProgramDirectors" formatID="{10F2BB5D-6972-4b68-B4BE-EAF39B62D852}" propID="6">
+        <searchInfo inInvertedIndex="true" isColumn="false"/>
+        <typeInfo type="String"/>
+      </propertyDescription>
+
+      <propertyDescription name="Microsoft.MediaCenter.ProgramWriters" formatID="{10F2BB5D-6972-4b68-B4BE-EAF39B62D852}" propID="7">
+        <searchInfo inInvertedIndex="true" isColumn="false"/>
+        <typeInfo type="String"/>
+      </propertyDescription>
+
+      <propertyDescription name="Microsoft.MediaCenter.ProgramHosts" formatID="{10F2BB5D-6972-4b68-B4BE-EAF39B62D852}" propID="8">
+        <searchInfo inInvertedIndex="true" isColumn="false"/>
+        <typeInfo type="String"/>
+      </propertyDescription>
+
+      <propertyDescription name="Microsoft.MediaCenter.ProgramActors" formatID="{10F2BB5D-6972-4b68-B4BE-EAF39B62D852}" propID="9">
+        <searchInfo inInvertedIndex="true" isColumn="false"/>
+        <typeInfo type="String"/>
+      </propertyDescription>
+
+      <propertyDescription name="Microsoft.MediaCenter.ProgramGuestActors" formatID="{10F2BB5D-6972-4b68-B4BE-EAF39B62D852}" propID="10">
+        <searchInfo inInvertedIndex="true" isColumn="false"/>
+        <typeInfo type="String"/>
+      </propertyDescription>
+
+      <propertyDescription name="Microsoft.MediaCenter.PersonName" formatID="{10F2BB5D-6972-4b68-B4BE-EAF39B62D852}" propID="11">
+        <searchInfo inInvertedIndex="true" isColumn="false"/>
+        <typeInfo type="String"/>
+      </propertyDescription>
+
+    </propertyDescriptionList> 
+</schema> 
+ 
