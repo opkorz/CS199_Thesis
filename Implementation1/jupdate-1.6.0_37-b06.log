@@ -1,0 +1,101 @@
+Patching C:\Program Files\Java\jre6
+Processing: bin\awt.dll
+Processing: bin\axbridge.dll
+Processing: lib\charsets.jar
+Processing: bin\cmm.dll
+Processing: bin\dcpr.dll
+Processing: bin\deploy.dll
+Processing: lib\deploy.jar
+Processing: bin\dtplugin\deployJava1.dll
+Processing: lib\ext\dnsns.jar
+Processing: bin\dt_shmem.dll
+Processing: bin\dt_socket.dll
+Processing: bin\eula.dll
+Old File does not exist
+
+
+Processing: lib\deploy\ffjcext.zip
+Processing: bin\fontmanager.dll
+Processing: bin\hpi.dll
+Processing: bin\hprof.dll
+Processing: lib\im\indicim.jar
+Processing: bin\instrument.dll
+Processing: bin\ioser12.dll
+Processing: bin\j2pcsc.dll
+Processing: bin\j2pkcs11.dll
+Processing: bin\jaas_nt.dll
+Processing: bin\java-rmi.exe
+Processing: bin\java.dll
+Processing: bin\java.exe
+Processing: bin\java_crw_demo.dll
+Processing: bin\javacpl.cpl
+Old File does not exist
+
+
+Processing: bin\javacpl.exe
+Processing: bin\javaw.exe
+Processing: bin\javaws.exe
+Processing: lib\javaws.jar
+Processing: bin\jawt.dll
+Processing: bin\jbroker.exe
+Processing: bin\JdbcOdbc.dll
+Processing: bin\jdwp.dll
+Processing: bin\jkernel.dll
+Processing: bin\jli.dll
+Processing: bin\jp2iexp.dll
+Processing: bin\jp2launcher.exe
+Processing: bin\jp2native.dll
+Processing: bin\jpeg.dll
+Processing: bin\jpicom.dll
+Processing: bin\jpiexp.dll
+Processing: bin\jpinscp.dll
+Processing: bin\jpioji.dll
+Processing: bin\jpishare.dll
+Processing: bin\jqs.exe
+Processing: bin\jqsnotify.exe
+Processing: bin\jsound.dll
+Processing: bin\jsoundds.dll
+Processing: lib\jsse.jar
+Processing: bin\client\jvm.dll
+Processing: bin\keytool.exe
+Processing: bin\kinit.exe
+Processing: bin\klist.exe
+Processing: bin\ktab.exe
+Processing: lib\ext\localedata.jar
+Processing: lib\deploy\lzma.dll
+Processing: lib\management-agent.jar
+Processing: bin\management.dll
+Processing: bin\mlib_image.dll
+Processing: bin\net.dll
+Processing: bin\nio.dll
+Processing: bin\dtplugin\npdeployJava1.dll
+Processing: bin\plugin2\npjp2.dll
+Processing: bin\npjpi160_35.dll
+Processing: bin\npjpi160_37.dll
+Processing: bin\npoji610.dll
+Processing: bin\npt.dll
+Processing: bin\orbd.exe
+Processing: bin\pack200.exe
+Processing: lib\plugin.jar
+Processing: bin\policytool.exe
+Processing: lib\resources.jar
+Processing: bin\rmi.dll
+Processing: bin\rmid.exe
+Processing: bin\rmiregistry.exe
+Processing: lib\rt.jar
+Processing: bin\servertool.exe
+Processing: bin\splashscreen.dll
+Processing: bin\ssvagent.exe
+Processing: bin\sunmscapi.dll
+Processing: lib\ext\sunpkcs11.jar
+Processing: lib\im\thaiim.jar
+Processing: bin\tnameserv.exe
+Processing: bin\unpack.dll
+Processing: bin\unpack200.exe
+Processing: bin\verify.dll
+Processing: bin\w2k_lsa_auth.dll
+Processing: bin\wsdetect.dll
+Processing: bin\zip.dll
+Processing: lib\security\blacklist
+Move C:\PROGRA~1\Java\jre6 to C:\Program Files\Java\jre6
+INFO: Java(TM) Update (1.6.0_37-b06) has been installed successfully on this machine.
