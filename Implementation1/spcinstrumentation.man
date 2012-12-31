@@ -1,0 +1,237 @@
+﻿<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<instrumentationManifest xmlns="http://schemas.microsoft.com/win/2004/08/events">
+  <instrumentation>
+    <events
+        xmlns="http://schemas.microsoft.com/win/2004/08/events"
+        xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        >
+      <provider
+          guid="{62ef8b9f-ee45-4aba-a9b9-b70e878bf30a}"
+          message="$(string.eventProviderName)"
+          messageFileName="%systemroot%\system32\EventProviders\spcmsg.dll"
+          name="Microsoft-Windows-Service Pack Installer"
+          resourceFileName="%systemroot%\system32\EventProviders\spcmsg.dll"
+          symbol="SPC_PROVIDER"
+          >
+        <channels>
+          <importChannel
+              chid="SPC_CHANNEL_ADMIN"
+              name="System"
+              />
+        </channels>
+        <templates>
+          <template tid="SPC_TEMPLATE_STARTED">
+            <data
+                inType="win:UInt32"
+                name="SP"
+                />
+          </template>
+          <template tid="SPC_TEMPLATE_BLOCKED_DRIVER">
+            <data
+                inType="win:UnicodeString"
+                name="DriverName"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="BlockReason"
+                />
+            <data
+                inType="win:GUID"
+                name="DriverGUID"
+                />
+          </template>
+          <template tid="SPC_TEMPLATE_WARNED_DRIVER">
+            <data
+                inType="win:UnicodeString"
+                name="DriverName"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="WarnReason"
+                />
+            <data
+                inType="win:GUID"
+                name="DriverGUID"
+                />
+          </template>
+          <template tid="SPC_TEMPLATE_WARNED_HOTFIX">
+            <data
+                inType="win:UnicodeString"
+                name="KB"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="CBSIdentity"
+                />
+          </template>
+          <template tid="SPC_TEMPLATE_INSUFFICIENT_DISKSPACE">
+            <data
+                inType="win:UInt32"
+                name="RequiredMB"
+                />
+          </template>
+          <template tid="SPC_TEMPLATE_FAILED_PACKAGE">
+            <data
+                inType="win:UnicodeString"
+                name="PackageDisplayName"
+                />
+            <data
+                inType="win:UnicodeString"
+                name="CBSIdentity"
+                />
+            <data
+                inType="win:HexInt32"
+                name="ErrorCode"
+                />
+            <data
+                inType="win:UInt32"
+                name="TargetInstallState"
+                />
+          </template>
+          <template tid="SPC_TEMPLATE_FAILED">
+            <data
+                inType="win:HexInt32"
+                name="ErrorCode"
+                />
+          </template>
+          <template tid="SPC_TEMPLATE_SUCCEEDED">
+            <data
+                inType="win:UInt32"
+                name="SP"
+                />
+          </template>
+        </templates>
+        <events>
+          <event
+              channel="SPC_CHANNEL_ADMIN"
+              level="win:Informational"
+              message="$(string.SPC_EVENT_MESSAGE_STARTED)"
+              symbol="SPC_EVENT_STARTED"
+              template="SPC_TEMPLATE_STARTED"
+              value="1"
+              />
+          <event
+              channel="SPC_CHANNEL_ADMIN"
+              level="win:Error"
+              message="$(string.SPC_EVENT_MESSAGE_BLOCKED_DRIVER)"
+              symbol="SPC_EVENT_BLOCKED_DRIVER"
+              template="SPC_TEMPLATE_BLOCKED_DRIVER"
+              value="2"
+              />
+          <event
+              channel="SPC_CHANNEL_ADMIN"
+              level="win:Warning"
+              message="$(string.SPC_EVENT_MESSAGE_WARNED_DRIVER)"
+              symbol="SPC_EVENT_WARNED_DRIVER"
+              template="SPC_TEMPLATE_WARNED_DRIVER"
+              value="3"
+              />
+          <event
+              channel="SPC_CHANNEL_ADMIN"
+              level="win:Warning"
+              message="$(string.SPC_EVENT_MESSAGE_WARNED_HOTFIX)"
+              symbol="SPC_EVENT_WARNED_HOTFIX"
+              template="SPC_TEMPLATE_WARNED_HOTFIX"
+              value="4"
+              />
+          <event
+              channel="SPC_CHANNEL_ADMIN"
+              level="win:Error"
+              message="$(string.SPC_EVENT_MESSAGE_INSUFFICIENT_DISKSPACE)"
+              symbol="SPC_EVENT_INSUFFICIENT_DISKSPACE"
+              template="SPC_TEMPLATE_INSUFFICIENT_DISKSPACE"
+              value="5"
+              />
+          <event
+              channel="SPC_CHANNEL_ADMIN"
+              level="win:Error"
+              message="$(string.SPC_EVENT_MESSAGE_AC_REQUIRED)"
+              symbol="SPC_EVENT_AC_REQUIRED"
+              value="6"
+              />
+          <event
+              channel="SPC_CHANNEL_ADMIN"
+              level="win:Error"
+              message="$(string.SPC_EVENT_MESSAGE_FAILED_PACKAGE)"
+              symbol="SPC_EVENT_FAILED_PACKAGE"
+              template="SPC_TEMPLATE_FAILED_PACKAGE"
+              value="7"
+              />
+          <event
+              channel="SPC_CHANNEL_ADMIN"
+              level="win:Error"
+              message="$(string.SPC_EVENT_MESSAGE_FAILED)"
+              symbol="SPC_EVENT_FAILED"
+              template="SPC_TEMPLATE_FAILED"
+              value="8"
+              />
+          <event
+              channel="SPC_CHANNEL_ADMIN"
+              level="win:Informational"
+              message="$(string.SPC_EVENT_MESSAGE_SUCCEEDED)"
+              symbol="SPC_EVENT_SUCCEEDED"
+              template="SPC_TEMPLATE_SUCCEEDED"
+              value="9"
+              />
+        </events>
+      </provider>
+    </events>
+  </instrumentation>
+  <localization>
+    <resources culture="en-US">
+      <stringTable>
+        <string
+            id="eventProviderName"
+            value="Microsoft-Windows-Service Pack Installer"
+            />
+        <string
+            id="SPC_EVENT_MESSAGE_STARTED"
+            value="Service Pack %1 installation started."
+            />
+        <string
+            id="SPC_EVENT_MESSAGE_BLOCKED_DRIVER"
+            value="An installed driver has known compatibility problems.  Try updating the driver to a more recent version.%n
+   Name:   %1%n
+   Reason: %2%n
+   GUID:   %3"
+            />
+        <string
+            id="SPC_EVENT_MESSAGE_WARNED_DRIVER"
+            value="An installed driver might cause compatibility problems.%n
+   Name:   %1%n
+   Reason: %2%n
+   GUID:   %3"
+            />
+        <string
+            id="SPC_EVENT_MESSAGE_WARNED_HOTFIX"
+            value="An update (KB%1) installed on the system might stop working correctly after the installation of the Service Pack."
+            />
+        <string
+            id="SPC_EVENT_MESSAGE_INSUFFICIENT_DISKSPACE"
+            value="There is not enough free disk space to install the Service Pack. Required=%1 MB."
+            />
+        <string
+            id="SPC_EVENT_MESSAGE_AC_REQUIRED"
+            value="The Service Pack cannot be installed when the computer is running on battery power."
+            />
+        <string
+            id="SPC_EVENT_MESSAGE_FAILED_PACKAGE"
+            value="Changes to an update(%1) failed during Service Pack installation.%n
+   Identity:     %2%n
+   Error Code:   %3%n
+   Target State: %4"
+            />
+        <string
+            id="SPC_EVENT_MESSAGE_FAILED"
+            value="Service Pack installation failed with error code %1."
+            />
+        <string
+            id="SPC_EVENT_MESSAGE_SUCCEEDED"
+            value="Service Pack %1 installation succeeded."
+            />
+      </stringTable>
+    </resources>
+  </localization>
+</instrumentationManifest>

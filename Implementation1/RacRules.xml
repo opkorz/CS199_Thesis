@@ -1,0 +1,1844 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RacRules timestamp="1236038400">
+  <RacUploadRules>
+    <!-- Windows 7 values -->
+    <GlobalUploadRules>
+      <ManifestCheckRange>
+        <Lo>16000000</Lo>
+        <Hi>36000000</Hi>
+      </ManifestCheckRange>
+      <ExpireOn date="1388534400" />
+      <DisableSessionUploadDelay />
+    </GlobalUploadRules>
+    <IncludeList>
+      <SamplingRange>
+      </SamplingRange>
+      <MachineDimensions>
+        <OSVersion>
+          <Version major="6" />
+        </OSVersion>
+      </MachineDimensions>
+    </IncludeList>
+  </RacUploadRules>
+  <EventCollectionRules>
+    <AlgorithmDatasets>
+      <Algorithm Id="1327">
+        <Dataset Id="401" />
+      </Algorithm>
+    </AlgorithmDatasets>
+    <ApplicationSets>
+      <ApplicationSet ModelId="1" AppId="2">
+        <DatasetGroup>
+          <Dataset Id="1" />
+          <Dataset Id="9" />
+          <Dataset Id="12" />
+          <Dataset Id="15" />
+          <Dataset Id="19" />
+          <Dataset Id="21" />
+          <Dataset Id="25" />
+          <Dataset Id="29" />
+          <Dataset Id="30" />
+          <Dataset Id="32" />
+          <Dataset Id="35" />
+          <!--Legacy Start-->
+          <Dataset Id="36" />
+          <!--Legacy End-->
+          <Dataset Id="41" />
+          <Dataset Id="43" />
+          <Dataset Id="47" />
+          <Dataset Id="80" />
+          <Dataset Id="82" />
+          <Dataset Id="86" />
+          <Dataset Id="89" />
+          <Dataset Id="90" />
+          <Dataset Id="91" />
+          <Dataset Id="92" />
+          <Dataset Id="93" />
+          <Dataset Id="95" />
+          <Dataset Id="103" />
+          <Dataset Id="104" />
+          <Dataset Id="115" />
+          <Dataset Id="116" />
+          <Dataset Id="117" />
+          <Dataset Id="118" />
+          <Dataset Id="119" />
+          <Dataset Id="120" />
+          <Dataset Id="128" />
+          <Dataset Id="129" />
+          <Dataset Id="133" />
+          <Dataset Id="134" />
+          <Dataset Id="135" />
+          <Dataset Id="147" />
+          <Dataset Id="148" />
+          <Dataset Id="149" />
+          <!--Legacy Start-->
+          <Dataset Id="150" />
+          <Dataset Id="151" />
+          <Dataset Id="152" />
+          <!--Legacy End-->
+          <Dataset Id="171" />
+          <Dataset Id="172" />
+          <Dataset Id="180" />
+          <Dataset Id="181" />
+          <Dataset Id="209" />
+          <Dataset Id="210" />
+          <Dataset Id="211" />
+          <Dataset Id="212" />
+          <Dataset Id="213" />
+          <Dataset Id="214" />
+          <Dataset Id="215" />
+          <Dataset Id="216" />
+          <Dataset Id="217" />
+          <Dataset Id="218" />
+          <Dataset Id="219" />
+          <Dataset Id="220" />
+          <Dataset Id="221" />
+          <Dataset Id="222" />
+          <Dataset Id="223" />
+          <Dataset Id="224" />
+          <Dataset Id="225" />
+          <Dataset Id="226" />
+          <Dataset Id="227" />
+          <Dataset Id="228" />
+          <Dataset Id="229" />
+          <Dataset Id="230" />
+          <Dataset Id="231" />
+          <Dataset Id="232" />
+          <Dataset Id="233" />
+          <Dataset Id="234" />
+          <Dataset Id="235" />
+          <Dataset Id="236" />
+          <Dataset Id="237" />
+          <Dataset Id="238" />
+          <Dataset Id="239" />
+          <Dataset Id="240" />
+          <Dataset Id="241" />
+          <Dataset Id="242" />
+          <Dataset Id="243" />
+          <Dataset Id="244" />
+          <Dataset Id="245" />
+          <Dataset Id="246" />
+          <Dataset Id="247" />
+          <Dataset Id="248" />
+          <Dataset Id="249" />
+          <Dataset Id="258" />
+          <Dataset Id="259" />
+          <Dataset Id="260" />
+          <Dataset Id="261" />
+          <Dataset Id="311" />
+          <Dataset Id="312" />
+          <Dataset Id="314" />
+          <Dataset Id="315" />
+          <Dataset Id="328" />
+          <Dataset Id="329" />
+          <Dataset Id="330" />
+          <Dataset Id="331" />
+          <Dataset Id="332" />
+          <Dataset Id="333" />
+          <Dataset Id="334" />
+          <Dataset Id="335" />
+          <Dataset Id="336" />
+          <Dataset Id="337" />
+          <Dataset Id="338" />
+          <Dataset Id="339" />
+          <Dataset Id="340" />
+          <Dataset Id="341" />
+          <Dataset Id="342" />
+          <Dataset Id="343" />
+          <Dataset Id="344" />
+          <Dataset Id="345" />
+          <Dataset Id="346" />
+          <Dataset Id="347" />
+          <Dataset Id="348" />
+          <Dataset Id="349" />
+          <Dataset Id="350" />
+          <Dataset Id="477" />
+          <Dataset Id="478" />
+          <Dataset Id="479" />
+          <Dataset Id="480" />
+          <Dataset Id="481" />
+        </DatasetGroup>
+        <AlgorithmGroup>
+          <Algorithm Id="1002" />
+          <Algorithm Id="1005" />
+          <Algorithm Id="1009" />
+          <Algorithm Id="1010" />
+          <Algorithm Id="1011" />
+          <Algorithm Id="1012" />
+          <Algorithm Id="1017" />
+          <Algorithm Id="1018" />
+          <Algorithm Id="1019" />
+          <Algorithm Id="1020" />
+          <Algorithm Id="1021" />
+          <Algorithm Id="1024" />
+          <Algorithm Id="1025" />
+          <Algorithm Id="1026" />
+          <Algorithm Id="1031" />
+          <Algorithm Id="1032" />
+          <Algorithm Id="1033" />
+          <Algorithm Id="1034" />
+          <Algorithm Id="1035" />
+          <Algorithm Id="1036" />
+          <Algorithm Id="1051" />
+          <Algorithm Id="1052" />
+          <Algorithm Id="1053" />
+          <Algorithm Id="1054" />
+          <Algorithm Id="1055" />
+          <Algorithm Id="1056" />
+          <Algorithm Id="1057" />
+          <Algorithm Id="1058" />
+          <Algorithm Id="1161" />
+          <Algorithm Id="1165" />
+        </AlgorithmGroup>
+      </ApplicationSet>
+      <ApplicationSet ModelId="2" AppId="4">
+        <DatasetGroup>
+          <Dataset Id="65" NameMatch="true" />
+          <Dataset Id="66" NameMatch="true" />
+          <Dataset Id="67" NameMatch="true" />
+          <Dataset Id="68" NameMatch="true" />
+          <Dataset Id="73" NameMatch="true" />
+          <Dataset Id="74" NameMatch="true" />
+          <Dataset Id="75" NameMatch="true" />
+          <Dataset Id="76" NameMatch="true" />
+          <Dataset Id="77" NameMatch="true" />
+          <Dataset Id="79" NameMatch="true" />
+          <Dataset Id="81" NameMatch="true" />
+          <Dataset Id="82" NameMatch="true" />
+          <Dataset Id="83" NameMatch="true" />
+          <Dataset Id="84" NameMatch="true" />
+          <Dataset Id="197" NameMatch="true" />
+          <Dataset Id="199" NameMatch="true" />
+          <Dataset Id="201" NameMatch="true" />
+          <Dataset Id="202" NameMatch="true" />
+          <Dataset Id="257" NameMatch="true" />
+          <Dataset Id="314" />
+        </DatasetGroup>
+        <AlgorithmGroup>
+          <Algorithm Id="1002" />
+          <Algorithm Id="1005" />
+          <Algorithm Id="1009" />
+          <Algorithm Id="1035" />
+          <Algorithm Id="1052" />
+          <Algorithm Id="1161" />
+          <Algorithm Id="1162" />
+          <Algorithm Id="1165" />
+          <Algorithm Id="1166" />
+          <Algorithm Id="1167" />
+          <Algorithm Id="1168" />
+          <Algorithm Id="1169" />
+          <Algorithm Id="1170" />
+          <Algorithm Id="1171" />
+          <Algorithm Id="1172" />
+          <Algorithm Id="1173" />
+          <Algorithm Id="1174" />
+          <Algorithm Id="1175" />
+        </AlgorithmGroup>
+      </ApplicationSet>
+      <ApplicationSet ModelId="3" AppId="4">
+        <DatasetGroup>
+          <Dataset Id="271" NameMatch="true" />
+          </DatasetGroup>
+        <AlgorithmGroup>
+          <Algorithm Id="1324" />
+        </AlgorithmGroup>
+      </ApplicationSet>
+      <ApplicationSet ModelId="3" AppId="1">
+        <DatasetGroup>
+          <Dataset Id="12" />
+          <Dataset Id="21" />
+          <Dataset Id="30" />
+          <Dataset Id="32" />
+          <Dataset Id="86" />
+          <Dataset Id="89" />
+          <Dataset Id="90" />
+          <Dataset Id="91" />
+          <Dataset Id="101" />
+          <Dataset Id="102" />
+          <Dataset Id="103" />
+          <Dataset Id="104" />
+          <Dataset Id="105" />
+          <Dataset Id="106" />
+          <Dataset Id="107" />
+          <Dataset Id="108" />
+          <Dataset Id="109" />
+          <Dataset Id="110" />
+          <Dataset Id="111" />
+          <Dataset Id="112" />
+          <Dataset Id="113" />
+          <Dataset Id="114" />
+          <Dataset Id="115" />
+          <Dataset Id="128" />
+          <Dataset Id="129" />
+          <Dataset Id="134" />
+          <Dataset Id="205" />
+          <Dataset Id="206" />
+          <Dataset Id="207" />
+          <Dataset Id="208" />
+          <Dataset Id="271" />
+          <Dataset Id="333" />
+          <Dataset Id="334" />
+          <Dataset Id="335" />
+          <Dataset Id="336" />
+          <Dataset Id="337" />
+          <Dataset Id="338" />
+          <Dataset Id="401" />
+        </DatasetGroup>
+        <AlgorithmGroup>
+          <Algorithm Id="1184" />
+          <Algorithm Id="1185" />
+          <Algorithm Id="1186" />
+          <Algorithm Id="1191" />
+          <Algorithm Id="1214" />
+          <Algorithm Id="1218" />
+          <Algorithm Id="1219" />
+          <Algorithm Id="1222" />
+          <Algorithm Id="1223" />
+          <Algorithm Id="1226" />
+          <Algorithm Id="1227" />
+          <Algorithm Id="1228" />
+          <Algorithm Id="1229" />
+          <Algorithm Id="1230" />
+          <Algorithm Id="1231" />
+          <Algorithm Id="1232" />
+          <Algorithm Id="1233" />
+          <Algorithm Id="1234" />
+          <Algorithm Id="1235" />
+          <Algorithm Id="1236" />
+          <Algorithm Id="1237" />
+          <Algorithm Id="1238" />
+          <Algorithm Id="1239" />
+          <Algorithm Id="1240" />
+          <Algorithm Id="1241" />
+          <Algorithm Id="1242" />
+          <Algorithm Id="1243" />
+          <Algorithm Id="1244" />
+          <Algorithm Id="1245" />
+          <Algorithm Id="1246" />
+          <Algorithm Id="1327" />
+        </AlgorithmGroup>
+      </ApplicationSet>
+      <ApplicationSet ModelId="5" AppId="3">
+        <DatasetGroup>
+          <Dataset Id="1" />
+          <Dataset Id="9" />
+          <Dataset Id="12" />
+          <Dataset Id="14" />
+          <Dataset Id="15" />
+          <Dataset Id="19" />
+          <Dataset Id="21" />
+          <Dataset Id="25" />
+          <Dataset Id="30" />
+          <Dataset Id="32" />
+          <Dataset Id="35" />
+          <Dataset Id="36" />
+          <Dataset Id="41" />
+          <Dataset Id="43" />
+          <Dataset Id="47" />
+          <Dataset Id="54" />
+          <Dataset Id="65" />
+          <Dataset Id="66" />
+          <Dataset Id="75" />
+          <Dataset Id="76" />
+          <Dataset Id="77" />
+          <Dataset Id="79" />
+          <Dataset Id="81" />
+          <Dataset Id="86" />
+          <Dataset Id="89" />
+          <Dataset Id="90" />
+          <Dataset Id="91" />
+          <Dataset Id="92" />
+          <Dataset Id="93" />
+          <Dataset Id="95" />
+          <Dataset Id="101" />
+          <Dataset Id="102" />
+          <Dataset Id="103" />
+          <Dataset Id="104" />
+          <Dataset Id="105" />
+          <Dataset Id="106" />
+          <Dataset Id="107" />
+          <Dataset Id="108" />
+          <Dataset Id="109" />
+          <Dataset Id="110" />
+          <Dataset Id="111" />
+          <Dataset Id="112" />
+          <Dataset Id="113" />
+          <Dataset Id="114" />
+          <Dataset Id="115" />
+          <Dataset Id="116" />
+          <Dataset Id="117" />
+          <Dataset Id="118" />
+          <Dataset Id="119" />
+          <Dataset Id="120" />
+          <Dataset Id="128" />
+          <Dataset Id="129" />
+          <Dataset Id="133" />
+          <Dataset Id="134" />
+          <Dataset Id="135" />
+          <Dataset Id="147" />
+          <Dataset Id="148" />
+          <Dataset Id="149" />
+          <Dataset Id="150" />
+          <Dataset Id="151" />
+          <Dataset Id="152" />
+          <Dataset Id="171" />
+          <Dataset Id="172" />
+          <Dataset Id="180" />
+          <Dataset Id="181" />
+          <Dataset Id="197" />
+          <Dataset Id="199" />
+          <Dataset Id="205" />
+          <Dataset Id="206" />
+          <Dataset Id="207" />
+          <Dataset Id="208" />
+          <Dataset Id="209" />
+          <Dataset Id="210" />
+          <Dataset Id="211" />
+          <Dataset Id="212" />
+          <Dataset Id="213" />
+          <Dataset Id="214" />
+          <Dataset Id="215" />
+          <Dataset Id="216" />
+          <Dataset Id="217" />
+          <Dataset Id="218" />
+          <Dataset Id="219" />
+          <Dataset Id="220" />
+          <Dataset Id="221" />
+          <Dataset Id="222" />
+          <Dataset Id="223" />
+          <Dataset Id="224" />
+          <Dataset Id="225" />
+          <Dataset Id="226" />
+          <Dataset Id="227" />
+          <Dataset Id="228" />
+          <Dataset Id="229" />
+          <Dataset Id="230" />
+          <Dataset Id="231" />
+          <Dataset Id="232" />
+          <Dataset Id="233" />
+          <Dataset Id="234" />
+          <Dataset Id="235" />
+          <Dataset Id="236" />
+          <Dataset Id="237" />
+          <Dataset Id="238" />
+          <Dataset Id="239" />
+          <Dataset Id="240" />
+          <Dataset Id="241" />
+          <Dataset Id="242" />
+          <Dataset Id="243" />
+          <Dataset Id="244" />
+          <Dataset Id="245" />
+          <Dataset Id="246" />
+          <Dataset Id="247" />
+          <Dataset Id="248" />
+          <Dataset Id="249" />
+          <Dataset Id="257" />
+          <Dataset Id="258" />
+          <Dataset Id="259" />
+          <Dataset Id="260" />
+          <Dataset Id="261" />
+          <Dataset Id="262" />
+          <Dataset Id="263" />
+          <Dataset Id="265" />
+          <Dataset Id="271" />
+          <Dataset Id="280" />
+          <Dataset Id="281" />
+          <Dataset Id="303" />
+          <Dataset Id="304" />
+          <Dataset Id="311" />
+          <Dataset Id="312" />
+          <Dataset Id="314" />
+          <Dataset Id="315" />
+          <Dataset Id="316" />
+          <Dataset Id="317" />
+          <Dataset Id="318" />
+          <Dataset Id="320" />
+          <Dataset Id="321" />
+          <Dataset Id="322" />
+          <Dataset Id="325" />
+          <Dataset Id="326" />
+          <Dataset Id="327" />
+          <Dataset Id="328" />
+          <Dataset Id="329" />
+          <Dataset Id="330" />
+          <Dataset Id="331" />
+          <Dataset Id="332" />
+          <Dataset Id="333" />
+          <Dataset Id="334" />
+          <Dataset Id="335" />
+          <Dataset Id="336" />
+          <Dataset Id="337" />
+          <Dataset Id="338" />
+          <Dataset Id="339" />
+          <Dataset Id="340" />
+          <Dataset Id="341" />
+          <Dataset Id="342" />
+          <Dataset Id="343" />
+          <Dataset Id="344" />
+          <Dataset Id="345" />
+          <Dataset Id="346" />
+          <Dataset Id="347" />
+          <Dataset Id="348" />
+          <Dataset Id="349" />
+          <Dataset Id="350" />
+          <Dataset Id="361" />
+          <Dataset Id="362" />
+          <Dataset Id="363" />
+          <Dataset Id="364" />
+          <Dataset Id="378" />
+          <Dataset Id="379" />
+          <Dataset Id="380" />
+          <Dataset Id="381" />
+          <Dataset Id="382" />
+          <Dataset Id="383" />
+          <Dataset Id="384" />
+          <Dataset Id="385" />
+          <Dataset Id="386" />
+          <Dataset Id="387" />
+          <Dataset Id="388" />
+          <Dataset Id="389" />
+          <Dataset Id="390" />
+          <Dataset Id="391" />
+          <Dataset Id="392" />
+          <Dataset Id="393" />
+          <Dataset Id="394" />
+          <Dataset Id="395" />
+          <Dataset Id="396" />
+          <Dataset Id="397" />
+          <Dataset Id="398" />
+          <Dataset Id="399" />
+          <Dataset Id="400" />
+          <Dataset Id="404" />
+          <Dataset Id="405" />
+          <Dataset Id="406" />
+          <Dataset Id="407" />
+          <Dataset Id="408" />
+          <Dataset Id="409" />
+          <Dataset Id="410" />
+          <Dataset Id="411" />
+          <Dataset Id="412" />
+          <Dataset Id="413" />
+          <Dataset Id="414" />
+          <Dataset Id="415" />
+          <Dataset Id="416" />
+          <Dataset Id="417" />
+          <Dataset Id="418" />
+          <Dataset Id="419" />
+          <Dataset Id="420" />
+          <Dataset Id="421" />
+          <Dataset Id="422" />
+          <Dataset Id="423" />
+          <Dataset Id="424" />
+          <Dataset Id="425" />
+          <Dataset Id="426" />
+          <Dataset Id="427" />
+          <Dataset Id="428" />
+          <Dataset Id="429" />
+          <Dataset Id="430" />
+          <Dataset Id="431" />
+          <Dataset Id="432" />
+          <Dataset Id="433" />
+          <Dataset Id="434" />
+          <Dataset Id="435" />
+          <Dataset Id="436" />
+          <Dataset Id="437" />
+          <Dataset Id="438" />
+          <Dataset Id="439" />
+          <Dataset Id="440" />
+          <Dataset Id="441" />
+          <Dataset Id="442" />
+          <Dataset Id="443" />
+          <Dataset Id="444" />
+          <Dataset Id="445" />
+          <Dataset Id="446" />
+          <Dataset Id="447" />
+          <Dataset Id="448" />
+          <Dataset Id="449" />
+          <Dataset Id="450" />
+          <Dataset Id="451" />
+          <Dataset Id="452" />
+          <Dataset Id="453" />
+          <Dataset Id="454" />
+          <Dataset Id="455" />
+          <Dataset Id="456" />
+          <Dataset Id="457" />
+          <Dataset Id="458" />
+          <Dataset Id="459" />
+          <Dataset Id="460" />
+          <Dataset Id="461" />
+          <Dataset Id="462" />
+          <Dataset Id="463" />
+          <Dataset Id="464" />
+          <Dataset Id="465" />
+          <Dataset Id="466" />
+          <Dataset Id="467" />
+          <Dataset Id="468" />
+          <Dataset Id="476" />
+          <Dataset Id="477" />
+          <Dataset Id="478" />
+          <Dataset Id="479" />
+          <Dataset Id="480" />
+          <Dataset Id="481" />
+        </DatasetGroup>
+        <AlgorithmGroup>
+          <Algorithm Id="0" />
+        </AlgorithmGroup>
+      </ApplicationSet>
+      <ApplicationSet ModelId="6" AppId="4">
+        <DatasetGroup>
+          <Dataset Id="30" NameMatch="true" VersionMatch="true" />
+          <Dataset Id="86" NameMatch="true" VersionMatch="true" />
+          <Dataset Id="314" />
+        </DatasetGroup>
+        <AlgorithmGroup>
+          <Algorithm Id="1161" />
+          <Algorithm Id="1170" />
+          <Algorithm Id="1176" />
+          <Algorithm Id="1177" />
+          <Algorithm Id="1178" />
+          <Algorithm Id="1179" />
+          <Algorithm Id="1180" />
+          <Algorithm Id="1183" />
+          <Algorithm Id="1326" />
+        </AlgorithmGroup>
+      </ApplicationSet>
+    </ApplicationSets>
+    <AlgorithmGroup Name="Aggregate">
+      <Algorithm Id="1226" />
+      <Algorithm Id="1227" />
+      <Algorithm Id="1228" />
+      <Algorithm Id="1229" />
+      <Algorithm Id="1230" />
+      <Algorithm Id="1231" />
+      <Algorithm Id="1232" />
+      <Algorithm Id="1233" />
+      <Algorithm Id="1234" />
+      <Algorithm Id="1235" />
+      <Algorithm Id="1236" />
+      <Algorithm Id="1237" />
+      <Algorithm Id="1238" />
+      <Algorithm Id="1239" />
+      <Algorithm Id="1240" />
+      <Algorithm Id="1241" />
+      <Algorithm Id="1242" />
+      <Algorithm Id="1243" />
+      <Algorithm Id="1244" />
+      <Algorithm Id="1245" />
+      <Algorithm Id="1246" />
+    </AlgorithmGroup>
+    <LogEntries>
+      <LogEntry Id="-1" Channel="ETW"/>
+      <LogEntry Id="0" Required="1" Channel="System" /> 
+      <LogEntry Id="1" Required="1" Channel="Application" /> 
+      <LogEntry Id="2" Channel="Microsoft-Windows-Diagnosis-DPS/Operational" /> 
+      <LogEntry Id="3" Channel="Microsoft-Windows-Resource-Exhaustion-Detector/Operational" /> 
+      <LogEntry Id="4" Channel="Microsoft-Windows-Resource-Exhaustion-Resolver/Operational" /> 
+      <LogEntry Id="5" Channel="Microsoft-Windows-Resource-Leak-Diagnostic/Operational" /> 
+      <LogEntry Id="7" Channel="Microsoft-Windows-ReliabilityAnalysisComponent/Operational" /> 
+      <LogEntry Id="8" Channel="Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant" />
+      <LogEntry Id="9" Channel="Microsoft-Windows-Recovery/Operational" />
+      <LogEntry Id="10" Channel="Microsoft-Windows-Application-Experience/Program-Telemetry" />
+      <LogEntry Id="11" Channel="Microsoft-Windows-Application-Experience/Program-Inventory" />
+      <LogEntry Id="12" Channel="Microsoft-Windows-Kernel-EventTracing/Admin" />
+      <LogEntry Id="14" Channel="Microsoft-Windows-Application-Experience/Program-Compatibility-Troubleshooter" />
+      <LogEntry Id="15" Channel="Microsoft-Windows-Fault-Tolerant-Heap/Operational" />
+    </LogEntries>
+    <EventRules>
+      <EventRule Id="1" LogId="0" EventId="3261" Source="Workstation" />
+      <EventRule Id="9" LogId="0" EventId="6012" Source="EventLog" />
+      <EventRule Id="12" LogId="0" EventId="1001" Source="Microsoft-Windows-WER-SystemErrorReporting">
+        <LegacyData Position="1" />
+        <LegacyData Position="3" />
+      </EventRule>
+      <EventRule Id="14" LogId="0" EventId="6006" Source="EventLog">
+        <LegacyData Position="1" />
+        <LegacyData Position="2" />
+      </EventRule>
+      <EventRule Id="15" LogId="0" EventId="1073" Source="USER32" />
+      <EventRule Id="19" LogId="0" EventId="6008" Source="EventLog">
+        <LegacyData Position="1" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" />
+        <LegacyData Position="5" />
+        <LegacyData Position="6" />
+        <LegacyData Position="7" />
+        <LegacyData Position="8" />
+        <LegacyData Position="9" />
+        <LegacyData Position="10" />
+      </EventRule>
+      <EventRule Id="21" LogId="0" EventId="1006" Source="Microsoft-Windows-WER-SystemErrorReporting" />
+      <EventRule Id="25" LogId="0" EventId="1075" Source="USER32" />
+      <EventRule Id="29" LogId="0" EventId="6013" Source="EventLog" />
+      <EventRule Id="30" LogId="1" EventId="1000" Source="Application Error" LegacyNameMatch="1" LegacyVersionMatch="2">
+        <LegacyData Position="1" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" />
+        <LegacyData Position="5" />
+        <LegacyData Position="6" />
+        <LegacyData Position="7" />
+        <LegacyData Position="8" />
+        <LegacyData Position="9" />
+        <LegacyData Position="10" PIIFilter="0x800" />
+        <LegacyData Position="13" />
+      </EventRule>
+      <EventRule Id="32" LogId="0" EventId="1000" Source="Microsoft-Windows-WER-SystemErrorReporting">
+        <LegacyData Position="1" />
+      </EventRule>
+      <EventRule Id="35" LogId="0" EventId="1076" Source="USER32">
+        <LegacyData Position="2" />
+      </EventRule>
+      <EventRule Id="36" LogId="0" EventId="6005" Source="EventLog">
+        <LegacyData Position="1" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+      </EventRule>
+      <EventRule Id="41" LogId="0" EventId="6011" Source="EventLog" />
+      <EventRule Id="43" LogId="1" EventId="1015" Source="Microsoft-Windows-Wininit">
+        <LegacyData Position="1" PIIFilter="0x3" />
+        <LegacyData Position="2" />
+      </EventRule>
+      <EventRule Id="47" LogId="0" EventId="3260" Source="Workstation" />
+      <EventRule Id="54" LogId="0" EventId="6009" Source="EventLog">
+        <LegacyData Position="1" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" />
+        <LegacyData Position="5" />
+      </EventRule>
+      <EventRule Id="65" LogId="0" EventId="7000" Source="Service Control Manager" LegacyNameMatch="1">
+        <LegacyData Position="1" PIIFilter="0x40" />
+        <LegacyData Position="2" />
+      </EventRule>
+      <EventRule Id="66" LogId="0" EventId="7001" Source="Service Control Manager" LegacyNameMatch="1">
+        <LegacyData Position="1" PIIFilter="0x40" />
+        <LegacyData Position="2" PIIFilter="0x40" />
+        <LegacyData Position="3" />
+      </EventRule>
+      <EventRule Id="67" LogId="0" EventId="7002" Source="Service Control Manager" LegacyNameMatch="1" />
+      <EventRule Id="68" LogId="0" EventId="7003" Source="Service Control Manager" LegacyNameMatch="1" />
+      <EventRule Id="73" LogId="0" EventId="7019" Source="Service Control Manager" LegacyNameMatch="1" />
+      <EventRule Id="74" LogId="0" EventId="7020" Source="Service Control Manager" LegacyNameMatch="1" />
+      <EventRule Id="75" LogId="0" EventId="7022" Source="Service Control Manager" LegacyNameMatch="1">
+        <LegacyData Position="1" PIIFilter="0x40" />
+      </EventRule>
+      <EventRule Id="76" LogId="0" EventId="7023" Source="Service Control Manager" LegacyNameMatch="1">
+        <LegacyData Position="1" PIIFilter="0x40" />
+        <LegacyData Position="2" />
+      </EventRule>
+      <EventRule Id="77" LogId="0" EventId="7024" Source="Service Control Manager" LegacyNameMatch="1">
+        <LegacyData Position="1" PIIFilter="0x40" />
+        <LegacyData Position="2" />
+      </EventRule>
+      <EventRule Id="79" LogId="0" EventId="7031" Source="Service Control Manager" LegacyNameMatch="1">
+        <LegacyData Position="1" PIIFilter="0x40" />
+        <LegacyData Position="2" />
+      </EventRule>
+      <EventRule Id="80" LogId="0" EventId="7033" Source="Service Control Manager" />
+      <EventRule Id="81" LogId="0" EventId="7034" Source="Service Control Manager" LegacyNameMatch="1">
+        <LegacyData Position="1" PIIFilter="0x40" />
+        <LegacyData Position="2" />
+      </EventRule>
+      <EventRule Id="82" LogId="0" EventId="7036" Source="Service Control Manager" LegacyNameMatch="1">
+        <LegacyMatch Position="1" cchMatch="7" Match="running" />
+      </EventRule>
+      <EventRule Id="83" LogId="0" EventId="7036" Source="Service Control Manager" LegacyNameMatch="1">
+        <LegacyMatch Position="1" cchMatch="7" Match="stopped" />
+      </EventRule>
+      <EventRule Id="84" LogId="0" EventId="7038" Source="Service Control Manager" LegacyNameMatch="1" />
+      <EventRule Id="86" LogId="1" EventId="1002" Source="Application Hang" LegacyNameMatch="1" LegacyVersionMatch="2">
+        <LegacyData Position="1" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="5" />
+        <LegacyData Position="7" />
+      </EventRule>
+      <EventRule Id="89" LogId="0" EventId="7" Source="Disk" />
+      <EventRule Id="90" LogId="0" EventId="52" Source="Disk" />
+      <EventRule Id="91" LogId="0" EventId="55" Source="NTFS">
+        <LegacyData Position="1" />
+      </EventRule>
+      <EventRule Id="92" LogId="0" EventId="21" Source="Microsoft-Windows-WindowsUpdateClient" >
+        <CrimsonData Id="376" XPath="Event/UserData/updatelist" />
+      </EventRule>
+      <EventRule Id="93" LogId="0" EventId="22" Source="Microsoft-Windows-WindowsUpdateClient" >
+        <CrimsonData Id="377" XPath="Event/EventData/Data[@Name='restarttime']" />
+        <CrimsonData Id="378" XPath="Event/EventData/Data[@Name='updatelist']" />
+      </EventRule>
+      <EventRule Id="95" LogId="0" EventId="19" Source="Microsoft-Windows-WindowsUpdateClient" >
+        <CrimsonData Id="373" XPath="Event/EventData/Data[@Name='updateTitle']" />
+        <CrimsonData Id="525" XPath="Event/EventData/Data[@Name='updateGuid']" />
+        <CrimsonData Id="526" XPath="Event/EventData/Data[@Name='updateRevisionNumber']" />
+      </EventRule>
+      <EventRule Id="101" LogId="3" EventId="1001" Source="Microsoft-Windows-Resource-Exhaustion-Detector" />
+      <EventRule Id="102" LogId="3" EventId="1002" Source="Microsoft-Windows-Resource-Exhaustion-Detector" />
+      <EventRule Id="103" LogId="3" EventId="1003" Source="Microsoft-Windows-Resource-Exhaustion-Detector">
+        <CrimsonData Id="173" XPath="Event/UserData/CommitLimitExhaustion/SystemCommitCharge" />
+        <CrimsonData Id="174" XPath="Event/UserData/CommitLimitExhaustion/SystemCommitLimit" />
+      </EventRule>
+      <EventRule Id="104" LogId="0" EventId="2004" Source="Microsoft-Windows-Resource-Exhaustion-Detector">
+        <CrimsonData Id="601" XPath="Event/UserData/MemoryExhaustionInfo/SystemInfo/SystemCommitLimit" />
+        <CrimsonData Id="602" XPath="Event/UserData/MemoryExhaustionInfo/SystemInfo/SystemCommitCharge" />
+        <CrimsonData Id="603" XPath="Event/UserData/MemoryExhaustionInfo/SystemInfo/ProcessCommitCharge" />
+        <CrimsonData Id="604" XPath="Event/UserData/MemoryExhaustionInfo/SystemInfo/PagedPoolUsage" />
+        <CrimsonData Id="605" XPath="Event/UserData/MemoryExhaustionInfo/SystemInfo/PhysicalMemorySize" />
+        <CrimsonData Id="606" XPath="Event/UserData/MemoryExhaustionInfo/SystemInfo/PhysicalMemoryUsage" />
+        <CrimsonData Id="607" XPath="Event/UserData/MemoryExhaustionInfo/SystemInfo/NonPagedPoolUsage" />
+        <CrimsonData Id="608" XPath="Event/UserData/MemoryExhaustionInfo/SystemInfo/Processes" />
+        <CrimsonData Id="609" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_1/Name" PIIFilter="0x2" />
+        <CrimsonData Id="610" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_1/ID" />
+        <CrimsonData Id="611" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_1/CreationTime" />
+        <CrimsonData Id="612" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_1/CommitCharge" />
+        <CrimsonData Id="613" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_1/HandleCount" />
+        <CrimsonData Id="614" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_1/Version" />
+        <CrimsonData Id="615" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_1/TypeInfo" />
+        <CrimsonData Id="616" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_2/Name" PIIFilter="0x2" />
+        <CrimsonData Id="617" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_2/ID" />
+        <CrimsonData Id="618" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_2/CreationTime" />
+        <CrimsonData Id="619" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_2/CommitCharge" />
+        <CrimsonData Id="620" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_2/HandleCount" />
+        <CrimsonData Id="621" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_2/Version" />
+        <CrimsonData Id="622" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_2/TypeInfo" />
+        <CrimsonData Id="623" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_3/Name" PIIFilter="0x2" />
+        <CrimsonData Id="624" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_3/ID" />
+        <CrimsonData Id="625" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_3/CreationTime" />
+        <CrimsonData Id="626" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_3/CommitCharge" />
+        <CrimsonData Id="627" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_3/HandleCount" />
+        <CrimsonData Id="628" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_3/Version" />
+        <CrimsonData Id="629" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_3/TypeInfo" />
+        <CrimsonData Id="630" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_4/Name" PIIFilter="0x2" />
+        <CrimsonData Id="631" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_4/ID" />
+        <CrimsonData Id="632" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_4/CreationTime" />
+        <CrimsonData Id="633" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_4/CommitCharge" />
+        <CrimsonData Id="634" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_4/HandleCount" />
+        <CrimsonData Id="635" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_4/Version" />
+        <CrimsonData Id="636" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_4/TypeInfo" />
+        <CrimsonData Id="637" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_5/Name" PIIFilter="0x2" />
+        <CrimsonData Id="638" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_5/ID" />
+        <CrimsonData Id="640" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_5/CommitCharge" />
+        <CrimsonData Id="641" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_5/HandleCount" />
+        <CrimsonData Id="642" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_5/Version" />
+        <CrimsonData Id="643" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_5/TypeInfo" />
+        <CrimsonData Id="644" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_6/Name" PIIFilter="0x2" />
+        <CrimsonData Id="645" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_6/ID" />
+        <CrimsonData Id="647" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_6/CommitCharge" />
+        <CrimsonData Id="648" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_6/HandleCount" />
+        <CrimsonData Id="649" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_6/Version" />
+        <CrimsonData Id="650" XPath="Event/UserData/MemoryExhaustionInfo/ProcessInfo/Process_6/TypeInfo" />
+        <CrimsonData Id="651" XPath="Event/UserData/MemoryExhaustionInfo/PagedPoolInfo/Tag_1/Name" />
+        <CrimsonData Id="652" XPath="Event/UserData/MemoryExhaustionInfo/PagedPoolInfo/Tag_1/PoolUsed" />
+        <CrimsonData Id="653" XPath="Event/UserData/MemoryExhaustionInfo/PagedPoolInfo/Tag_2/Name" />
+        <CrimsonData Id="654" XPath="Event/UserData/MemoryExhaustionInfo/PagedPoolInfo/Tag_2/PoolUsed" />
+        <CrimsonData Id="655" XPath="Event/UserData/MemoryExhaustionInfo/PagedPoolInfo/Tag_3/Name" />
+        <CrimsonData Id="656" XPath="Event/UserData/MemoryExhaustionInfo/PagedPoolInfo/Tag_3/PoolUsed" />
+        <CrimsonData Id="657" XPath="Event/UserData/MemoryExhaustionInfo/NonPagedPoolInfo/Tag_1/Name" />
+        <CrimsonData Id="658" XPath="Event/UserData/MemoryExhaustionInfo/NonPagedPoolInfo/Tag_1/PoolUsed" />
+        <CrimsonData Id="659" XPath="Event/UserData/MemoryExhaustionInfo/NonPagedPoolInfo/Tag_2/Name" />
+        <CrimsonData Id="660" XPath="Event/UserData/MemoryExhaustionInfo/NonPagedPoolInfo/Tag_2/PoolUsed" />
+        <CrimsonData Id="661" XPath="Event/UserData/MemoryExhaustionInfo/NonPagedPoolInfo/Tag_3/Name" />
+        <CrimsonData Id="662" XPath="Event/UserData/MemoryExhaustionInfo/NonPagedPoolInfo/Tag_3/PoolUsed" />
+        <CrimsonData Id="663" XPath="Event/UserData/MemoryExhaustionInfo/ExhaustionEventInfo/Time" />
+      </EventRule>
+      <EventRule Id="105" LogId="3" EventId="1005" Source="Microsoft-Windows-Resource-Exhaustion-Detector">
+        <CrimsonData Id="182" XPath="Event/UserData/ErrorData/ErrorCode" />
+      </EventRule>
+      <EventRule Id="106" LogId="3" EventId="1006" Source="Microsoft-Windows-Resource-Exhaustion-Detector">
+        <CrimsonData Id="183" XPath="Event/UserData/ErrorData/ErrorCode" />
+      </EventRule>
+      <EventRule Id="107" LogId="3" EventId="1007" Source="Microsoft-Windows-Resource-Exhaustion-Detector">
+        <CrimsonData Id="185" XPath="Event/UserData/MemoryAllocationFailure/RequestSize" />
+        <CrimsonData Id="186" XPath="Event/UserData/MemoryAllocationFailure/ErrorCode" />
+      </EventRule>
+      <EventRule Id="108" LogId="3" EventId="1008" Source="Microsoft-Windows-Resource-Exhaustion-Detector">
+        <CrimsonData Id="184" XPath="Event/UserData/ErrorData/ErrorCode" />
+      </EventRule>
+      <EventRule Id="109" LogId="4" EventId="1001" Source="Microsoft-Windows-Resource-Exhaustion-Resolver" />
+      <EventRule Id="110" LogId="4" EventId="1002" Source="Microsoft-Windows-Resource-Exhaustion-Resolver" />
+      <EventRule Id="111" LogId="4" EventId="1005" Source="Microsoft-Windows-Resource-Exhaustion-Resolver">
+        <CrimsonData Id="505" XPath="Event/UserData/ErrorData/ErrorCode" />
+      </EventRule>
+      <EventRule Id="112" LogId="4" EventId="1006" Source="Microsoft-Windows-Resource-Exhaustion-Resolver">
+        <CrimsonData Id="506" XPath="Event/UserData/ErrorData/ErrorCode" />
+      </EventRule>
+      <EventRule Id="113" LogId="4" EventId="1007" Source="Microsoft-Windows-Resource-Exhaustion-Resolver">
+        <CrimsonData Id="201" XPath="Event/UserData/MemoryAllocationFailure/RequestSize" />
+        <CrimsonData Id="202" XPath="Event/UserData/MemoryAllocationFailure/ErrorCode" />
+      </EventRule>
+      <EventRule Id="114" LogId="4" EventId="1008" Source="Microsoft-Windows-Resource-Exhaustion-Resolver">
+        <CrimsonData Id="507" XPath="Event/UserData/ErrorData/ErrorCode" />
+      </EventRule>
+      <EventRule Id="115" LogId="4" EventId="1009" Source="Microsoft-Windows-Resource-Exhaustion-Resolver">
+        <CrimsonData Id="492" XPath="Event/UserData/UICloseInfo/DisplayUpTime" />
+        <CrimsonData Id="493" XPath="Event/UserData/UICloseInfo/UserAction" />
+        <CrimsonData Id="494" XPath="Event/UserData/UICloseInfo/MaxCommit" />
+      </EventRule>
+      <EventRule Id="116" LogId="0" EventId="2018" Source="Srv" />
+      <EventRule Id="117" LogId="0" EventId="2020" Source="Srv" />
+      <EventRule Id="118" LogId="0" EventId="2017" Source="Srv" />
+      <EventRule Id="119" LogId="0" EventId="2019" Source="Srv" />
+      <EventRule Id="120" LogId="0" EventId="243" Source="Win32k" />
+      <EventRule Id="128" LogId="4" EventId="1003" Source="Microsoft-Windows-Resource-Exhaustion-Resolver">
+        <CrimsonData Id="187" XPath="Event/UserData/InvalidCommitLimitExhaustion/TimeSinceLastUI" />
+        <CrimsonData Id="188" XPath="Event/UserData/InvalidCommitLimitExhaustion/ExhaustionTime" />
+        <CrimsonData Id="189" XPath="Event/UserData/InvalidCommitLimitExhaustion/EventType" />
+        <CrimsonData Id="190" XPath="Event/UserData/InvalidCommitLimitExhaustion/DropReasonCode" />
+        <CrimsonData Id="191" XPath="Event/UserData/InvalidCommitLimitExhaustion/Notifications" />
+        <CrimsonData Id="192" XPath="Event/UserData/InvalidCommitLimitExhaustion/MaxCommit" />
+      </EventRule>
+      <EventRule Id="129" LogId="4" EventId="1004" Source="Microsoft-Windows-Resource-Exhaustion-Resolver">
+        <CrimsonData Id="664" XPath="Event/UserData/ResolverDisplayInfo/ProcessInfo/Process_1/Name" PIIFilter="0x2" />
+        <CrimsonData Id="665" XPath="Event/UserData/ResolverDisplayInfo/ProcessInfo/Process_1/ID" />
+        <CrimsonData Id="666" XPath="Event/UserData/ResolverDisplayInfo/ProcessInfo/Process_1/CreationTime" />
+        <CrimsonData Id="667" XPath="Event/UserData/ResolverDisplayInfo/ProcessInfo/Process_1/Version" />
+        <CrimsonData Id="668" XPath="Event/UserData/ResolverDisplayInfo/ProcessInfo/Process_2/Name" PIIFilter="0x2" />
+        <CrimsonData Id="669" XPath="Event/UserData/ResolverDisplayInfo/ProcessInfo/Process_2/ID" />
+        <CrimsonData Id="670" XPath="Event/UserData/ResolverDisplayInfo/ProcessInfo/Process_2/CreationTime" />
+        <CrimsonData Id="671" XPath="Event/UserData/ResolverDisplayInfo/ProcessInfo/Process_2/Version" />
+        <CrimsonData Id="672" XPath="Event/UserData/ResolverDisplayInfo/ProcessInfo/Process_3/Name" PIIFilter="0x2" />
+        <CrimsonData Id="673" XPath="Event/UserData/ResolverDisplayInfo/ProcessInfo/Process_3/ID" />
+        <CrimsonData Id="674" XPath="Event/UserData/ResolverDisplayInfo/ProcessInfo/Process_3/CreationTime" />
+        <CrimsonData Id="675" XPath="Event/UserData/ResolverDisplayInfo/ProcessInfo/Process_3/Version" />
+        <CrimsonData Id="676" XPath="Event/UserData/ResolverDisplayInfo/ExhaustionEventInfo/ResolverID" />
+        <CrimsonData Id="677" XPath="Event/UserData/ResolverDisplayInfo/ExhaustionEventInfo/Time" />
+      </EventRule>
+      <EventRule Id="133" LogId="1" EventId="1002" Source="Microsoft-Windows-Winlogon" />
+      <EventRule Id="134" LogId="0" EventId="1003" Source="Microsoft-Windows-WER-SystemErrorReporting" />
+      <EventRule Id="135" LogId="1" EventId="1001" Source="Windows Error Reporting">
+        <LegacyData Position="1" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="6" />
+        <LegacyData Position="7" />
+        <LegacyData Position="8" />
+        <LegacyData Position="9" />
+        <LegacyData Position="10" />
+        <LegacyData Position="11" />
+        <LegacyData Position="12" />
+        <LegacyData Position="13" />
+        <LegacyData Position="14" />
+        <LegacyData Position="15" />
+        <LegacyData Position="18" />
+        <LegacyData Position="19" />
+        <LegacyData Position="20" />
+        <LegacyData Position="21" />
+      </EventRule>
+      <EventRule Id="147" LogId="0" EventId="1001" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="3" XPath="Event/UserData/SrtSummary/StartTime" />
+        <CrimsonData Id="4" XPath="Event/UserData/SrtSummary/EndTime" />
+        <CrimsonData Id="5" XPath="Event/UserData/SrtSummary/NumAttempts" />
+        <CrimsonData Id="6" XPath="Event/UserData/SrtSummary/NumRootCauses" />
+        <CrimsonData Id="7" XPath="Event/UserData/SrtSummary/LaunchType" />
+      </EventRule>
+      <EventRule Id="148" LogId="0" EventId="1002" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="8" XPath="Event/UserData/SrtSummary/StartTime" />
+        <CrimsonData Id="9" XPath="Event/UserData/SrtSummary/EndTime" />
+        <CrimsonData Id="10" XPath="Event/UserData/SrtSummary/NumAttempts" />
+        <CrimsonData Id="11" XPath="Event/UserData/SrtSummary/NumRootCauses" />
+        <CrimsonData Id="12" XPath="Event/UserData/SrtSummary/LaunchType" />
+      </EventRule>
+      <EventRule Id="149" LogId="0" EventId="1101" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="150" LogId="0" EventId="6005" Source="EventLog">
+        <LegacyData Position="1" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+      </EventRule>
+      <EventRule Id="151" LogId="0" EventId="6005" Source="EventLog">
+        <LegacyData Position="1" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+      </EventRule>
+      <EventRule Id="152" LogId="0" EventId="6005" Source="EventLog">
+        <LegacyData Position="1" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+      </EventRule>
+      <EventRule Id="171" LogId="0" EventId="1074" Source="USER32">
+        <LegacyData Position="4" />
+        <LegacyData Position="5" />
+      </EventRule>
+      <EventRule Id="172" LogId="0" EventId="1074" Source="USER32">
+        <LegacyData Position="4" />
+        <LegacyData Position="5" />
+      </EventRule>
+      <EventRule Id="180" LogId="0" EventId="20" Source="Microsoft-Windows-WindowsUpdateClient">
+        <CrimsonData Id="374" XPath="Event/EventData/Data[@Name='errorCode']" />
+        <CrimsonData Id="375" XPath="Event/EventData/Data[@Name='updateTitle']" />
+        <CrimsonData Id="527" XPath="Event/EventData/Data[@Name='updateGuid']" />
+        <CrimsonData Id="528" XPath="Event/EventData/Data[@Name='updateRevisionNumber']" />
+      </EventRule>
+      <EventRule Id="181" LogId="0" EventId="24" Source="Microsoft-Windows-WindowsUpdateClient">
+        <CrimsonData Id="380" XPath="Event/EventData/Data[@Name='errorCode']" />
+        <CrimsonData Id="381" XPath="Event/EventData/Data[@Name='updatelist']" />
+        <CrimsonData Id="531" XPath="Event/EventData/Data[@Name='updateGuid']" />
+        <CrimsonData Id="532" XPath="Event/EventData/Data[@Name='updateRevisionNumber']" />
+      </EventRule>
+      <EventRule Id="197" LogId="0" EventId="7009" Source="Service Control Manager" LegacyNameMatch="2">
+        <LegacyData Position="1" />
+        <LegacyData Position="2" PIIFilter="0x40" />
+      </EventRule>
+      <EventRule Id="199" LogId="0" EventId="7011" Source="Service Control Manager" LegacyNameMatch="2">
+        <LegacyData Position="1" />
+        <LegacyData Position="2" PIIFilter="0x40" />
+      </EventRule>
+      <EventRule Id="201" LogId="0" EventId="7017" Source="Service Control Manager" LegacyNameMatch="1" />
+      <EventRule Id="202" LogId="0" EventId="7041" Source="Service Control Manager" LegacyNameMatch="1" />
+      <EventRule Id="203" LogId="-1" EventId="217" Source="RAC_PS_ETW_PROVIDER" />
+      <EventRule Id="204" LogId="-1" EventId="219" Source="RAC_PS_ETW_PROVIDER" />
+      <EventRule Id="205" LogId="4" EventId="1010" Source="Microsoft-Windows-Resource-Exhaustion-Resolver">
+        <CrimsonData Id="495" XPath="Event/UserData/ResolutionInfo/ReasonCode" />
+        <CrimsonData Id="496" XPath="Event/UserData/ResolutionInfo/UserAction" />
+        <CrimsonData Id="497" XPath="Event/UserData/ResolutionInfo/MaxCommit" />
+      </EventRule>
+      <EventRule Id="206" LogId="4" EventId="1011" Source="Microsoft-Windows-Resource-Exhaustion-Resolver">
+        <CrimsonData Id="498" XPath="Event/UserData/ResolutionInfo/ReasonCode" />
+        <CrimsonData Id="499" XPath="Event/UserData/ResolutionInfo/UserAction" />
+        <CrimsonData Id="500" XPath="Event/UserData/ResolutionInfo/MaxCommit" />
+      </EventRule>
+      <EventRule Id="207" LogId="4" EventId="1012" Source="Microsoft-Windows-Resource-Exhaustion-Resolver">
+        <CrimsonData Id="501" XPath="Event/UserData/NotificationInfo/Notifications" />
+        <CrimsonData Id="502" XPath="Event/UserData/NotificationInfo/UserAction" />
+      </EventRule>
+      <EventRule Id="208" LogId="4" EventId="1013" Source="Microsoft-Windows-Resource-Exhaustion-Resolver">
+        <CrimsonData Id="503" XPath="Event/UserData/NotificationInfo/Notifications" />
+        <CrimsonData Id="504" XPath="Event/UserData/NotificationInfo/UserAction" />
+      </EventRule>
+      <EventRule Id="209" LogId="0" EventId="1102" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="210" LogId="0" EventId="1103" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="211" LogId="0" EventId="1104" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="212" LogId="0" EventId="1105" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="213" LogId="0" EventId="1106" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="214" LogId="0" EventId="1107" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="215" LogId="0" EventId="1108" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="216" LogId="0" EventId="1109" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="217" LogId="0" EventId="1110" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="22" XPath="Event/UserData/RootCause/Info" PIIFilter="0x3" />
+      </EventRule>
+      <EventRule Id="218" LogId="0" EventId="1112" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="23" XPath="Event/UserData/RootCause/Info" PIIFilter="0x3" />
+      </EventRule>
+      <EventRule Id="219" LogId="0" EventId="1113" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="220" LogId="0" EventId="1114" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="221" LogId="0" EventId="1115" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="222" LogId="0" EventId="1116" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="223" LogId="0" EventId="1117" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="28" XPath="Event/UserData/RootCause/Info" />
+      </EventRule>
+      <EventRule Id="224" LogId="0" EventId="1118" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="225" LogId="0" EventId="1119" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="226" LogId="0" EventId="1120" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="31" XPath="Event/UserData/RootCause/Info" PIIFilter="0x3" />
+      </EventRule>
+      <EventRule Id="227" LogId="0" EventId="1121" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="32" XPath="Event/UserData/RootCause/Info" PIIFilter="0x3" />
+      </EventRule>
+      <EventRule Id="228" LogId="0" EventId="1122" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="229" LogId="0" EventId="1123" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="34" XPath="Event/UserData/RootCause/Info" />
+      </EventRule>
+      <EventRule Id="230" LogId="0" EventId="1124" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="231" LogId="0" EventId="1125" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="232" LogId="0" EventId="1126" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="37" XPath="Event/UserData/RootCause/Info" />
+      </EventRule>
+      <EventRule Id="233" LogId="0" EventId="1127" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="38" XPath="Event/UserData/RootCause/Info" PIIFilter="0x3" />
+      </EventRule>
+      <EventRule Id="234" LogId="0" EventId="1128" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="39" XPath="Event/UserData/RootCause/Info" />
+      </EventRule>
+      <EventRule Id="235" LogId="0" EventId="1129" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="40" XPath="Event/UserData/RootCause/Info" />
+      </EventRule>
+      <EventRule Id="236" LogId="0" EventId="1130" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="237" LogId="0" EventId="1131" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="238" LogId="0" EventId="1132" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="239" LogId="0" EventId="1201" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="44" XPath="Event/UserData/Repair/RepairStatus" />
+      </EventRule>
+      <EventRule Id="240" LogId="0" EventId="1202" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="45" XPath="Event/UserData/Repair/RepairStatus" />
+      </EventRule>
+      <EventRule Id="241" LogId="0" EventId="1203" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="46" XPath="Event/UserData/Repair/RepairStatus" />
+      </EventRule>
+      <EventRule Id="242" LogId="0" EventId="1204" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="47" XPath="Event/UserData/Repair/RepairStatus" />
+      </EventRule>
+      <EventRule Id="243" LogId="0" EventId="1205" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="48" XPath="Event/UserData/Repair/RepairStatus" />
+      </EventRule>
+      <EventRule Id="244" LogId="0" EventId="1206" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="49" XPath="Event/UserData/Repair/RepairStatus" />
+      </EventRule>
+      <EventRule Id="245" LogId="0" EventId="1207" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="50" XPath="Event/UserData/Repair/RepairStatus" />
+      </EventRule>
+      <EventRule Id="246" LogId="0" EventId="1208" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="51" XPath="Event/UserData/Repair/RepairStatus" />
+      </EventRule>
+      <EventRule Id="247" LogId="0" EventId="1209" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="52" XPath="Event/UserData/Repair/RepairStatus" />
+      </EventRule>
+      <EventRule Id="248" LogId="0" EventId="1210" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="53" XPath="Event/UserData/Repair/RepairStatus" />
+      </EventRule>
+      <EventRule Id="249" LogId="0" EventId="1211" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="54" XPath="Event/UserData/Repair/RepairStatus" />
+      </EventRule>
+      <EventRule Id="257" LogId="0" EventId="7042" Source="Service Control Manager" LegacyNameMatch="1" />
+      <EventRule Id="258" LogId="0" EventId="9" Source="Microsoft-Windows-Kernel-Power">
+        <CrimsonData Id="408" XPath="Event/EventData/Data[@Name='AppName']" PIIFilter="0x13" />
+      </EventRule>
+      <EventRule Id="259" LogId="0" EventId="10" Source="Microsoft-Windows-Kernel-Power" />
+      <EventRule Id="260" LogId="0" EventId="40" Source="Microsoft-Windows-Kernel-Power">
+        <CrimsonData Id="413" XPath="Event/EventData/Data[@Name='DriverName']" PIIFilter="0x8" />
+        <CrimsonData Id="415" XPath="Event/EventData/Data[@Name='InstanceName']" PIIFilter="0x28" />
+      </EventRule>
+      <EventRule Id="261" LogId="0" EventId="41" Source="Microsoft-Windows-Kernel-Power">
+        <CrimsonData Id="912" XPath="Event/EventData/Data[@Name='BugcheckCode']" />
+        <CrimsonData Id="916" XPath="Event/EventData/Data[@Name='BugcheckParameter1']" />
+        <CrimsonData Id="917" XPath="Event/EventData/Data[@Name='BugcheckParameter2']" />
+        <CrimsonData Id="918" XPath="Event/EventData/Data[@Name='BugcheckParameter3']" />
+        <CrimsonData Id="919" XPath="Event/EventData/Data[@Name='BugcheckParameter4']" />
+        <CrimsonData Id="914" XPath="Event/EventData/Data[@Name='SleepInProgress']" />
+        <CrimsonData Id="915" XPath="Event/EventData/Data[@Name='PowerButtonTimestamp']" />
+      </EventRule>
+      <EventRule Id="262" LogId="5" EventId="1003" Source="Microsoft-Windows-Resource-Leak-Diagnostic">
+        <CrimsonData Id="251" XPath="Event/UserData/ProcessInfo/ProcessImageName" PIIFilter="0x2" />
+        <CrimsonData Id="252" XPath="Event/UserData/ProcessInfo/ProcessCreationTime" />
+        <CrimsonData Id="253" XPath="Event/UserData/ProcessInfo/ProcessId" />
+      </EventRule>
+      <EventRule Id="263" LogId="5" EventId="1004" Source="Microsoft-Windows-Resource-Leak-Diagnostic">
+        <CrimsonData Id="254" XPath="Event/UserData/ProcessInfo/ProcessImageName" PIIFilter="0x2" />
+        <CrimsonData Id="255" XPath="Event/UserData/ProcessInfo/ProcessCreationTime" />
+        <CrimsonData Id="256" XPath="Event/UserData/ProcessInfo/ProcessId" />
+      </EventRule>
+      <EventRule Id="265" LogId="0" EventId="23" Source="Microsoft-Windows-WindowsUpdateClient">
+        <CrimsonData Id="379" XPath="Event/EventData/Data[@Name='updateTitle']" />
+        <CrimsonData Id="529" XPath="Event/EventData/Data[@Name='updateGuid']" />
+        <CrimsonData Id="530" XPath="Event/EventData/Data[@Name='updateRevisionNumber']" />
+      </EventRule>
+      <EventRule Id="271" LogId="4" EventId="1014" Source="Microsoft-Windows-Resource-Exhaustion-Resolver" >
+        <CrimsonData Id="257" XPath="Event/UserData/DroppedLeakDiagnosisEventInfo/ProcessImageName" PIIFilter="0x2" />
+        <CrimsonData Id="258" XPath="Event/UserData/DroppedLeakDiagnosisEventInfo/ProcessId" />
+        <CrimsonData Id="259" XPath="Event/UserData/DroppedLeakDiagnosisEventInfo/ProcessCreationTime" />
+        <CrimsonData Id="260" XPath="Event/UserData/DroppedLeakDiagnosisEventInfo/DropReasonCode" />
+      </EventRule>
+      <EventRule Id="280" LogId="0" EventId="17" Source="Microsoft-Windows-WindowsUpdateClient" />
+      <EventRule Id="281" LogId="0" EventId="18" Source="Microsoft-Windows-WindowsUpdateClient" />
+      <EventRule Id="303" LogId="2" EventId="5" Source="Microsoft-Windows-Diagnosis-DPS">
+        <CrimsonData Id="327" XPath="Event/EventData/Data[@Name='ScenarioId']" />
+      </EventRule>
+      <EventRule Id="304" LogId="2" EventId="135" Source="Microsoft-Windows-Diagnosis-DPS">
+        <CrimsonData Id="352" XPath="Event/EventData/Data[@Name='ScenarioId']" />
+        <CrimsonData Id="354" XPath="Event/EventData/Data[@Name='OriginalActivityId']" />
+        <CrimsonData Id="355" XPath="Event/EventData/Data[@Name='StatusCode']" />
+        <CrimsonData Id="386" XPath="Event/EventData/Data[@Name='DiagnosticModuleImageName']" PIIFilter="0x3" />
+        <CrimsonData Id="387" XPath="Event/EventData/Data[@Name='DiagnosticModuleId']" />
+      </EventRule>
+      <EventRule Id="311" LogId="-1" EventId="213" Source="RAC_PS_ETW_PROVIDER" />
+      <EventRule Id="312" LogId="-1" EventId="215" Source="RAC_PS_ETW_PROVIDER" />
+      <EventRule Id="314" LogId="0" EventId="1" Source="Microsoft-Windows-Kernel-General">
+        <CrimsonData Id="298" XPath="Event/EventData/Data[@Name='NewTime']" />
+        <CrimsonData Id="299" XPath="Event/EventData/Data[@Name='OldTime']" />
+      </EventRule>
+      <EventRule Id="315" LogId="0" EventId="20001" Source="Microsoft-Windows-UserPnp">
+        <CrimsonMatch XPath="Event/UserData/InstallDeviceID/RebootOption" cchMatch="1" Match="0"/>
+        <CrimsonData Id="300" XPath="Event/UserData/InstallDeviceID/DriverName" PIIFilter="0x13" />
+        <CrimsonData Id="301" XPath="Event/UserData/InstallDeviceID/DriverVersion" />
+        <CrimsonData Id="302" XPath="Event/UserData/InstallDeviceID/DriverProvider" PIIFilter="0x8" />
+        <CrimsonData Id="303" XPath="Event/UserData/InstallDeviceID/DeviceInstanceID" PIIFilter="0xa8" />
+        <CrimsonData Id="304" XPath="Event/UserData/InstallDeviceID/SetupClass" />
+        <CrimsonData Id="305" XPath="Event/UserData/InstallDeviceID/RebootOption" />
+        <CrimsonData Id="306" XPath="Event/UserData/InstallDeviceID/UpgradeDevice" />
+        <CrimsonData Id="307" XPath="Event/UserData/InstallDeviceID/InstallStatus" />
+        <CrimsonData Id="594" XPath="Event/UserData/InstallDeviceID/DriverDescription" />
+      </EventRule>
+      <EventRule Id="339" LogId="0" EventId="20001" Source="Microsoft-Windows-UserPnp">
+        <CrimsonMatch XPath="Event/UserData/InstallDeviceID/RebootOption" cchMatch="1" Match="1"/>
+        <CrimsonData Id="515" XPath="Event/UserData/InstallDeviceID/DriverName" PIIFilter="0x13" />
+        <CrimsonData Id="516" XPath="Event/UserData/InstallDeviceID/DriverVersion" />
+        <CrimsonData Id="517" XPath="Event/UserData/InstallDeviceID/DriverProvider" PIIFilter="0x8" />
+        <CrimsonData Id="518" XPath="Event/UserData/InstallDeviceID/DeviceInstanceID" PIIFilter="0xa8" />
+        <CrimsonData Id="519" XPath="Event/UserData/InstallDeviceID/SetupClass" />
+        <CrimsonData Id="520" XPath="Event/UserData/InstallDeviceID/RebootOption" />
+        <CrimsonData Id="521" XPath="Event/UserData/InstallDeviceID/UpgradeDevice" />
+        <CrimsonData Id="522" XPath="Event/UserData/InstallDeviceID/InstallStatus" />
+        <CrimsonData Id="595" XPath="Event/UserData/InstallDeviceID/DriverDescription" />
+      </EventRule>
+      <EventRule Id="316" LogId="0" EventId="20002" Source="Microsoft-Windows-UserPnp" />
+      <EventRule Id="317" LogId="0" EventId="20003" Source="Microsoft-Windows-UserPnp">
+        <CrimsonData Id="316" XPath="Event/UserData/AddServiceID/ServiceName" PIIFilter="0x40" />
+        <CrimsonData Id="317" XPath="Event/UserData/AddServiceID/DriverFileName" PIIFilter="0x13" />
+        <CrimsonData Id="318" XPath="Event/UserData/AddServiceID/DeviceInstanceID" PIIFilter="0xa0" />
+        <CrimsonData Id="319" XPath="Event/UserData/AddServiceID/PrimaryService" />
+        <CrimsonData Id="320" XPath="Event/UserData/AddServiceID/AddServiceStatus" />
+      </EventRule>
+      <EventRule Id="318" LogId="0" EventId="20004" Source="Microsoft-Windows-UserPnp" />
+      <EventRule Id="320" LogId="0" EventId="1" Source="Microsoft-Windows-DiskDiagnostic">
+        <CrimsonData Id="726" XPath="Event/EventData/Data[@Name='HardwareID']" />
+      </EventRule>
+      <EventRule Id="321" LogId="1" EventId="10001" Source="Microsoft-Windows-Winsrv">
+        <CrimsonData Id="391" XPath="Event/UserData/VetoAppEvent/AppName" PIIFilter="0x2" />
+        <CrimsonData Id="557" XPath="Event/UserData/VetoAppEvent/ResponseTime" />
+      </EventRule>
+      <EventRule Id="322" LogId="1" EventId="10002" Source="Microsoft-Windows-Winsrv">
+        <CrimsonData Id="392" XPath="Event/UserData/HungAppEvent/AppName" PIIFilter="0x2" />
+      </EventRule>
+      <EventRule Id="325" LogId="4" EventId="1015" Source="Microsoft-Windows-Resource-Exhaustion-Resolver">
+        <CrimsonData Id="486" XPath="Event/UserData/EventInfo/Event" />
+      </EventRule>
+      <EventRule Id="326" LogId="4" EventId="1016" Source="Microsoft-Windows-Resource-Exhaustion-Resolver">
+        <CrimsonData Id="487" XPath="Event/UserData/GenericResolutionFailure/ResolutionAttempted" />
+        <CrimsonData Id="488" XPath="Event/UserData/GenericResolutionFailure/ErrorCode" />
+      </EventRule>
+      <EventRule Id="327" LogId="4" EventId="1017" Source="Microsoft-Windows-Resource-Exhaustion-Resolver">
+        <CrimsonData Id="489" XPath="Event/UserData/UICloseInfo/DisplayUpTime" />
+        <CrimsonData Id="490" XPath="Event/UserData/UICloseInfo/UserAction" />
+        <CrimsonData Id="491" XPath="Event/UserData/UICloseInfo/MaxCommit" />
+      </EventRule>
+      <EventRule Id="328" LogId="0" EventId="1133" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="329" LogId="0" EventId="1134" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="330" LogId="0" EventId="1135" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="331" LogId="0" EventId="1212" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="511" XPath="Event/UserData/Repair/RepairStatus" />
+      </EventRule>
+      <EventRule Id="332" LogId="0" EventId="1213" Source="Microsoft-Windows-StartupRepair">
+        <CrimsonData Id="513" XPath="Event/UserData/Repair/RepairStatus" />
+      </EventRule>
+      <EventRule Id="333" LogId="0" EventId="42" Source="Microsoft-Windows-Kernel-Power">
+        <CrimsonMatch XPath="Event/EventData/Data[@Name='TargetState']" cchMatch="1" Match="2" />
+      </EventRule>
+      <EventRule Id="334" LogId="0" EventId="42" Source="Microsoft-Windows-Kernel-Power">
+        <CrimsonMatch XPath="Event/EventData/Data[@Name='TargetState']" cchMatch="1" Match="4" />
+      </EventRule>
+      <EventRule Id="335" LogId="0" EventId="42" Source="Microsoft-Windows-Kernel-Power">
+        <CrimsonMatch XPath="Event/EventData/Data[@Name='TargetState']" cchMatch="1" Match="5" />
+      </EventRule>
+      <EventRule Id="336" LogId="0" EventId="1" Source="Microsoft-Windows-Power-Troubleshooter">
+        <CrimsonMatch XPath="Event/EventData/Data[@Name='TargetState']" cchMatch="1" Match="2" />
+      </EventRule>
+      <EventRule Id="337" LogId="0" EventId="1" Source="Microsoft-Windows-Power-Troubleshooter">
+        <CrimsonMatch XPath="Event/EventData/Data[@Name='TargetState']" cchMatch="1" Match="4" />
+      </EventRule>
+      <EventRule Id="338" LogId="0" EventId="1" Source="Microsoft-Windows-Power-Troubleshooter">
+        <CrimsonMatch XPath="Event/EventData/Data[@Name='TargetState']" cchMatch="1" Match="5" />
+      </EventRule>
+      <EventRule Id="340" LogId="1" EventId="1033" Source="MsiInstaller" >
+        <LegacyMatch Position="4" Match="0" />
+        <LegacyData Position="1" PIIFilter="0x104" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" />
+        <LegacyData Position="5" />
+      </EventRule>
+      <EventRule Id="346" LogId="1" EventId="1033" Source="MsiInstaller" >
+        <LegacyMatch Position="4" cchMatch="0xfffffffe" Match="0" />
+        <LegacyData Position="1" PIIFilter="0x104" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" />
+        <LegacyData Position="5" />
+      </EventRule>
+      <EventRule Id="341" LogId="1" EventId="1034" Source="MsiInstaller" >
+        <LegacyMatch Position="4" Match="0" />
+        <LegacyData Position="1" PIIFilter="0x104" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" />
+        <LegacyData Position="5" />
+      </EventRule>
+      <EventRule Id="347" LogId="1" EventId="1034" Source="MsiInstaller" >
+        <LegacyMatch Position="4" cchMatch="0xfffffffe" Match="0" />
+        <LegacyData Position="1" PIIFilter="0x104" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" />
+        <LegacyData Position="5" />
+      </EventRule>
+      <EventRule Id="342" LogId="1" EventId="1035" Source="MsiInstaller" >
+        <LegacyMatch Position="4" Match="0" />
+        <LegacyData Position="1" PIIFilter="0x104" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" />
+        <LegacyData Position="5" />
+      </EventRule>
+      <EventRule Id="348" LogId="1" EventId="1035" Source="MsiInstaller" >
+        <LegacyMatch Position="4" cchMatch="0xfffffffe" Match="0" />
+        <LegacyData Position="1" PIIFilter="0x104" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" />
+        <LegacyData Position="5" />
+      </EventRule>
+      <EventRule Id="343" LogId="1" EventId="1036" Source="MsiInstaller" >
+        <LegacyMatch Position="5" Match="0" />
+        <LegacyData Position="1" PIIFilter="0x104" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" PIIFilter="0x104" />
+        <LegacyData Position="5" />
+        <LegacyData Position="6" />
+      </EventRule>
+      <EventRule Id="349" LogId="1" EventId="1036" Source="MsiInstaller" >
+        <LegacyMatch Position="5" cchMatch="0xfffffffe" Match="0" />
+        <LegacyData Position="1" PIIFilter="0x104" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" PIIFilter="0x104" />
+        <LegacyData Position="5" />
+        <LegacyData Position="6" />
+      </EventRule>
+      <EventRule Id="344" LogId="1" EventId="1037" Source="MsiInstaller" >
+        <LegacyMatch Position="5" Match="0" />
+        <LegacyData Position="1" PIIFilter="0x104" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" PIIFilter="0x104" />
+        <LegacyData Position="5" />
+        <LegacyData Position="6" />
+      </EventRule>
+      <EventRule Id="350" LogId="1" EventId="1037" Source="MsiInstaller" >
+        <LegacyMatch Position="5" cchMatch="0xfffffffe" Match="0" />
+        <LegacyData Position="1" PIIFilter="0x104" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" PIIFilter="0x104" />
+        <LegacyData Position="5" />
+        <LegacyData Position="6" />
+      </EventRule>
+      <EventRule Id="345" LogId="1" EventId="1038" Source="MsiInstaller" >
+        <LegacyData Position="1" PIIFilter="0x104" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" />
+        <LegacyData Position="5" />
+        <LegacyData Position="6" />
+      </EventRule>
+      <EventRule Id="361" LogId="7" EventId="2004" Source="Microsoft-Windows-Reliability-Analysis-Engine">
+        <CrimsonData Id="597" XPath="Event/UserData/ProcessInfo/RacError" />
+        <CrimsonData Id="598" XPath="Event/UserData/ProcessInfo/WinError" />
+      </EventRule>
+      <EventRule Id="362" LogId="7" EventId="2005" Source="Microsoft-Windows-Reliability-Analysis-Engine">
+        <CrimsonData Id="599" XPath="Event/UserData/ProcessInfo/Stability" />
+        <CrimsonData Id="600" XPath="Event/UserData/ProcessInfo/Date" />
+      </EventRule>
+      <EventRule Id="363" LogId="0" EventId="1801" Source="Application Popup">
+        <LegacyMatch Position="1" Match="0xc0000709" />
+        <LegacyMatch Position="2" Match="0x127" />
+        <LegacyData Position="1" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" />
+      </EventRule>
+      <EventRule Id="364" LogId="0" EventId="1801" Source="Application Popup">
+        <LegacyMatch Position="1" Match="0xc0000709" />
+        <LegacyMatch Position="2" Match="0x12b" />
+        <LegacyData Position="1" />
+        <LegacyData Position="2" />
+        <LegacyData Position="3" />
+        <LegacyData Position="4" />
+      </EventRule>
+      <EventRule Id="378" LogId="8" EventId="100" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="678" XPath="Event/UserData/HelpedUserEvent/ScenarioId" />
+        <CrimsonData Id="679" XPath="Event/UserData/HelpedUserEvent/UserActionID" />
+        <CrimsonData Id="680" XPath="Event/UserData/HelpedUserEvent/FileID" />
+        <CrimsonData Id="681" XPath="Event/UserData/HelpedUserEvent/ProgramID" />
+      </EventRule>
+      <EventRule Id="379" LogId="8" EventId="101" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="682" XPath="Event/UserData/HelpedUserWithDeprecatedComponentEvent/ScenarioId" />
+        <CrimsonData Id="683" XPath="Event/UserData/HelpedUserWithDeprecatedComponentEvent/UserActionID" />
+        <CrimsonData Id="684" XPath="Event/UserData/HelpedUserWithDeprecatedComponentEvent/FileID" />
+        <CrimsonData Id="685" XPath="Event/UserData/HelpedUserWithDeprecatedComponentEvent/ProgramID" />
+        <CrimsonData Id="717" XPath="Event/UserData/HelpedUserWithDeprecatedComponentEvent/DeprecatedComponent" PIIFilter="0x2" />
+      </EventRule>
+      <EventRule Id="380" LogId="9" EventId="1001" Source="Microsoft-Windows-Recovery" />
+      <EventRule Id="381" LogId="9" EventId="1002" Source="Microsoft-Windows-Recovery" />
+      <EventRule Id="382" LogId="9" EventId="1003" Source="Microsoft-Windows-Recovery">
+        <CrimsonData Id="686" XPath="Event/UserData/WipeAndReload/RecoveryImage" />
+        <CrimsonData Id="687" XPath="Event/UserData/WipeAndReload/BackupLaunchAttempted" />
+        <CrimsonData Id="688" XPath="Event/UserData/WipeAndReload/BackupLaunchStatus" />
+        <CrimsonData Id="689" XPath="Event/UserData/WipeAndReload/BackupCompleted" />
+        <CrimsonData Id="690" XPath="Event/UserData/WipeAndReload/BackupCompletionStatus" />
+        <CrimsonData Id="691" XPath="Event/UserData/WipeAndReload/BackupCompletionResult" />        
+      </EventRule>
+      <EventRule Id="383" LogId="9" EventId="1006" Source="Microsoft-Windows-Recovery">
+        <CrimsonData Id="692" XPath="Event/UserData/ErrorData/ErrorCode" />
+      </EventRule>
+      <EventRule Id="384" LogId="10" EventId="500" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="693" XPath="Event/UserData/CompatibilityFixEvent/StartTime" />
+        <CrimsonData Id="694" XPath="Event/UserData/CompatibilityFixEvent/FixID" />
+        <CrimsonData Id="695" XPath="Event/UserData/CompatibilityFixEvent/Flags" />
+        <CrimsonData Id="696" XPath="Event/UserData/CompatibilityFixEvent/FixName" />
+        <CrimsonData Id="718" XPath="Event/UserData/CompatibilityFixEvent/ExePath" PIIFilter="0x200" />
+        <CrimsonData Id="719" XPath="Event/UserData/CompatibilityFixEvent/ProcessId" />
+        <CrimsonData Id="727" XPath="Event/UserData/CompatibilityFixEvent/ExePath" PIIFilter="0x400" />
+      </EventRule>
+      <EventRule Id="385" LogId="0" EventId="25" Source="Microsoft-Windows-Eventlog">
+        <CrimsonData Id="697" XPath="Event/UserData/InitChannelMovedCorruptLog/ChannelPath" />
+      </EventRule>
+      <EventRule Id="386" LogId="0" EventId="29" Source="Microsoft-Windows-Eventlog">
+        <CrimsonData Id="698" XPath="Event/UserData/PrimaryChannelFatalError/Error/@Code" />
+        <CrimsonData Id="699" XPath="Event/UserData/PrimaryChannelFatalError/ChannelPath" />
+      </EventRule>
+      <EventRule Id="387" LogId="0" EventId="104" Source="Microsoft-Windows-Eventlog">
+        <CrimsonData Id="700" XPath="Event/UserData/LogFileCleared/Channel" />
+      </EventRule>
+      <EventRule Id="388" LogId="0" EventId="106" Source="Microsoft-Windows-Eventlog">
+        <CrimsonData Id="701" XPath="Event/UserData/LogDataLoss/Channel" />
+      </EventRule>
+      <EventRule Id="389" LogId="0" EventId="6000" Source="Microsoft-Windows-Eventlog">
+        <CrimsonData Id="702" XPath="Event/UserData/LogFull/Channel" />
+      </EventRule>
+      <EventRule Id="390" LogId="1" EventId="3002" Source="Wininit" />
+      <EventRule Id="391" LogId="1" EventId="3003" Source="Wininit" />
+      <EventRule Id="392" LogId="1" EventId="3004" Source="Wininit" />
+      <EventRule Id="393" LogId="1" EventId="3005" Source="Wininit" />
+      <EventRule Id="394" LogId="1" EventId="4005" Source="Winlogon" />
+      <EventRule Id="395" LogId="0" EventId="7043" Source="Service Control Manager">
+        <LegacyData Position="1" PIIFilter="0x40" />
+      </EventRule>
+      <EventRule Id="396" LogId="0" EventId="7044" Source="Service Control Manager">
+        <LegacyData Position="1" PIIFilter="0x40" />
+        <LegacyData Position="2" />
+      </EventRule>
+      <EventRule Id="397" LogId="9" EventId="1004" Source="Microsoft-Windows-Recovery">
+        <CrimsonData Id="703" XPath="Event/UserData/WipeAndReload/RecoveryImage" />
+        <CrimsonData Id="704" XPath="Event/UserData/WipeAndReload/BackupLaunchAttempted" />
+        <CrimsonData Id="705" XPath="Event/UserData/WipeAndReload/BackupLaunchStatus" />
+        <CrimsonData Id="706" XPath="Event/UserData/WipeAndReload/BackupCompleted" />
+        <CrimsonData Id="707" XPath="Event/UserData/WipeAndReload/BackupCompletionStatus" />
+        <CrimsonData Id="708" XPath="Event/UserData/WipeAndReload/BackupCompletionResult" />
+        <CrimsonData Id="709" XPath="Event/UserData/WipeAndReload/RecoveryCompletionStatus" />
+      </EventRule>
+      <EventRule Id="398" LogId="9" EventId="1005" Source="Microsoft-Windows-Recovery">
+        <CrimsonData Id="710" XPath="Event/UserData/WipeAndReload/RecoveryImage" />
+        <CrimsonData Id="711" XPath="Event/UserData/WipeAndReload/BackupLaunchAttempted" />
+        <CrimsonData Id="712" XPath="Event/UserData/WipeAndReload/BackupLaunchStatus" />
+        <CrimsonData Id="713" XPath="Event/UserData/WipeAndReload/BackupCompleted" />
+        <CrimsonData Id="714" XPath="Event/UserData/WipeAndReload/BackupCompletionStatus" />
+        <CrimsonData Id="715" XPath="Event/UserData/WipeAndReload/BackupCompletionResult" />
+        <CrimsonData Id="716" XPath="Event/UserData/WipeAndReload/RecoveryCompletionStatus" />
+      </EventRule>
+      <EventRule Id="399" LogId="0" EventId="2003" Source="Microsoft-Windows-Setup">
+        <CrimsonData Id="797" XPath="Event/EventData/Data[@Name='Host OS Name']" />
+        <CrimsonData Id="798" XPath="Event/EventData/Data[@Name='Install was an upgrade']" />
+        <CrimsonData Id="799" XPath="Event/EventData/Data[@Name='Host OS was Windows PE']" />
+        <CrimsonData Id="800" XPath="Event/EventData/Data[@Name='Host OS major version']" />
+        <CrimsonData Id="801" XPath="Event/EventData/Data[@Name='Host OS minor version']" />
+        <CrimsonData Id="802" XPath="Event/EventData/Data[@Name='Host OS build version']" />
+        <CrimsonData Id="803" XPath="Event/EventData/Data[@Name='Host OS service pack Name']" />
+        <CrimsonData Id="804" XPath="Event/EventData/Data[@Name='Host OS service pack major version']" />
+        <CrimsonData Id="805" XPath="Event/EventData/Data[@Name='Host OS service pack minor version']" />
+      </EventRule>
+      <EventRule Id="400" LogId="0" EventId="2004" Source="Microsoft-Windows-Setup">
+        <CrimsonData Id="806" XPath="Event/EventData/Data[@Name='OS Name']" />
+        <CrimsonData Id="807" XPath="Event/EventData/Data[@Name='OS EditionID']" />
+        <CrimsonData Id="808" XPath="Event/EventData/Data[@Name='OS major version']" />
+        <CrimsonData Id="809" XPath="Event/EventData/Data[@Name='OS minor version']" />
+        <CrimsonData Id="810" XPath="Event/EventData/Data[@Name='OS build version']" />
+        <CrimsonData Id="811" XPath="Event/EventData/Data[@Name='OS service pack Name']" />
+        <CrimsonData Id="812" XPath="Event/EventData/Data[@Name='OS service pack major version']" />
+        <CrimsonData Id="813" XPath="Event/EventData/Data[@Name='OS service pack minor version']" />
+      </EventRule>
+      <EventRule Id="401" LogId="-1" EventId="221" Source="RAC_PS_ETW_PROVIDER" />
+      <EventRule Id="402" LogId="-1" EventId="223" Source="RAC_PS_ETW_PROVIDER" />
+      <EventRule Id="403" LogId="-1" EventId="225" Source="RAC_PS_ETW_PROVIDER" />
+      <EventRule Id="404" LogId="11" EventId="800" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="720" XPath="Event/UserData/SessionInfoEvent/StartTime" />
+        <CrimsonData Id="721" XPath="Event/UserData/SessionInfoEvent/StopTime" />
+        <CrimsonData Id="722" XPath="Event/UserData/SessionInfoEvent/ExitCode" />
+        <CrimsonData Id="723" XPath="Event/UserData/SessionInfoEvent/NumNewPrograms" />
+        <CrimsonData Id="814" XPath="Event/UserData/SessionInfoEvent/NumRemovedPrograms" />
+        <CrimsonData Id="815" XPath="Event/UserData/SessionInfoEvent/NumUpdatedPrograms" />
+        <CrimsonData Id="816" XPath="Event/UserData/SessionInfoEvent/NumInstalledPrograms" />
+        <CrimsonData Id="724" XPath="Event/UserData/SessionInfoEvent/NumNewOrphans" />
+        <CrimsonData Id="725" XPath="Event/UserData/SessionInfoEvent/NumNewAddOns" />
+        <CrimsonData Id="817" XPath="Event/UserData/SessionInfoEvent/NumRemovedAddOns" />
+        <CrimsonData Id="818" XPath="Event/UserData/SessionInfoEvent/NumUpdatedAddOns" />
+        <CrimsonData Id="819" XPath="Event/UserData/SessionInfoEvent/NumInstalledAddOns" />
+        <CrimsonData Id="820" XPath="Event/UserData/SessionInfoEvent/NumNewInstallations" />
+      </EventRule>
+      <EventRule Id="405" LogId="0" EventId="4101" Source="Display">
+        <LegacyData Position="1" />
+      </EventRule>
+      <EventRule Id="406" LogId="11" EventId="900" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="728" XPath="Event/UserData/IEAddOnChangeInfoEvent/Name" PIIFilter="0x104" />
+        <CrimsonData Id="729" XPath="Event/UserData/IEAddOnChangeInfoEvent/Type" />
+        <CrimsonData Id="730" XPath="Event/UserData/IEAddOnChangeInfoEvent/Publisher" />
+        <CrimsonData Id="731" XPath="Event/UserData/IEAddOnChangeInfoEvent/CLSID" />
+        <CrimsonData Id="732" XPath="Event/UserData/IEAddOnChangeInfoEvent/FileName" />
+        <CrimsonData Id="733" XPath="Event/UserData/IEAddOnChangeInfoEvent/FileID" />
+        <CrimsonData Id="734" XPath="Event/UserData/IEAddOnChangeInfoEvent/Language" />
+        <CrimsonData Id="735" XPath="Event/UserData/IEAddOnChangeInfoEvent/FileVersion" />
+      </EventRule>
+      <EventRule Id="407" LogId="11" EventId="901" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="736" XPath="Event/UserData/IEAddOnChangeInfoEvent/Name" PIIFilter="0x104" />
+        <CrimsonData Id="737" XPath="Event/UserData/IEAddOnChangeInfoEvent/Type" />
+        <CrimsonData Id="738" XPath="Event/UserData/IEAddOnChangeInfoEvent/Publisher" />
+        <CrimsonData Id="739" XPath="Event/UserData/IEAddOnChangeInfoEvent/CLSID" />
+        <CrimsonData Id="740" XPath="Event/UserData/IEAddOnChangeInfoEvent/FileName" />
+        <CrimsonData Id="741" XPath="Event/UserData/IEAddOnChangeInfoEvent/FileID" />
+        <CrimsonData Id="742" XPath="Event/UserData/IEAddOnChangeInfoEvent/Language" />
+        <CrimsonData Id="743" XPath="Event/UserData/IEAddOnChangeInfoEvent/FileVersion" />
+      </EventRule>
+      <EventRule Id="408" LogId="11" EventId="902" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="744" XPath="Event/UserData/IEAddOnChangeInfoEvent/Name" PIIFilter="0x104" />
+        <CrimsonData Id="745" XPath="Event/UserData/IEAddOnChangeInfoEvent/Type" />
+        <CrimsonData Id="746" XPath="Event/UserData/IEAddOnChangeInfoEvent/Publisher" />
+        <CrimsonData Id="747" XPath="Event/UserData/IEAddOnChangeInfoEvent/CLSID" />
+        <CrimsonData Id="748" XPath="Event/UserData/IEAddOnChangeInfoEvent/FileName" />
+        <CrimsonData Id="749" XPath="Event/UserData/IEAddOnChangeInfoEvent/FileID" />
+        <CrimsonData Id="750" XPath="Event/UserData/IEAddOnChangeInfoEvent/Language" />
+        <CrimsonData Id="751" XPath="Event/UserData/IEAddOnChangeInfoEvent/FileVersion" />
+      </EventRule>
+      <EventRule Id="409" LogId="12" EventId="0" Source="Microsoft-Windows-Kernel-EventTracing">
+        <CrimsonData Id="752" XPath="Event/EventData/Data[@Name='SessionName']" />
+        <CrimsonData Id="753" XPath="Event/EventData/Data[@Name='FileName']" PIIFilter="0x1" />
+        <CrimsonData Id="754" XPath="Event/EventData/Data[@Name='ErrorCode']" />
+      </EventRule>
+      <EventRule Id="410" LogId="12" EventId="1" Source="Microsoft-Windows-Kernel-EventTracing">
+        <CrimsonData Id="755" XPath="Event/EventData/Data[@Name='SessionName']" />
+        <CrimsonData Id="756" XPath="Event/EventData/Data[@Name='ErrorCode']" />
+        <CrimsonData Id="757" XPath="Event/EventData/Data[@Name='LoggingMode']" />
+      </EventRule>
+      <EventRule Id="411" LogId="12" EventId="2" Source="Microsoft-Windows-Kernel-EventTracing">
+        <CrimsonData Id="758" XPath="Event/EventData/Data[@Name='SessionName']" />
+        <CrimsonData Id="759" XPath="Event/EventData/Data[@Name='FileName']" PIIFilter="0x1" />
+        <CrimsonData Id="760" XPath="Event/EventData/Data[@Name='ErrorCode']" />
+        <CrimsonData Id="761" XPath="Event/EventData/Data[@Name='LoggingMode']" />
+      </EventRule>
+      <EventRule Id="412" LogId="12" EventId="3" Source="Microsoft-Windows-Kernel-EventTracing">
+        <CrimsonData Id="762" XPath="Event/EventData/Data[@Name='SessionName']" />
+        <CrimsonData Id="763" XPath="Event/EventData/Data[@Name='FileName']" PIIFilter="0x1" />
+        <CrimsonData Id="764" XPath="Event/EventData/Data[@Name='ErrorCode']" />
+        <CrimsonData Id="765" XPath="Event/EventData/Data[@Name='LoggingMode']" />
+      </EventRule>
+      <EventRule Id="413" LogId="12" EventId="4" Source="Microsoft-Windows-Kernel-EventTracing">
+        <CrimsonData Id="766" XPath="Event/EventData/Data[@Name='SessionName']" />
+        <CrimsonData Id="767" XPath="Event/EventData/Data[@Name='FileName']" PIIFilter="0x1" />
+        <CrimsonData Id="768" XPath="Event/EventData/Data[@Name='ErrorCode']" />
+        <CrimsonData Id="769" XPath="Event/EventData/Data[@Name='LoggingMode']" />
+        <CrimsonData Id="770" XPath="Event/EventData/Data[@Name='MaxFileSize']" />
+      </EventRule>
+      <EventRule Id="414" LogId="0" EventId="86" Source="Microsoft-Windows-Kernel-Power" />
+      <EventRule Id="415" LogId="0" EventId="88" Source="Microsoft-Windows-Kernel-Power" />
+      <EventRule Id="416" LogId="0" EventId="5" Source="Microsoft-Windows-Kernel-General" />
+      <EventRule Id="417" LogId="0" EventId="6" Source="Microsoft-Windows-Kernel-General" />
+      <EventRule Id="418" LogId="0" EventId="6" Source="Microsoft-Windows-CorruptedFileRecovery-Server">
+        <CrimsonData Id="771" XPath="Event/EventData/Data[@Name='FileName']" PIIFilter="0x3" />
+        <CrimsonData Id="772" XPath="Event/EventData/Data[@Name='AppName']" />
+        <CrimsonData Id="773" XPath="Event/EventData/Data[@Name='ErrorCode']" />
+      </EventRule>
+      <EventRule Id="419" LogId="0" EventId="8" Source="Microsoft-Windows-CorruptedFileRecovery-Server">
+        <CrimsonData Id="774" XPath="Event/EventData/Data[@Name='FileName']" PIIFilter="0x3" />
+        <CrimsonData Id="775" XPath="Event/EventData/Data[@Name='AppName']" />
+      </EventRule>
+      <EventRule Id="420" LogId="0" EventId="10" Source="Microsoft-Windows-CorruptedFileRecovery-Server">
+        <CrimsonData Id="776" XPath="Event/EventData/Data[@Name='FileName']" PIIFilter="0x3" />
+        <CrimsonData Id="777" XPath="Event/EventData/Data[@Name='AppName']" />
+        <CrimsonData Id="778" XPath="Event/EventData/Data[@Name='ErrorCode']" />
+      </EventRule>
+      <EventRule Id="421" LogId="0" EventId="11" Source="Microsoft-Windows-CorruptedFileRecovery-Server">
+        <CrimsonData Id="779" XPath="Event/EventData/Data[@Name='FileName']" PIIFilter="0x3" />
+        <CrimsonData Id="780" XPath="Event/EventData/Data[@Name='AppName']" />
+      </EventRule>
+      <EventRule Id="422" LogId="0" EventId="12" Source="Microsoft-Windows-CorruptedFileRecovery-Server">
+        <CrimsonData Id="781" XPath="Event/EventData/Data[@Name='FilePath']" PIIFilter="0x3" />
+        <CrimsonData Id="782" XPath="Event/EventData/Data[@Name='AppName']" />
+        <CrimsonData Id="783" XPath="Event/EventData/Data[@Name='ProductName']" />
+        <CrimsonData Id="784" XPath="Event/EventData/Data[@Name='ProductVersion']" />
+      </EventRule>
+      <EventRule Id="423" LogId="0" EventId="14" Source="Microsoft-Windows-CorruptedFileRecovery-Server">
+        <CrimsonData Id="785" XPath="Event/EventData/Data[@Name='FileName']" PIIFilter="0x3" />
+        <CrimsonData Id="786" XPath="Event/EventData/Data[@Name='AppName']" />
+      </EventRule>
+      <EventRule Id="424" LogId="0" EventId="130" Source="Ntfs" />
+      <EventRule Id="425" LogId="0" EventId="131" Source="Ntfs" />
+      <EventRule Id="426" LogId="0" EventId="132" Source="Ntfs" />
+      <EventRule Id="427" LogId="0" EventId="133" Source="Ntfs" />
+      <EventRule Id="428" LogId="0" EventId="10000" Source="Microsoft-Windows-DriverFrameworks-UserMode">
+        <CrimsonData Id="787" XPath="Event/UserData/UMDFDeviceInstallBegin/DeviceId" />
+        <CrimsonData Id="788" XPath="Event/UserData/UMDFDeviceInstallBegin/@version" />
+      </EventRule>
+      <EventRule Id="429" LogId="0" EventId="10100" Source="Microsoft-Windows-DriverFrameworks-UserMode">
+        <CrimsonData Id="789" XPath="Event/UserData/UMDFDeviceInstallEnd/FinalStatus" />
+      </EventRule>
+      <EventRule Id="430" LogId="0" EventId="10101" Source="Microsoft-Windows-DriverFrameworks-UserMode">
+        <CrimsonData Id="790" XPath="Event/UserData/UMDFDeviceInstallEnd/FinalStatus" />
+      </EventRule>
+      <EventRule Id="431" LogId="0" EventId="10110" Source="Microsoft-Windows-DriverFrameworks-UserMode" />
+      <EventRule Id="432" LogId="0" EventId="10111" Source="Microsoft-Windows-DriverFrameworks-UserMode">
+        <CrimsonData Id="791" XPath="Event/UserData/UmdfDeviceOffline/DeviceInfo/FriendlyName" />
+        <CrimsonData Id="792" XPath="Event/UserData/UmdfDeviceOffline/DeviceInfo/Location" />
+        <CrimsonData Id="793" XPath="Event/UserData/UmdfDeviceOffline/RestartCount" />
+      </EventRule>
+      <EventRule Id="433" LogId="0" EventId="10112" Source="Microsoft-Windows-DriverFrameworks-UserMode">
+        <CrimsonData Id="794" XPath="Event/UserData/UmdfDeviceOffline/DeviceInfo/FriendlyName" />
+        <CrimsonData Id="795" XPath="Event/UserData/UmdfDeviceOffline/DeviceInfo/Location" />
+        <CrimsonData Id="796" XPath="Event/UserData/UmdfDeviceOffline/RestartCount" />
+      </EventRule>
+      <EventRule Id="434" LogId="0" EventId="1" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="435" LogId="0" EventId="2" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="436" LogId="0" EventId="3" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="437" LogId="0" EventId="16" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="438" LogId="0" EventId="17" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="439" LogId="0" EventId="18" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="440" LogId="0" EventId="19" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="441" LogId="0" EventId="20" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="442" LogId="0" EventId="21" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="443" LogId="0" EventId="22" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="444" LogId="0" EventId="23" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="445" LogId="0" EventId="24" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="446" LogId="0" EventId="25" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="447" LogId="0" EventId="26" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="448" LogId="0" EventId="27" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="449" LogId="0" EventId="38" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="450" LogId="0" EventId="39" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="451" LogId="0" EventId="40" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="452" LogId="0" EventId="41" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="453" LogId="0" EventId="42" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="454" LogId="0" EventId="43" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="455" LogId="0" EventId="44" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="456" LogId="0" EventId="45" Source="Microsoft-Windows-WHEA-Logger" />
+      <EventRule Id="457" LogId="1" EventId="3005" Source="Microsoft-Windows-Wininit" />
+      <EventRule Id="458" LogId="0" EventId="244" Source="Win32k" />
+      <EventRule Id="459" LogId="0" EventId="1137" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="460" LogId="0" EventId="1138" Source="Microsoft-Windows-StartupRepair" />
+      <EventRule Id="461" LogId="8" EventId="102" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="821" XPath="Event/UserData/HelpedUserWithUnsignedDriverEvent/DriverName" />
+        <CrimsonData Id="822" XPath="Event/UserData/HelpedUserWithUnsignedDriverEvent/ServiceName" />
+        <CrimsonData Id="823" XPath="Event/UserData/HelpedUserWithUnsignedDriverEvent/DriverVersion" />
+      </EventRule>
+      <EventRule Id="462" LogId="11" EventId="903" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="824" XPath="Event/UserData/ProgramChangeInfoEvent/Name" />
+        <CrimsonData Id="825" XPath="Event/UserData/ProgramChangeInfoEvent/Version" />
+        <CrimsonData Id="826" XPath="Event/UserData/ProgramChangeInfoEvent/Publisher" />
+        <CrimsonData Id="827" XPath="Event/UserData/ProgramChangeInfoEvent/Language" />
+        <CrimsonData Id="828" XPath="Event/UserData/ProgramChangeInfoEvent/Source" />
+        <CrimsonData Id="829" XPath="Event/UserData/ProgramChangeInfoEvent/ProgramID" />
+        <CrimsonData Id="830" XPath="Event/UserData/ProgramChangeInfoEvent/FileInstanceID" />
+      </EventRule>
+      <EventRule Id="463" LogId="11" EventId="904" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="831" XPath="Event/UserData/ProgramChangeInfoEvent/Name" />
+        <CrimsonData Id="832" XPath="Event/UserData/ProgramChangeInfoEvent/Version" />
+        <CrimsonData Id="833" XPath="Event/UserData/ProgramChangeInfoEvent/Publisher" />
+        <CrimsonData Id="834" XPath="Event/UserData/ProgramChangeInfoEvent/Language" />
+        <CrimsonData Id="835" XPath="Event/UserData/ProgramChangeInfoEvent/Source" />
+        <CrimsonData Id="836" XPath="Event/UserData/ProgramChangeInfoEvent/ProgramID" />
+        <CrimsonData Id="837" XPath="Event/UserData/ProgramChangeInfoEvent/FileInstanceID" />
+        <CrimsonData Id="838" XPath="Event/UserData/ProgramChangeInfoEvent/MsiProductCode" />
+        <CrimsonData Id="839" XPath="Event/UserData/ProgramChangeInfoEvent/MsiPackageCode" />
+      </EventRule>
+      <EventRule Id="464" LogId="11" EventId="905" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="840" XPath="Event/UserData/ProgramChangeInfoEvent/Name" />
+        <CrimsonData Id="841" XPath="Event/UserData/ProgramChangeInfoEvent/Version" />
+        <CrimsonData Id="842" XPath="Event/UserData/ProgramChangeInfoEvent/Publisher" />
+        <CrimsonData Id="843" XPath="Event/UserData/ProgramChangeInfoEvent/Language" />
+        <CrimsonData Id="844" XPath="Event/UserData/ProgramChangeInfoEvent/Source" />
+        <CrimsonData Id="845" XPath="Event/UserData/ProgramChangeInfoEvent/ProgramID" />
+        <CrimsonData Id="846" XPath="Event/UserData/ProgramChangeInfoEvent/FileInstanceID" />
+        <CrimsonData Id="847" XPath="Event/UserData/ProgramChangeInfoEvent/OldFileInstanceID" />
+      </EventRule>
+      <EventRule Id="465" LogId="11" EventId="906" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="848" XPath="Event/UserData/ProgramChangeInfoEvent/Name" />
+        <CrimsonData Id="849" XPath="Event/UserData/ProgramChangeInfoEvent/Version" />
+        <CrimsonData Id="850" XPath="Event/UserData/ProgramChangeInfoEvent/Publisher" />
+        <CrimsonData Id="851" XPath="Event/UserData/ProgramChangeInfoEvent/Language" />
+        <CrimsonData Id="852" XPath="Event/UserData/ProgramChangeInfoEvent/Source" />
+        <CrimsonData Id="853" XPath="Event/UserData/ProgramChangeInfoEvent/ProgramID" />
+        <CrimsonData Id="854" XPath="Event/UserData/ProgramChangeInfoEvent/FileInstanceID" />
+        <CrimsonData Id="855" XPath="Event/UserData/ProgramChangeInfoEvent/OldFileInstanceID" />
+        <CrimsonData Id="856" XPath="Event/UserData/ProgramChangeInfoEvent/MsiProductCode" />
+        <CrimsonData Id="857" XPath="Event/UserData/ProgramChangeInfoEvent/OldMsiProductCode" />
+        <CrimsonData Id="858" XPath="Event/UserData/ProgramChangeInfoEvent/MsiPackageCode" />
+        <CrimsonData Id="859" XPath="Event/UserData/ProgramChangeInfoEvent/OldMsiPackageCode" />
+      </EventRule>
+      <EventRule Id="466" LogId="11" EventId="907" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="860" XPath="Event/UserData/ProgramChangeInfoEvent/Name" />
+        <CrimsonData Id="861" XPath="Event/UserData/ProgramChangeInfoEvent/Version" />
+        <CrimsonData Id="862" XPath="Event/UserData/ProgramChangeInfoEvent/Publisher" />
+        <CrimsonData Id="863" XPath="Event/UserData/ProgramChangeInfoEvent/Language" />
+        <CrimsonData Id="864" XPath="Event/UserData/ProgramChangeInfoEvent/Source" />
+        <CrimsonData Id="865" XPath="Event/UserData/ProgramChangeInfoEvent/ProgramID" />
+        <CrimsonData Id="866" XPath="Event/UserData/ProgramChangeInfoEvent/FileInstanceID" />
+      </EventRule>
+      <EventRule Id="467" LogId="11" EventId="908" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="867" XPath="Event/UserData/ProgramChangeInfoEvent/Name" />
+        <CrimsonData Id="868" XPath="Event/UserData/ProgramChangeInfoEvent/Version" />
+        <CrimsonData Id="869" XPath="Event/UserData/ProgramChangeInfoEvent/Publisher" />
+        <CrimsonData Id="870" XPath="Event/UserData/ProgramChangeInfoEvent/Language" />
+        <CrimsonData Id="871" XPath="Event/UserData/ProgramChangeInfoEvent/Source" />
+        <CrimsonData Id="872" XPath="Event/UserData/ProgramChangeInfoEvent/ProgramID" />
+        <CrimsonData Id="873" XPath="Event/UserData/ProgramChangeInfoEvent/FileInstanceID" />
+        <CrimsonData Id="874" XPath="Event/UserData/ProgramChangeInfoEvent/MsiProductCode" />
+        <CrimsonData Id="875" XPath="Event/UserData/ProgramChangeInfoEvent/MsiPackageCode" />
+      </EventRule>
+      <EventRule Id="468" LogId="14" EventId="5001" Source="Microsoft-Windows-Application-Experience">
+        <CrimsonData Id="876" XPath="Event/UserData/HelpedUserEvent/ApplicationName" />
+        <CrimsonData Id="877" XPath="Event/UserData/HelpedUserEvent/ApplicationVersion" />
+        <CrimsonData Id="878" XPath="Event/UserData/HelpedUserEvent/ScenarioId" />
+        <CrimsonData Id="879" XPath="Event/UserData/HelpedUserEvent/ResultID" />
+        <CrimsonData Id="880" XPath="Event/UserData/HelpedUserEvent/CompatibilityLayer" />
+        <CrimsonData Id="881" XPath="Event/UserData/HelpedUserEvent/FileID" />
+        <CrimsonData Id="882" XPath="Event/UserData/HelpedUserEvent/ProgramID" />
+      </EventRule>
+      <EventRule Id="476" LogId="0" EventId="7026" Source="Service Control Manager">
+        <LegacyData Position="1" PIIFilter="0x40" />
+      </EventRule>
+      <EventRule Id="477" LogId="0" EventId="12" Source="Microsoft-Windows-Kernel-General">
+        <CrimsonMatch XPath="Event/EventData/Data[@Name='BootMode']" cchMatch="1" Match="0" />
+        <CrimsonData Id="883" XPath="Event/EventData/Data[@Name='MajorVersion']" />
+        <CrimsonData Id="884" XPath="Event/EventData/Data[@Name='MinorVersion']" />
+        <CrimsonData Id="885" XPath="Event/EventData/Data[@Name='BuildVersion']" />
+        <CrimsonData Id="886" XPath="Event/EventData/Data[@Name='QfeVersion']" />
+        <CrimsonData Id="887" XPath="Event/EventData/Data[@Name='ServiceVersion']" />
+        <CrimsonData Id="888" XPath="Event/EventData/Data[@Name='BootMode']" />
+        <CrimsonData Id="889" XPath="Event/EventData/Data[@Name='StartTime']" />
+      </EventRule>
+      <EventRule Id="478" LogId="0" EventId="13" Source="Microsoft-Windows-Kernel-General">
+        <CrimsonData Id="890" XPath="Event/EventData/Data[@Name='StopTime']" />
+      </EventRule>
+      <EventRule Id="479" LogId="0" EventId="12" Source="Microsoft-Windows-Kernel-General">
+        <CrimsonMatch XPath="Event/EventData/Data[@Name='BootMode']" cchMatch="1" Match="1" />
+        <CrimsonData Id="891" XPath="Event/EventData/Data[@Name='MajorVersion']" />
+        <CrimsonData Id="892" XPath="Event/EventData/Data[@Name='MinorVersion']" />
+        <CrimsonData Id="893" XPath="Event/EventData/Data[@Name='BuildVersion']" />
+        <CrimsonData Id="894" XPath="Event/EventData/Data[@Name='QfeVersion']" />
+        <CrimsonData Id="895" XPath="Event/EventData/Data[@Name='ServiceVersion']" />
+        <CrimsonData Id="896" XPath="Event/EventData/Data[@Name='BootMode']" />
+        <CrimsonData Id="897" XPath="Event/EventData/Data[@Name='StartTime']" />
+      </EventRule>
+      <EventRule Id="480" LogId="0" EventId="12" Source="Microsoft-Windows-Kernel-General">
+        <CrimsonMatch XPath="Event/EventData/Data[@Name='BootMode']" cchMatch="1" Match="2" />
+        <CrimsonData Id="898" XPath="Event/EventData/Data[@Name='MajorVersion']" />
+        <CrimsonData Id="899" XPath="Event/EventData/Data[@Name='MinorVersion']" />
+        <CrimsonData Id="900" XPath="Event/EventData/Data[@Name='BuildVersion']" />
+        <CrimsonData Id="901" XPath="Event/EventData/Data[@Name='QfeVersion']" />
+        <CrimsonData Id="902" XPath="Event/EventData/Data[@Name='ServiceVersion']" />
+        <CrimsonData Id="903" XPath="Event/EventData/Data[@Name='BootMode']" />
+        <CrimsonData Id="904" XPath="Event/EventData/Data[@Name='StartTime']" />
+      </EventRule>
+      <EventRule Id="481" LogId="0" EventId="12" Source="Microsoft-Windows-Kernel-General">
+        <CrimsonMatch XPath="Event/EventData/Data[@Name='BootMode']" cchMatch="1" Match="3" />
+        <CrimsonData Id="905" XPath="Event/EventData/Data[@Name='MajorVersion']" />
+        <CrimsonData Id="906" XPath="Event/EventData/Data[@Name='MinorVersion']" />
+        <CrimsonData Id="907" XPath="Event/EventData/Data[@Name='BuildVersion']" />
+        <CrimsonData Id="908" XPath="Event/EventData/Data[@Name='QfeVersion']" />
+        <CrimsonData Id="909" XPath="Event/EventData/Data[@Name='ServiceVersion']" />
+        <CrimsonData Id="910" XPath="Event/EventData/Data[@Name='BootMode']" />
+        <CrimsonData Id="911" XPath="Event/EventData/Data[@Name='StartTime']" />
+      </EventRule>
+      <EventRule Id="482" LogId="15" EventId="1003" Source="Microsoft-Windows-Fault-Tolerant-Heap">
+        <CrimsonData Id="920" XPath="Event/EventData/Data[@Name='FthEnabledPID']" />
+        <CrimsonData Id="921" XPath="Event/EventData/Data[@Name='FthEnabledProcessName']" />
+        <CrimsonData Id="922" XPath="Event/EventData/Data[@Name='FthEnabledProcessStartup']" />
+      </EventRule>
+      <EventRule Id="488" LogId="1" EventId="1" Source="Application-Addon-Event-Provider" />
+      <EventRule Id="489" LogId="1" EventId="2" Source="Application-Addon-Event-Provider" />
+    </EventRules>
+    <GenericEvents>
+      <FilterString Name="APPCRASH" />
+      <FilterString Name="APPCRASH64" />
+      <FilterString Name="AppHang" />
+      <FilterString Name="AppHangB1" />
+      <FilterString Name="AppHangXProcB1" />
+      <FilterString Name="AutoVerifier" />
+      <FilterString Name="AutoVerifierV2" />
+      <FilterString Name="BEX" />
+      <FilterString Name="BEX64" />
+      <FilterString Name="clr20r2" />
+      <FilterString Name="clr20r3" />
+      <FilterString Name="Crash32" />
+      <FilterString Name="DynaCrash32" />
+      <FilterString Name="FaultTolerantHeap" />
+      <FilterString Name="InPageError" />
+      <FilterString Name="KernelHang" />
+      <FilterString Name="KernelHangB1" />
+      <FilterString Name="MsSearchTerminateProcess" />
+      <FilterString Name="NXInfo" />
+      <FilterString Name="OfficeLifeBoatHang" />
+      <FilterString Name="OfficeReportException" />
+      <FilterString Name="ServiceHang" />
+      <FilterString Name="VSAppVerifier" />
+    </GenericEvents>
+    <Protocols>
+      <FilterString Name="http:" />
+      <FilterString Name="https:" />
+      <FilterString Name="ftp:" />
+      <FilterString Name="mailto:" />
+      <FilterString Name="ldap:" />
+      <FilterString Name="file:" />
+      <FilterString Name="news:" />
+      <FilterString Name="gopher:" />
+      <FilterString Name="telnet:" />
+      <FilterString Name="data:" />
+    </Protocols>
+    <FileExtensions>
+      <FilterString Name="386" />
+      <FilterString Name="sys" />
+      <FilterString Name="drv" />
+      <FilterString Name="inf" />
+      <FilterString Name="exe" />
+      <FilterString Name="dll" />
+      <FilterString Name="msi" />
+      <FilterString Name="msp" />
+      <FilterString Name="msu" />
+      <FilterString Name="nfo" />
+      <FilterString Name="ocx" />
+      <FilterString Name="pnf" />
+      <FilterString Name="rll" />
+      <FilterString Name="cpl" />
+      <FilterString Name="msc" />
+      <FilterString Name="mui" />
+      <FilterString Name="cpi" />
+      <FilterString Name="nls" />
+      <FilterString Name="efi" />
+      <FilterString Name="ax" />
+      <FilterString Name="scr" />
+    </FileExtensions>
+    <ServiceNames>
+      <FilterString Name="ADAM_" />
+      <FilterString Name="AGRESSO 5_5 SERVER -" />
+      <FilterString Name="ASANYS_" />
+      <FilterString Name="BTSSVC$" />
+      <FilterString Name="FAH@" />
+      <FilterString Name="FIREBIRDGUARDIAN" />
+      <FilterString Name="FIREBIRDSERVER" />
+      <FilterString Name="FVBS_ASS_" />
+      <FilterString Name="GRAYPIGEON" />
+      <FilterString Name="GUPTA SQLBASE" />
+      <FilterString Name="IT IONA_SERVICES_" />
+      <FilterString Name="LOTUS DOMINO SERVER (" />
+      <FilterString Name="MSFTESQL$" />
+      <FilterString Name="MSOLAP$" />
+      <FilterString Name="MSSQL$" />
+      <FilterString Name="NS$" />
+      <FilterString Name="ORACLEDBCONSOLE" />
+      <FilterString Name="ORACLESERVICE" />
+      <FilterString Name="PHLINGMYPC_" />
+      <FilterString Name="REPORTSERVER$" />
+      <FilterString Name="SQLAGENT$" />
+      <FilterString Name="SQLANYS_" />
+      <FilterString Name="SYBBCK" />
+      <FilterString Name="SYBMON" />
+      <FilterString Name="SYBSQL" />
+    </ServiceNames>
+    <MSIApplications>
+      <FilterString Name="INSTALLAWARE LICENSING" />
+    </MSIApplications>
+    <PnPPrefixIdentifiers>
+      <FilterString Name="UUID:" />
+      <FilterString Name="IDE\DISK" />
+      <FilterString Name="FTDIBUS\VID_0403+PID_" />
+    </PnPPrefixIdentifiers>
+    <PnPIdentifiers>
+      <FilterString Name="UMB\UUID:" />
+    </PnPIdentifiers>
+    <ProcessExclusionList>
+      <FilterString Name="svchost.exe" />
+    </ProcessExclusionList>
+  </EventCollectionRules>
+</RacRules>
